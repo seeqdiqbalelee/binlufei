@@ -1,0 +1,6862 @@
+[
+  {
+    "bin": "676427",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VOLKSBANK HUNGARY PRIVATE, LTD.",
+    "alpha_2": "HU",
+    "alpha_3": "HUN",
+    "country": "Hungary"
+  },
+  {
+    "bin": "676428",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676429",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZIRAAT BANKASI",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "676430",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676431",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676432",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676433",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "WIELKOPOLSKI BANK SPOLDZIELCZY",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "676434",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676435",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "JSCB SLAVIANSKY BANK",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676436",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "UZPROMSTROYBANK UZBEK JSC INDUSTRIAL AND CONSTRUCTION BANK",
+    "alpha_2": "UZ",
+    "alpha_3": "UZB",
+    "country": "Uzbekistan"
+  },
+  {
+    "bin": "676437",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676438",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676439",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676440",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676441",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676442",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "SE",
+    "alpha_3": "SWE",
+    "country": "Sweden"
+  },
+  {
+    "bin": "676443",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "EVROFINANCE MOSNARBANK",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676444",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "JSCB PROMSVYAZBANK (CJSC)",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676445",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676446",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VOLKSBANK ROMANIA, S.A.",
+    "alpha_2": "RO",
+    "alpha_3": "ROU",
+    "country": "Romania"
+  },
+  {
+    "bin": "676447",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "676448",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676449",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VOLKSBANK ROMANIA, S.A.",
+    "alpha_2": "RO",
+    "alpha_3": "ROU",
+    "country": "Romania"
+  },
+  {
+    "bin": "676450",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "LOKO BANK",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676451",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676452",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676453",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676454",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "GAZPROMBANK OJSC",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676455",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VOLKSBANK ROMANIA, S.A.",
+    "alpha_2": "RO",
+    "alpha_3": "ROU",
+    "country": "Romania"
+  },
+  {
+    "bin": "676456",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZAGREBACKA BANKA BH D.D.",
+    "alpha_2": "BA",
+    "alpha_3": "BIH",
+    "country": "Bosnia and Herzegovina"
+  },
+  {
+    "bin": "676457",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676458",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676459",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZAGREBACKA BANKA D.D.",
+    "alpha_2": "HR",
+    "alpha_3": "HRV",
+    "country": "Croatia"
+  },
+  {
+    "bin": "676460",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZIRAAT BANKASI",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "676461",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676462",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VOLKSBANK ROMANIA, S.A.",
+    "alpha_2": "RO",
+    "alpha_3": "ROU",
+    "country": "Romania"
+  },
+  {
+    "bin": "676463",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676464",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "676465",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "LT",
+    "alpha_3": "LTU",
+    "country": "Lithuania"
+  },
+  {
+    "bin": "676466",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676467",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GE",
+    "alpha_3": "GEO",
+    "country": "Georgia"
+  },
+  {
+    "bin": "676468",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "THE BANK OF GEORGIA",
+    "alpha_2": "GE",
+    "alpha_3": "GEO",
+    "country": "Georgia"
+  },
+  {
+    "bin": "676469",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "THE BANK OF GEORGIA",
+    "alpha_2": "GE",
+    "alpha_3": "GEO",
+    "country": "Georgia"
+  },
+  {
+    "bin": "676470",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676471",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676472",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676473",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676474",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676475",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676476",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676477",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676478",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676479",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676480",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "LV",
+    "alpha_3": "LVA",
+    "country": "Latvia"
+  },
+  {
+    "bin": "676481",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZAGREBACKA BANKA D.D.",
+    "alpha_2": "HR",
+    "alpha_3": "HRV",
+    "country": "Croatia"
+  },
+  {
+    "bin": "676482",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZAGREBACKA BANKA D.D.",
+    "alpha_2": "HR",
+    "alpha_3": "HRV",
+    "country": "Croatia"
+  },
+  {
+    "bin": "676483",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676484",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676485",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "676486",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676487",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676488",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676489",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676490",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676491",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676492",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676493",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676494",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676495",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676496",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676497",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676498",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676499",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676500",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676501",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676502",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676503",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676504",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "676505",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "BY",
+    "alpha_3": "BLR",
+    "country": "Belarus"
+  },
+  {
+    "bin": "676506",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "HU",
+    "alpha_3": "HUN",
+    "country": "Hungary"
+  },
+  {
+    "bin": "676507",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676508",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676509",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676510",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676511",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676512",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676513",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676514",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676515",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "LT",
+    "alpha_3": "LTU",
+    "country": "Lithuania"
+  },
+  {
+    "bin": "676516",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "LT",
+    "alpha_3": "LTU",
+    "country": "Lithuania"
+  },
+  {
+    "bin": "676517",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676518",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676519",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676520",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676521",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676522",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676523",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676524",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676525",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676526",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676527",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "EE",
+    "alpha_3": "EST",
+    "country": "Estonia"
+  },
+  {
+    "bin": "676528",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676529",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676530",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676531",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676532",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VOLKSBANK ROMANIA, S.A.",
+    "alpha_2": "RO",
+    "alpha_3": "ROU",
+    "country": "Romania"
+  },
+  {
+    "bin": "676533",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676534",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676535",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676536",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "WIELKOPOLSKI BANK SPOLDZIELCZY",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "676537",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676538",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676539",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "676540",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "TT HELlanIC POSTBANK",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "676541",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676542",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676543",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676544",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676545",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "SK",
+    "alpha_3": "SVK",
+    "country": "Slovakia"
+  },
+  {
+    "bin": "676546",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "CY",
+    "alpha_3": "CYP",
+    "country": "Cyprus"
+  },
+  {
+    "bin": "676547",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676548",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676549",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676550",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676551",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676552",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676553",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676554",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676555",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676556",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676557",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676558",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676559",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "LV",
+    "alpha_3": "LVA",
+    "country": "Latvia"
+  },
+  {
+    "bin": "676560",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676561",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "TT HELlanIC POSTBANK",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "676562",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676563",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676564",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676565",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "JSC RUSSIAN STANDARD BANK",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676566",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676567",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676568",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676569",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676570",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676571",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "DK",
+    "alpha_3": "DNK",
+    "country": "Denmark"
+  },
+  {
+    "bin": "676572",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "LT",
+    "alpha_3": "LTU",
+    "country": "Lithuania"
+  },
+  {
+    "bin": "676573",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676574",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676575",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676576",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676577",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676578",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZIRAAT BANKASI",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "676579",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "PRIORBANK JSCB",
+    "alpha_2": "BY",
+    "alpha_3": "BLR",
+    "country": "Belarus"
+  },
+  {
+    "bin": "676580",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "CZ",
+    "alpha_3": "CZE",
+    "country": "CZECHIA"
+  },
+  {
+    "bin": "676581",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "BANCA SAMMARINESE DI INVESTIMENTO S.P.A.",
+    "alpha_2": "SM",
+    "alpha_3": "SMR",
+    "country": "San Marino"
+  },
+  {
+    "bin": "676582",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676583",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676584",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "LV",
+    "alpha_3": "LVA",
+    "country": "Latvia"
+  },
+  {
+    "bin": "676585",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "SWEDBANK, A.S.",
+    "alpha_2": "LV",
+    "alpha_3": "LVA",
+    "country": "Latvia"
+  },
+  {
+    "bin": "676586",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676587",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676588",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676589",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676590",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676591",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676592",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676593",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676594",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676595",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676596",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676597",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676598",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676599",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676600",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676601",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676602",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676603",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676604",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676605",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676606",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZAGREBACKA BANKA BH D.D.",
+    "alpha_2": "BA",
+    "alpha_3": "BIH",
+    "country": "Bosnia and Herzegovina"
+  },
+  {
+    "bin": "676607",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676608",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VICTORIABANK",
+    "alpha_2": "MD",
+    "alpha_3": "MDA",
+    "country": "MOLDOVA"
+  },
+  {
+    "bin": "676609",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VICTORIABANK",
+    "alpha_2": "MD",
+    "alpha_3": "MDA",
+    "country": "MOLDOVA"
+  },
+  {
+    "bin": "676610",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676611",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZAGREBACKA BANKA BH D.D.",
+    "alpha_2": "BA",
+    "alpha_3": "BIH",
+    "country": "Bosnia and Herzegovina"
+  },
+  {
+    "bin": "676612",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676613",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "WIELKOPOLSKI BANK SPOLDZIELCZY",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "676614",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "SK",
+    "alpha_3": "SVK",
+    "country": "Slovakia"
+  },
+  {
+    "bin": "676615",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "HU",
+    "alpha_3": "HUN",
+    "country": "Hungary"
+  },
+  {
+    "bin": "676616",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676617",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676618",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "SWEDBANK, A.S.",
+    "alpha_2": "LV",
+    "alpha_3": "LVA",
+    "country": "Latvia"
+  },
+  {
+    "bin": "676619",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676620",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676621",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676622",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676623",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VICTORIABANK",
+    "alpha_2": "MD",
+    "alpha_3": "MDA",
+    "country": "MOLDOVA"
+  },
+  {
+    "bin": "676624",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VICTORIABANK",
+    "alpha_2": "MD",
+    "alpha_3": "MDA",
+    "country": "MOLDOVA"
+  },
+  {
+    "bin": "676625",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZAO RAIFFEISENBANK",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676626",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676627",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676628",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676629",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676630",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676631",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676632",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676633",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VICTORIABANK",
+    "alpha_2": "MD",
+    "alpha_3": "MDA",
+    "country": "MOLDOVA"
+  },
+  {
+    "bin": "676634",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676635",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676636",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VOLKSBANK SLOVENSKO, A.S.",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676637",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676638",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676639",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "CREDIT ANDORRA, S.A.",
+    "alpha_2": "AD",
+    "alpha_3": "AND",
+    "country": "Andorra"
+  },
+  {
+    "bin": "676640",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676641",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ABBEY NATIONAL BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676642",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676643",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676644",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676645",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676646",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VICTORIABANK",
+    "alpha_2": "MD",
+    "alpha_3": "MDA",
+    "country": "MOLDOVA"
+  },
+  {
+    "bin": "676647",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676648",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676649",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676650",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "676651",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZIRAAT BANKASI",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "676652",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676653",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676654",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "676655",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676656",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676657",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VILNIAUS BANKAS",
+    "alpha_2": "LT",
+    "alpha_3": "LTU",
+    "country": "Lithuania"
+  },
+  {
+    "bin": "676658",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676659",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676660",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "TT HELlanIC POSTBANK",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "676661",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "UNO-E BANK, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "676662",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "UZPROMSTROYBANK UZBEK JSC INDUSTRIAL AND CONSTRUCTION BANK",
+    "alpha_2": "UZ",
+    "alpha_3": "UZB",
+    "country": "Uzbekistan"
+  },
+  {
+    "bin": "676663",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "BY",
+    "alpha_3": "BLR",
+    "country": "Belarus"
+  },
+  {
+    "bin": "676664",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676665",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676666",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676667",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676668",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676669",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676670",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676671",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676672",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676673",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676674",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676675",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676676",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676677",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "UNO-E BANK, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "676678",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676679",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676680",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "HU",
+    "alpha_3": "HUN",
+    "country": "Hungary"
+  },
+  {
+    "bin": "676681",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VICTORIABANK",
+    "alpha_2": "MD",
+    "alpha_3": "MDA",
+    "country": "MOLDOVA"
+  },
+  {
+    "bin": "676682",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "SE",
+    "alpha_3": "SWE",
+    "country": "Sweden"
+  },
+  {
+    "bin": "676683",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676684",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "SK",
+    "alpha_3": "SVK",
+    "country": "Slovakia"
+  },
+  {
+    "bin": "676685",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "676686",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676687",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676688",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZEPTER BANKA A.D.",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "676689",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676690",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676691",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676692",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676693",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676694",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "676695",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676696",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "676697",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676698",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "PRIORBANK JSCB",
+    "alpha_2": "BY",
+    "alpha_3": "BLR",
+    "country": "Belarus"
+  },
+  {
+    "bin": "676699",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676700",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676701",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "NATWEST BANK",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676702",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676703",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "HSBC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676704",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676705",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "YORKSHIRE BANK",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676706",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "HALIFAX",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676707",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "HALIFAX",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676708",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ROYAL BANK OF SCOTlanD",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676709",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "NATWEST",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676710",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ROYAL BANK OF SCOTlanD",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676711",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ROYAL BANK OF SCOTlanD",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676712",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "BANK OF SCOTlanD",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676713",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "BANK OF SCOTlanD",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676714",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "BANK OF SCOTlanD",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676715",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "BANK OF SCOTlanD",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676716",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676717",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676718",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "NATWEST",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676719",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676720",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676721",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676722",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676723",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676724",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676725",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676726",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676727",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676728",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676729",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676730",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676731",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676732",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676733",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676734",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676735",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676736",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676737",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676738",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676739",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676740",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "HSBC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676741",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676742",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676743",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676744",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676745",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676746",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676747",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676748",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676749",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676750",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "NATWEST",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676751",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "NATWEST",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676752",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "NATWEST",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676753",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "NATWEST",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676754",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "NATWEST",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676755",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "NATWEST",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676756",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "NATWEST",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676757",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "NATWEST",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676758",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "NATWEST",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676759",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "NATWEST",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676760",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "NATWEST",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676761",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "NATWEST",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676762",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "NATWEST",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676763",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676764",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676765",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676766",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676767",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676768",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676769",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676770",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "PREPAID",
+    "issuer": "CLYDESDALE BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676771",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676772",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676773",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676774",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "PREPAID",
+    "issuer": "CLYDESDALE BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676775",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676776",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676777",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676778",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676779",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "CLYDESDALE BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676780",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676781",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676782",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "CLYDESDALE BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676783",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676784",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676785",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676786",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676787",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676788",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676789",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676790",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676791",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676792",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676793",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676794",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676795",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "CLYDESDALE BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676796",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676797",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676798",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "NATWEST",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676799",
+    "brand": "SOLO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676800",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB24",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676801",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676802",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB24",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676803",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB24",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676804",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676805",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB24",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676806",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676807",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676808",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VICTORIABANK",
+    "alpha_2": "MD",
+    "alpha_3": "MDA",
+    "country": "MOLDOVA"
+  },
+  {
+    "bin": "676809",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "HR",
+    "alpha_3": "HRV",
+    "country": "Croatia"
+  },
+  {
+    "bin": "676810",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676811",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676812",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676813",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676814",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676815",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676816",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676817",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "676818",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "HU",
+    "alpha_3": "HUN",
+    "country": "Hungary"
+  },
+  {
+    "bin": "676819",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "NATWEST",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676820",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676821",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "BY",
+    "alpha_3": "BLR",
+    "country": "Belarus"
+  },
+  {
+    "bin": "676822",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "UNO-E BANK, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "676823",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676824",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676825",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676826",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "HR",
+    "alpha_3": "HRV",
+    "country": "Croatia"
+  },
+  {
+    "bin": "676827",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZIRAAT BANKASI",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "676828",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VILNIAUS BANKAS",
+    "alpha_2": "LT",
+    "alpha_3": "LTU",
+    "country": "Lithuania"
+  },
+  {
+    "bin": "676829",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676830",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "BANCORPSOUTH BANK",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "676831",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VOLKSBANK ROMANIA, S.A.",
+    "alpha_2": "RO",
+    "alpha_3": "ROU",
+    "country": "Romania"
+  },
+  {
+    "bin": "676832",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZIRAAT BANKASI",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "676833",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676834",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VIVILD OG OMEGNS SPAREKASSE",
+    "alpha_2": "DK",
+    "alpha_3": "DNK",
+    "country": "Denmark"
+  },
+  {
+    "bin": "676835",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "SWEDBANK, A.S.",
+    "alpha_2": "LV",
+    "alpha_3": "LVA",
+    "country": "Latvia"
+  },
+  {
+    "bin": "676836",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "TALlanNA PANK",
+    "alpha_2": "EE",
+    "alpha_3": "EST",
+    "country": "Estonia"
+  },
+  {
+    "bin": "676837",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676838",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676839",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676840",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676841",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676842",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "HR",
+    "alpha_3": "HRV",
+    "country": "Croatia"
+  },
+  {
+    "bin": "676843",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676844",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "TT HELlanIC POSTBANK",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "676845",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB24",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676846",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "WIELKOPOLSKI BANK SPOLDZIELCZY",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "676847",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "MD",
+    "alpha_3": "MDA",
+    "country": "MOLDOVA"
+  },
+  {
+    "bin": "676848",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "MD",
+    "alpha_3": "MDA",
+    "country": "MOLDOVA"
+  },
+  {
+    "bin": "676849",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676850",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "PRIORBANK JSCB",
+    "alpha_2": "BY",
+    "alpha_3": "BLR",
+    "country": "Belarus"
+  },
+  {
+    "bin": "676851",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB24",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676852",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676853",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676854",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676855",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "676856",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "WIELKOPOLSKI BANK SPOLDZIELCZY",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "676857",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676858",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676859",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676860",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB24",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676861",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB24",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676862",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676863",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676864",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK (ARMENIA) CJSC",
+    "alpha_2": "AM",
+    "alpha_3": "ARM",
+    "country": "Armenia"
+  },
+  {
+    "bin": "676865",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676867",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZAMINBANK OJSC",
+    "alpha_2": "AZ",
+    "alpha_3": "AZE",
+    "country": "Azerbaijan"
+  },
+  {
+    "bin": "676868",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "THE BANK OF GEORGIA",
+    "alpha_2": "GE",
+    "alpha_3": "GEO",
+    "country": "Georgia"
+  },
+  {
+    "bin": "676869",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676870",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "WIELKOPOLSKI BANK SPOLDZIELCZY",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "676871",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676872",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676873",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676874",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676875",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "BA",
+    "alpha_3": "BIH",
+    "country": "Bosnia and Herzegovina"
+  },
+  {
+    "bin": "676876",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676877",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676878",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676879",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676880",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "676881",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676882",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676883",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ABBEY NATIONAL BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "676884",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676885",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "676886",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676887",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676888",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB24",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676889",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "UNITED BULGARIAN BANK, LTD.",
+    "alpha_2": "BG",
+    "alpha_3": "BGR",
+    "country": "Bulgaria"
+  },
+  {
+    "bin": "676890",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VOLKSBANK HUNGARY PRIVATE, LTD.",
+    "alpha_2": "HU",
+    "alpha_3": "HUN",
+    "country": "Hungary"
+  },
+  {
+    "bin": "676891",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "676892",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676893",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB24",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676894",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676895",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676896",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB24",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676897",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VOLKSBANK HUNGARY PRIVATE, LTD.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "676898",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676899",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "BY",
+    "alpha_3": "BLR",
+    "country": "Belarus"
+  },
+  {
+    "bin": "676900",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZAGREBACKA BANKA D.D.",
+    "alpha_2": "HR",
+    "alpha_3": "HRV",
+    "country": "Croatia"
+  },
+  {
+    "bin": "676901",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676902",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676903",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676904",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676905",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676906",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "ME",
+    "alpha_3": "MNE",
+    "country": "Montenegro"
+  },
+  {
+    "bin": "676907",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676908",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VOLKSBANK ROMANIA, S.A.",
+    "alpha_2": "RO",
+    "alpha_3": "ROU",
+    "country": "Romania"
+  },
+  {
+    "bin": "676909",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VOLKSBANK ROMANIA, S.A.",
+    "alpha_2": "RO",
+    "alpha_3": "ROU",
+    "country": "Romania"
+  },
+  {
+    "bin": "676910",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZEPTER BANKA A.D.",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "676911",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZEPTER BANKA A.D.",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "676912",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "676913",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "676914",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "676915",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "676916",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676917",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676918",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VOLKSBANK ROMANIA, S.A.",
+    "alpha_2": "RO",
+    "alpha_3": "ROU",
+    "country": "Romania"
+  },
+  {
+    "bin": "676919",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676920",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676921",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676922",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676923",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "UNO-E BANK, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "676924",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676925",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676926",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676927",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VIVILD OG OMEGNS SPAREKASSE",
+    "alpha_2": "DK",
+    "alpha_3": "DNK",
+    "country": "Denmark"
+  },
+  {
+    "bin": "676928",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VIVILD OG OMEGNS SPAREKASSE",
+    "alpha_2": "DK",
+    "alpha_3": "DNK",
+    "country": "Denmark"
+  },
+  {
+    "bin": "676929",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK (ARMENIA) CJSC",
+    "alpha_2": "AM",
+    "alpha_3": "ARM",
+    "country": "Armenia"
+  },
+  {
+    "bin": "676930",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK (ARMENIA) CJSC",
+    "alpha_2": "AM",
+    "alpha_3": "ARM",
+    "country": "Armenia"
+  },
+  {
+    "bin": "676931",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676932",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676933",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676934",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676935",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676936",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676937",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "TT HELlanIC POSTBANK",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "676938",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "UNION BALTIC BANK IN VENTSPILS",
+    "alpha_2": "PT",
+    "alpha_3": "PRT",
+    "country": "Portugal"
+  },
+  {
+    "bin": "676939",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676940",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676941",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676942",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "OJSC BANK OF SOCIAL DEVELOPMENT AND CONSTRUCTION LIPETSKCOMBAN",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676943",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676944",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676945",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RO",
+    "alpha_3": "ROU",
+    "country": "Romania"
+  },
+  {
+    "bin": "676946",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676947",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676948",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676949",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676950",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676951",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676952",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "UNITED BULGARIAN BANK, LTD.",
+    "alpha_2": "BG",
+    "alpha_3": "BGR",
+    "country": "Bulgaria"
+  },
+  {
+    "bin": "676953",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "WIELKOPOLSKI BANK SPOLDZIELCZY",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "676954",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676955",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZEPTER BANKA A.D.",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "676956",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676957",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676958",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676959",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676960",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "676961",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK (ARMENIA) CJSC",
+    "alpha_2": "AM",
+    "alpha_3": "ARM",
+    "country": "Armenia"
+  },
+  {
+    "bin": "676962",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZEPTER BANKA A.D.",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "676963",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676964",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676965",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676966",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676967",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676968",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676969",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "TT HELlanIC POSTBANK",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "676970",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676971",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "CY",
+    "alpha_3": "CYP",
+    "country": "Cyprus"
+  },
+  {
+    "bin": "676972",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676973",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676974",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676975",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676976",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676977",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "LV",
+    "alpha_3": "LVA",
+    "country": "Latvia"
+  },
+  {
+    "bin": "676978",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676979",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676980",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "676981",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "676982",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "PRVA BANKA CG A.D. - FOUNDED IN 1901",
+    "alpha_2": "ME",
+    "alpha_3": "MNE",
+    "country": "Montenegro"
+  },
+  {
+    "bin": "676983",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "676984",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676985",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "BY",
+    "alpha_3": "BLR",
+    "country": "Belarus"
+  },
+  {
+    "bin": "676986",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676987",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "676988",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676989",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676990",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676991",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZAMINBANK OJSC",
+    "alpha_2": "AZ",
+    "alpha_3": "AZE",
+    "country": "Azerbaijan"
+  },
+  {
+    "bin": "676992",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "UNIVERSAL INVESTMENT BANK AD SKOPJE",
+    "alpha_2": "MK",
+    "alpha_3": "MKD",
+    "country": "MACEDONIA"
+  },
+  {
+    "bin": "676993",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "676994",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZAMINBANK OJSC",
+    "alpha_2": "AZ",
+    "alpha_3": "AZE",
+    "country": "Azerbaijan"
+  },
+  {
+    "bin": "676995",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "676996",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676997",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "PRIORBANK JSCB",
+    "alpha_2": "BY",
+    "alpha_3": "BLR",
+    "country": "Belarus"
+  },
+  {
+    "bin": "676998",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "676999",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "677000",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "677001",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "677002",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "OJSC RAIFFEISEN BANK AVAL",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "677003",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "DEBIT",
+    "issuer": "LLOYDS TSB BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "677004",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "677005",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "677006",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "677007",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "677008",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "PRIORBANK JSCB",
+    "alpha_2": "BY",
+    "alpha_3": "BLR",
+    "country": "Belarus"
+  },
+  {
+    "bin": "677009",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "OJSC RAIFFEISEN BANK AVAL",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "677010",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677011",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "677012",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677013",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "COALMETBANK",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "677014",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "UNICREDIT BANKA SLOVENIJA D.D.",
+    "alpha_2": "SI",
+    "alpha_3": "SVN",
+    "country": "Slovenia"
+  },
+  {
+    "bin": "677015",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "677016",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZEPTER BANKA A.D.",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "677017",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "677018",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "677019",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "677020",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VENETO BANKA SH.A.",
+    "alpha_2": "AL",
+    "alpha_3": "ALB",
+    "country": "Albania"
+  },
+  {
+    "bin": "677021",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677022",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677023",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "TT HELlanIC POSTBANK",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "677024",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677025",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677026",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677027",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677028",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "677029",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "UNO-E BANK, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "677030",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "677031",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "677032",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "UNIVERSAL INVESTMENT BANK AD SKOPJE",
+    "alpha_2": "MK",
+    "alpha_3": "MKD",
+    "country": "MACEDONIA"
+  },
+  {
+    "bin": "677033",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "677034",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "677035",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677036",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZEPTER BANKA A.D.",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "677037",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677038",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677039",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "677040",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "677041",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677042",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "677043",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ALLIANCE AND LEICESTER PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "677044",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "CHESHIRE BUILDING SOCIETY",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "677045",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK (ARMENIA) CJSC",
+    "alpha_2": "AM",
+    "alpha_3": "ARM",
+    "country": "Armenia"
+  },
+  {
+    "bin": "677046",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "677047",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZIRAAT BANKASI",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "677048",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZAGREBACKA BANKA BH D.D.",
+    "alpha_2": "BA",
+    "alpha_3": "BIH",
+    "country": "Bosnia and Herzegovina"
+  },
+  {
+    "bin": "677049",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "PREPAID",
+    "issuer": "CLYDESDALE BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "677050",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK (ARMENIA) CJSC",
+    "alpha_2": "AM",
+    "alpha_3": "ARM",
+    "country": "Armenia"
+  },
+  {
+    "bin": "677051",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VOLKSBANK ROMANIA, S.A.",
+    "alpha_2": "RO",
+    "alpha_3": "ROU",
+    "country": "Romania"
+  },
+  {
+    "bin": "677052",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677053",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677054",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "THE BANK OF GEORGIA",
+    "alpha_2": "GE",
+    "alpha_3": "GEO",
+    "country": "Georgia"
+  },
+  {
+    "bin": "677055",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZIRAAT BANKASI",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "677056",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZIRAAT BANKASI",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "677057",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "677058",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "677059",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "677060",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "UNIVERSAL INVESTMENT BANK AD SKOPJE",
+    "alpha_2": "MK",
+    "alpha_3": "MKD",
+    "country": "MACEDONIA"
+  },
+  {
+    "bin": "677061",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZEPTER BANKA A.D.",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "677062",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "677063",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZAGREBACKA BANKA BH D.D.",
+    "alpha_2": "BA",
+    "alpha_3": "BIH",
+    "country": "Bosnia and Herzegovina"
+  },
+  {
+    "bin": "677064",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VOLKSBANK ROMANIA, S.A.",
+    "alpha_2": "RO",
+    "alpha_3": "ROU",
+    "country": "Romania"
+  },
+  {
+    "bin": "677065",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "677066",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677067",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "677068",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZEPTER BANKA A.D.",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "677069",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK (ARMENIA) CJSC",
+    "alpha_2": "AM",
+    "alpha_3": "ARM",
+    "country": "Armenia"
+  },
+  {
+    "bin": "677070",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZEPTER BANKA A.D.",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "677071",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "WUESTENROT BANK AG PFANDBRIEBANK",
+    "alpha_2": "DE",
+    "alpha_3": "DEU",
+    "country": "Germany"
+  },
+  {
+    "bin": "677072",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "677073",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "UNO-E BANK, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "677074",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZAGREBACKA BANKA BH D.D.",
+    "alpha_2": "BA",
+    "alpha_3": "BIH",
+    "country": "Bosnia and Herzegovina"
+  },
+  {
+    "bin": "677075",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677076",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "JSCB ROSBANK",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "677077",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VENETO BANKA SH.A.",
+    "alpha_2": "AL",
+    "alpha_3": "ALB",
+    "country": "Albania"
+  },
+  {
+    "bin": "677078",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "677079",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "677080",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ISLAMIC BANK OF BRITAIN PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "677081",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZAGREBACKA BANKA BH D.D.",
+    "alpha_2": "BA",
+    "alpha_3": "BIH",
+    "country": "Bosnia and Herzegovina"
+  },
+  {
+    "bin": "677082",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VOLKSBANK ROMANIA, S.A.",
+    "alpha_2": "RO",
+    "alpha_3": "ROU",
+    "country": "Romania"
+  },
+  {
+    "bin": "677083",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "677084",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "677085",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZUNO BANK AG",
+    "alpha_2": "CZ",
+    "alpha_3": "CZE",
+    "country": "CZECHIA"
+  },
+  {
+    "bin": "677086",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "PREPAID",
+    "issuer": "R RAPHAEL AND SONS PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "677087",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677088",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "JSCB AK BARS OJSC",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "677089",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VTB BANK OJSC",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "677090",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "WIELKOPOLSKI BANK SPOLDZIELCZY",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "677091",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677092",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZAMINBANK OJSC",
+    "alpha_2": "AZ",
+    "alpha_3": "AZE",
+    "country": "Azerbaijan"
+  },
+  {
+    "bin": "677093",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "CLYDESDALE BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "677094",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "677095",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "677096",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "677097",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "677098",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZAGREBACKA BANKA BH D.D.",
+    "alpha_2": "BA",
+    "alpha_3": "BIH",
+    "country": "Bosnia and Herzegovina"
+  },
+  {
+    "bin": "677099",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "OJSC RAIFFEISEN BANK AVAL",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "677100",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "677101",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "UNITED BULGARIAN BANK, LTD.",
+    "alpha_2": "BG",
+    "alpha_3": "BGR",
+    "country": "Bulgaria"
+  },
+  {
+    "bin": "677102",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677103",
+    "brand": "LASER",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "YORKSHIRE BANK",
+    "alpha_2": "IE",
+    "alpha_3": "IRL",
+    "country": "Ireland"
+  },
+  {
+    "bin": "677104",
+    "brand": "LASER",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "YORKSHIRE BANK",
+    "alpha_2": "IE",
+    "alpha_3": "IRL",
+    "country": "Ireland"
+  },
+  {
+    "bin": "677105",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "BRITANNIA BUILDING SOCIETY",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "677106",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "BRITANNIA BUILDING SOCIETY",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "677107",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677108",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VINCENTO PAYMENT SOLUTIONS, LTD.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "677109",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZUNO BANK AG",
+    "alpha_2": "SK",
+    "alpha_3": "SVK",
+    "country": "Slovakia"
+  },
+  {
+    "bin": "677110",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "677111",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "",
+    "alpha_3": "",
+    "country": ""
+  },
+  {
+    "bin": "677112",
+    "brand": "MAESTRO",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "LOKO BANK",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "677113",
+    "brand": "LASER",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "APS FINANCIAL, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  }
+]
