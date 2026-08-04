@@ -3,235 +3,220 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>多功能实用工具与 API 接码中心</title>
+    <title>多功能实用工具与 BIN 码多维查询中心</title>
     <style>
         * { box-sizing: border-box; }
         body {
             margin: 0;
             min-height: 100vh;
-            font-family: "Microsoft YaHei", Arial, sans-serif;
-            background: linear-gradient(135deg, #eef3ff, #f8fbff);
-            color: #1f2937;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f1f5f9;
+            color: #0f172a;
         }
         .header {
-            padding: 34px 20px 28px;
+            padding: 24px 20px 20px;
             text-align: center;
-            background: linear-gradient(135deg, #1d4ed8, #0ea5e9);
+            background: #0f172a;
             color: white;
+            border-bottom: 3px solid #2563eb;
         }
-        .header h1 { margin: 0 0 8px; font-size: 30px; }
-        .header p { margin: 0; opacity: .9; }
+        .header h1 { margin: 0 0 6px; font-size: 24px; font-weight: 600; }
+        .header p { margin: 0; font-size: 13px; color: #94a3b8; }
+        
         .container {
-            width: min(1180px, calc(100% - 28px));
-            margin: 24px auto 50px;
+            width: min(1320px, calc(100% - 24px));
+            margin: 18px auto 40px;
         }
+        
+        /* 顶部导航卡 */
         .tabs {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 8px;
-            margin-bottom: 16px;
+            display: flex;
+            gap: 6px;
+            margin-bottom: 14px;
         }
         .tab {
-            min-height: 50px;
-            border: 0;
-            border-radius: 12px;
-            background: #e5e7eb;
-            color: #334155;
-            font-size: 14px;
-            font-weight: 800;
+            padding: 10px 20px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            background: #ffffff;
+            color: #475569;
+            font-size: 13px;
+            font-weight: 600;
             cursor: pointer;
-            transition: .18s ease;
+            transition: all .15s ease;
         }
-        .tab:hover { transform: translateY(-1px); }
+        .tab:hover { background: #f8fafc; color: #1e293b; }
         .tab.active {
             background: #2563eb;
+            border-color: #2563eb;
             color: white;
-            box-shadow: 0 8px 20px rgba(37, 99, 235, .22);
+            box-shadow: 0 2px 6px rgba(37,99,235,.2);
         }
+
         .panel {
-            background: rgba(255,255,255,.97);
-            border-radius: 18px;
-            padding: 24px;
-            box-shadow: 0 14px 40px rgba(15,23,42,.1);
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(15,23,42,.03);
         }
         .page { display: none; }
         .page.active { display: block; }
-        h2 { margin: 0 0 8px; font-size: 27px; }
+
+        h2 { margin: 0 0 4px; font-size: 18px; font-weight: 600; color: #1e293b; }
         .description {
-            margin: 0 0 20px;
+            margin: 0 0 16px;
             color: #64748b;
-            line-height: 1.7;
+            font-size: 13px;
         }
-        .controls {
-            display: grid;
-            grid-template-columns: 170px 1fr auto auto;
-            gap: 12px;
-            align-items: center;
-        }
-        .gmail-controls { grid-template-columns: 1fr auto auto; }
-        input, select, textarea, button { font-family: inherit; }
-        input, select {
-            height: 46px;
+
+        /* 基础公共控件 */
+        input, select, textarea { font-family: inherit; font-size: 13px; }
+        input[type="text"], input[type="number"], select, textarea {
+            height: 34px;
             border: 1px solid #cbd5e1;
-            border-radius: 11px;
-            padding: 0 12px;
-            font-size: 15px;
-            background: white;
+            border-radius: 4px;
+            padding: 0 10px;
+            background: #fff;
             width: 100%;
+            color: #334155;
+            outline: none;
         }
+        input:focus, select:focus, textarea:focus {
+            border-color: #2563eb;
+            box-shadow: 0 0 0 2px rgba(37,99,235,.15);
+        }
+
         button {
-            min-height: 42px;
-            border: 0;
-            border-radius: 10px;
+            height: 34px;
+            border: 1px solid #cbd5e1;
+            border-radius: 4px;
             padding: 0 16px;
-            font-size: 15px;
-            font-weight: 700;
+            font-size: 13px;
+            font-weight: 600;
             cursor: pointer;
-            transition: .18s ease;
+            background: #f8fafc;
+            color: #334155;
+            transition: .15s;
         }
-        button:hover { transform: translateY(-1px); }
-        .primary { background: #2563eb; color: white; }
-        .success { background: #16a34a; color: white; }
-        .secondary { background: #6c757d; color: white; }
-        .danger { background: #dc2626; color: white; }
-        .warning { background: #d97706; color: white; }
-        .list {
-            margin-top: 20px;
+        button:hover { background: #f1f5f9; border-color: #94a3b8; }
+        button.primary { background: #2563eb; border-color: #2563eb; color: white; }
+        button.primary:hover { background: #1d4ed8; }
+        button.success { background: #16a34a; border-color: #16a34a; color: white; }
+        button.danger { background: #dc2626; border-color: #dc2626; color: white; }
+
+        /* BIN 查询页面专属：复刻经典极简多维面板 */
+        .bin-filter-grid {
             display: grid;
-            gap: 11px;
+            grid-template-columns: 200px 1fr 1fr 220px;
+            gap: 12px;
+            background: #f8fafc;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            padding: 14px;
+            align-items: start;
         }
-        .email-item, .record-card, .card {
-            border: 1px solid #e2e8f0;
-            border-radius: 14px;
+        @media(max-width: 1024px) { .bin-filter-grid { grid-template-columns: 1fr 1fr; } }
+        
+        .filter-column {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .filter-column label {
+            font-size: 11px;
+            font-weight: 700;
+            color: #475569;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+        
+        /* 紧凑的多选列表框 */
+        .checkbox-scroll-box {
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            border-radius: 4px;
+            height: 135px;
+            overflow-y: auto;
+            padding: 6px 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .checkbox-scroll-box label {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+            font-weight: normal;
+            color: #334155;
+            cursor: pointer;
+            text-transform: none;
+            letter-spacing: normal;
+        }
+        .checkbox-scroll-box input[type="checkbox"] {
+            margin: 0;
+            width: 14px;
+            height: 14px;
+            cursor: pointer;
+        }
+
+        .bin-actions {
+            display: flex;
+            gap: 8px;
+            margin-top: 12px;
+            justify-content: flex-end;
+        }
+
+        /* 经典极简表格样式 */
+        .bin-count-header {
+            font-size: 14px;
+            font-weight: 600;
+            color: #2563eb;
+            margin: 16px 0 10px;
+        }
+        .classic-table {
+            width: 100%;
+            border-collapse: collapse;
             background: white;
-            box-shadow: 0 5px 16px rgba(15,23,42,.05);
-            padding: 18px;
+            font-size: 13px;
         }
-        .email-item {
+        .classic-table th {
+            background: #f1f5f9;
+            color: #334155;
+            font-weight: 700;
+            text-align: left;
+            padding: 9px 12px;
+            border-bottom: 2px solid #cbd5e1;
+            border-top: 1px solid #cbd5e1;
+        }
+        .classic-table td {
+            padding: 8px 12px;
+            border-bottom: 1px solid #e2e8f0;
+            color: #334155;
+        }
+        .classic-table tr:hover { background: #f8fafc; }
+
+        /* 其他页面简易样式 */
+        .list { margin-top: 14px; display: grid; gap: 8px; }
+        .item-row {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            gap: 12px;
-            padding: 13px 14px;
-        }
-        .email-text, .value {
-            font-family: Consolas, "Courier New", monospace;
-            word-break: break-word;
-        }
-        .copy-button {
-            min-height: 34px;
-            padding: 0 13px;
-            border: 1px solid #2563eb;
-            background: white;
-            color: #2563eb;
-            flex: 0 0 auto;
-        }
-        .row {
-            display: grid;
-            grid-template-columns: 94px 1fr auto;
-            align-items: center;
-            gap: 12px;
-            padding: 6px 0;
-        }
-        .label { font-weight: 700; color: #64748b; }
-        .status {
-            min-height: 24px;
-            margin-top: 12px;
-            color: #15803d;
-            font-weight: 700;
-        }
-        .sum-layout {
-            display: grid;
-            grid-template-columns: minmax(0, 1fr) 320px;
-            gap: 24px;
-        }
-        textarea {
-            width: 100%;
-            height: 190px;
-            resize: vertical;
-            border: 1px solid #cbd5e1;
-            border-radius: 12px;
-            padding: 14px;
-            font-size: 17px;
-            outline: none;
-        }
-        textarea:focus, input:focus, select:focus {
-            border-color: #2563eb;
-            box-shadow: 0 0 0 3px rgba(37,99,235,.12);
-            outline: none;
-        }
-        .button-row {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-top: 10px;
-        }
-        .current-result {
-            margin-top: 14px;
-            min-height: 48px;
-            padding: 12px 14px;
-            border-radius: 11px;
             background: #f8fafc;
             border: 1px solid #e2e8f0;
-            font-size: 18px;
-            font-weight: 700;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-family: Consolas, monospace;
+            font-size: 13px;
         }
-        .history-panel {
-            border-left: 2px solid #e2e8f0;
-            padding-left: 22px;
-        }
-        .history-list {
-            list-style: none;
-            padding: 0;
-            margin: 0 0 14px;
-            max-height: 360px;
-            overflow: auto;
-        }
-        .history-list li {
-            background: #f8fafc;
-            border: 1px solid #e2e8f0;
-            margin-bottom: 7px;
-            padding: 9px 10px;
-            border-radius: 8px;
-        }
-        .total-box {
-            margin-top: 14px;
-            padding: 13px;
-            border: 1px solid #dc2626;
-            border-radius: 10px;
-            color: #dc2626;
-            font-size: 20px;
-            font-weight: 800;
-        }
-        .flex-between { display: flex; justify-content: space-between; align-items: center; }
-        .meta-info { color: #666; font-size: 14px; line-height: 1.6; }
-        .api-form {
-            background: white;
-            border: 1px solid #e2e8f0;
-            border-radius: 14px;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 5px 16px rgba(15,23,42,.05);
-            display: grid;
-            gap: 12px;
-        }
-        .sms-content-box {
-            margin-top: 12px;
-            background: #f0fdf4;
-            border: 2px solid #22c55e;
-            padding: 14px;
-            border-radius: 10px;
-            font-size: 16px;
-            color: #14532d;
-            font-weight: 700;
-            word-break: break-all;
-        }
+        .status { margin-top: 10px; color: #16a34a; font-size: 13px; font-weight: 600; min-height: 20px; }
     </style>
 </head>
 <body>
     <header class="header">
         <h1>多功能实用工具</h1>
-        <p>随机邮箱、美国地址、自动求和、API 接码配置与全局 BIN 码智能查询</p>
+        <p>随机邮箱、美国地址、自动求和与 BIN 码多维智能查询中心</p>
     </header>
 
     <main class="container">
@@ -239,17 +224,16 @@
             <button class="tab active" data-page="gmailPage">谷歌邮箱</button>
             <button class="tab" data-page="addressPage">美国地址电话</button>
             <button class="tab" data-page="sumPage">自动求和</button>
-            <button class="tab" data-page="smsPage">📱 API 接码</button>
-            <button class="tab" data-page="binPage">🔍 BIN码查询</button>
+            <button class="tab" data-page="binPage">🔍 BIN 码查询</button>
         </nav>
 
         <section class="panel">
             <div id="gmailPage" class="page active">
-                <h2>随机 Gmail 地址生成器</h2>
-                <p class="description">网页每次打开会自动生成新结果。输入数量后可重新生成，每个邮箱都能单独复制。</p>
-                <div class="controls gmail-controls">
-                    <input id="gmailCount" type="number" min="1" max="500" value="10" placeholder="生成数量">
-                    <button id="gmailGenerate" class="primary">随机生成</button>
+                <h2>随机 Gmail 邮箱生成器</h2>
+                <p class="description">每次打开自动生成，可自定义数量并单独或批量复制。</p>
+                <div style="display:flex; gap:8px; max-width:400px;">
+                    <input id="gmailCount" type="number" min="1" max="500" value="10">
+                    <button id="gmailGenerate" class="primary">生成</button>
                     <button id="gmailCopyAll" class="success">复制全部</button>
                 </div>
                 <div id="gmailList" class="list"></div>
@@ -257,22 +241,18 @@
             </div>
 
             <div id="addressPage" class="page">
-                <h2>随机美国地址与电话生成器</h2>
-                <p class="description">地址和电话均为虚构测试数据。可选择州、单独复制每项信息或复制全部。</p>
-                <div class="controls">
-                    <input id="addressCount" type="number" min="1" max="100" value="10" placeholder="生成数量">
+                <h2>美国虚拟地址生成器</h2>
+                <p class="description">可指定州或者随机生成详细的虚构地址与电话。</p>
+                <div style="display:flex; gap:8px; max-width:600px;">
+                    <input id="addressCount" type="number" min="1" max="100" value="10" style="width:100px;">
                     <select id="stateSelect">
-                        <option value="ALL">随机所有州</option>
-                        <option value="CA">California</option>
-                        <option value="NY">New York</option>
-                        <option value="TX">Texas</option>
-                        <option value="FL">Florida</option>
-                        <option value="IL">Illinois</option>
-                        <option value="WA">Washington</option>
-                        <option value="MA">Massachusetts</option>
-                        <option value="AZ">Arizona</option>
+                        <option value="ALL">全部州 (Random)</option>
+                        <option value="CA">California (CA)</option>
+                        <option value="NY">New York (NY)</option>
+                        <option value="TX">Texas (TX)</option>
+                        <option value="FL">Florida (FL)</option>
                     </select>
-                    <button id="addressGenerate" class="primary">随机生成</button>
+                    <button id="addressGenerate" class="primary">生成</button>
                     <button id="addressCopyAll" class="success">复制全部</button>
                 </div>
                 <div id="addressList" class="list"></div>
@@ -280,383 +260,279 @@
             </div>
 
             <div id="sumPage" class="page">
-                <h2>自动求和与历史记录</h2>
-                <p class="description">支持空格、换行、逗号和加号分隔，支持整数, 小数和负数。添加后会进入历史记录。</p>
-                <div class="sum-layout">
+                <h2>自动求和计算器</h2>
+                <p class="description">在文本框中直接粘贴多行数字或带公式的内容进行实时求和。</p>
+                <div style="display:grid; grid-template-columns: 1fr 300px; gap:20px;">
                     <div>
-                        <textarea id="inputData" placeholder="例如：10 + 20&#10;35.5&#10;-5"></textarea>
-                        <div class="button-row">
-                            <button id="addResult" class="primary">添加到历史</button>
-                            <button id="clearInput" class="secondary">清空输入</button>
+                        <textarea id="inputData" style="height:150px; width:100%; padding:10px; resize:vertical;" placeholder="输入数字..."></textarea>
+                        <div style="margin-top:8px; display:flex; gap:8px;">
+                            <button id="addResult" class="primary">加入历史</button>
+                            <button id="clearInput">清空</button>
                         </div>
-                        <div id="currentResult" class="current-result">当前合计：0</div>
+                        <div id="currentResult" style="margin-top:10px; font-weight:bold; font-size:15px; color:#2563eb;">当前合计：0</div>
                     </div>
-                    <aside class="history-panel">
-                        <h3>历史记录</h3>
-                        <ul id="historyList" class="history-list"></ul>
-                        <div class="button-row">
-                            <button id="calculateGrandTotal" class="success">计算总计</button>
-                            <button id="clearHistory" class="danger">清空列表</button>
+                    <div style="background:#f8fafc; border:1px solid #cbd5e1; border-radius:4px; padding:12px;">
+                        <div style="font-weight:bold; margin-bottom:8px; font-size:13px;">历史记录</div>
+                        <ul id="historyList" style="margin:0 0 10px; padding-left:18px; max-height:110px; overflow:auto; font-size:13px;"></ul>
+                        <div style="display:flex; gap:6px;">
+                            <button id="calculateGrandTotal" class="success" style="flex:1;">计算总计</button>
+                            <button id="clearHistory" class="danger">清空</button>
                         </div>
-                        <div id="grandTotal" class="total-box">总计：等待计算</div>
-                    </aside>
+                        <div id="grandTotal" style="margin-top:8px; font-weight:bold; color:#dc2626; font-size:14px;">总计：0</div>
+                    </div>
                 </div>
-            </div>
-
-            <div id="smsPage" class="page">
-                <h2>添加/配置接码 API</h2>
-                <div class="api-form">
-                    <input id="apiName" type="text" placeholder="API名称 (例如: SMS8接码)">
-                    <input id="apiPhone" type="text" placeholder="手机号 (例如: +17088517798)">
-                    <input id="apiUrl" type="text" placeholder="接口地址 (URL)">
-                    <input id="apiToken" type="text" placeholder="Token 密钥 (可选)">
-                    <button id="saveApiBtn" class="primary" style="width: 130px;">保存并添加</button>
-                </div>
-
-                <div class="flex-between" style="margin-top: 24px;">
-                    <h3>已配置的 API 列表与实时接码内容</h3>
-                    <button class="danger" id="clearApiBtn" style="min-height:34px; font-size:13px;">清空全部列表</button>
-                </div>
-                <div id="apiListArea" class="list"></div>
             </div>
 
             <div id="binPage" class="page">
-                <h2>🔍 全球 BIN 码智能查询中心</h2>
-                <p class="description">输入卡号前几位或关键字，系统将自动全盘检索对应的切片内容文件。</p>
+                <h2>全球 BIN 码多维智能查询</h2>
+                <p class="description">多条件联合精准检索底层切片 JSON 数据。</p>
                 
-                <div class="controls gmail-controls">
-                    <input id="binQueryInput" type="text" maxlength="16" placeholder="输入要搜索的卡号内容 (如 533248)">
-                    <button id="binSearchBtn" class="primary">立即查询</button>
-                    <button id="binResetBtn" class="secondary">重置</button>
+                <div class="bin-filter-grid">
+                    <div class="filter-column">
+                        <label>BINS / 号段</label>
+                        <input id="binQueryInput" type="text" placeholder="如 4071">
+                        <label style="margin-top:6px;">Country / 国家</label>
+                        <input id="binCountryInput" type="text" placeholder="如 US">
+                    </div>
+
+                    <div class="filter-column">
+                        <label>VENDOR / 卡组织</label>
+                        <div class="checkbox-scroll-box" id="vendorCheckboxes">
+                            <label><input type="checkbox" value="VISA"> Visa</label>
+                            <label><input type="checkbox" value="MC"> Mastercard</label>
+                            <label><input type="checkbox" value="AMEX"> Amex</label>
+                            <label><input type="checkbox" value="MAESTRO"> Maestro</label>
+                            <label><input type="checkbox" value="DISCOVER"> Discover</label>
+                            <label><input type="checkbox" value="JCB"> JCB</label>
+                            <label><input type="checkbox" value="UNIONPAY"> UnionPay</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-column">
+                        <label>LEVEL / 卡片等级</label>
+                        <div class="checkbox-scroll-box" id="levelCheckboxes">
+                            <label><input type="checkbox" value="CLASSIC"> Classic/Standard</label>
+                            <label><input type="checkbox" value="GOLD"> Gold/Prem</label>
+                            <label><input type="checkbox" value="PLATINUM"> Platinum</label>
+                            <label><input type="checkbox" value="SIGNATURE"> Signature</label>
+                            <label><input type="checkbox" value="BUSINESS"> Business</label>
+                            <label><input type="checkbox" value="CORPORATE"> Corporate</label>
+                            <label><input type="checkbox" value="PREPAID"> Prepaid</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-column">
+                        <label>BANK & TYPE</label>
+                        <input id="binBankInput" type="text" placeholder="发卡银行关键词">
+                        <div style="margin-top:4px;">
+                            <label style="font-size:11px; color:#475569; margin-bottom:2px; display:block;">TYPE</label>
+                            <div class="checkbox-scroll-box" style="height:62px;" id="typeCheckboxes">
+                                <label><input type="checkbox" value="CREDIT"> Credit</label>
+                                <label><input type="checkbox" value="DEBIT"> Debit</label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div id="binResultArea" class="list">
-                    <div class="card" style="text-align: center; color: #666;">请输入关键字开始内容检索...</div>
+                <div class="bin-actions">
+                    <button id="binResetBtn">Reset</button>
+                    <button id="binSearchBtn" class="primary">Find</button>
+                </div>
+
+                <div id="binResultArea" style="margin-top:10px;">
+                    <div style="color: #64748b; font-size: 13px; text-align:center; padding:20px;">请设置筛选条件后点击 Find 开始检索...</div>
                 </div>
             </div>
         </section>
     </main>
 
 <script>
+    // 选项卡切换
     const tabs = document.querySelectorAll(".tab");
     const pages = document.querySelectorAll(".page");
-
     tabs.forEach(tab => {
         tab.addEventListener("click", () => {
-            tabs.forEach(item => item.classList.remove("active"));
-            pages.forEach(page => page.classList.remove("active"));
+            tabs.forEach(t => t.classList.remove("active"));
+            pages.forEach(p => p.classList.remove("active"));
             tab.classList.add("active");
             document.getElementById(tab.dataset.page).classList.add("active");
         });
     });
 
-    function showStatus(id, message) {
-        const element = document.getElementById(id);
-        if (!element) return;
-        element.textContent = message;
-        clearTimeout(element.timer);
-        element.timer = setTimeout(() => element.textContent = "", 1800);
+    function showStatus(id, msg) {
+        const el = document.getElementById(id);
+        if(!el) return;
+        el.textContent = msg;
+        clearTimeout(el.timer);
+        el.timer = setTimeout(() => el.textContent = "", 1500);
     }
 
     async function copyText(text, statusId) {
-        try {
-            await navigator.clipboard.writeText(text);
-        } catch {
-            const box = document.createElement("textarea");
-            box.value = text;
-            document.body.appendChild(box);
-            box.select();
-            document.execCommand("copy");
-            box.remove();
-        }
-        if(statusId) showStatus(statusId, "复制成功");
+        try { await navigator.clipboard.writeText(text); } catch(e) {}
+        if(statusId) showStatus(statusId, "已复制");
     }
 
-    // 1. 谷歌邮箱脚本
-    const letters = "abcdefghijklmnopqrstuvwxyz";
-    const lettersNumbers = letters + "0123456789";
+    // 1. 谷歌邮箱
+    const letters = "abcdefghijklmnopqrstuvwxyz0123456789";
     let gmailData = [];
-
-    function generateGmails() {
-        let count = Number(document.getElementById("gmailCount").value);
-        count = Math.min(Math.max(count, 1), 500);
-        const unique = new Set();
-        while (unique.size < count) {
-            let u = letters[Math.floor(Math.random()*letters.length)];
-            for (let i = 1; i < 9; i++) u += lettersNumbers[Math.floor(Math.random()*lettersNumbers.length)];
-            unique.add(u + "@gmail.com");
+    document.getElementById("gmailGenerate").onclick = () => {
+        let count = Math.min(Math.max(Number(document.getElementById("gmailCount").value), 1), 200);
+        const set = new Set();
+        while(set.size < count) {
+            let s = "";
+            for(let i=0; i<9; i++) s += letters[Math.floor(Math.random()*letters.length)];
+            set.add(s + "@gmail.com");
         }
-        gmailData = [...unique];
-        const list = document.getElementById("gmailList");
-        list.innerHTML = "";
-        gmailData.forEach(email => {
-            const item = document.createElement("div");
-            item.className = "email-item";
-            item.innerHTML = `<span class="email-text">${email}</span><button class="copy-button">复制</button>`;
-            item.querySelector("button").onclick = () => copyText(email, "gmailStatus");
-            list.appendChild(item);
-        });
-    }
-    document.getElementById("gmailGenerate").onclick = generateGmails;
-    document.getElementById("gmailCopyAll").onclick = () => copyText(gmailData.join("\n"), "gmailStatus");
-
-    // 2. 美国地址脚本
-    const firstNames = ["James", "John", "Robert", "Michael", "William", "David", "Mary", "Jennifer", "Linda", "Patricia"];
-    const lastNames = ["Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller", "Davis", "Rodriguez", "Martinez"];
-    const streets = ["123 Main St", "456 Oak Ave", "789 Pine Rd", "321 Elm St", "654 Maple Dr"];
-    const citiesByState = {
-        "CA": { state: "California", city: "Los Angeles", zip: "90001" },
-        "NY": { state: "New York", city: "New York", zip: "10001" },
-        "TX": { state: "Texas", city: "Houston", zip: "77001" },
-        "FL": { state: "Florida", city: "Miami", zip: "33101" },
-        "IL": { state: "Illinois", city: "Chicago", zip: "60601" },
-        "WA": { state: "Washington", city: "Seattle", zip: "98101" },
-        "MA": { state: "Massachusetts", city: "Boston", zip: "02101" },
-        "AZ": { state: "Arizona", city: "Phoenix", zip: "85001" }
+        gmailData = [...set];
+        document.getElementById("gmailList").innerHTML = gmailData.map(e => `
+            <div class="item-row"><span>${e}</span><button onclick="copyText('${e}', 'gmailStatus')">复制</button></div>
+        `).join('');
     };
-    let addressData = [];
+    document.getElementById("gmailCopyAll").onclick = () => copyText(gmailData.join('\n'), "gmailStatus");
+    document.getElementById("gmailGenerate").click();
 
-    function generateAddresses() {
-        let count = Number(document.getElementById("addressCount").value);
-        let selectedState = document.getElementById("stateSelect").value;
-        const list = document.getElementById("addressList");
+    // 2. 美国地址
+    const fNames = ["James", "John", "Robert", "Mary", "Jennifer"];
+    const lNames = ["Smith", "Johnson", "Williams", "Brown"];
+    let addressData = [];
+    document.getElementById("addressGenerate").onclick = () => {
+        let count = Math.min(Math.max(Number(document.getElementById("addressCount").value), 1), 100);
+        let list = document.getElementById("addressList");
         list.innerHTML = "";
         addressData = [];
-
-        let stateKeys = Object.keys(citiesByState);
-
         for(let i=0; i<count; i++) {
-            let fName = firstNames[Math.floor(Math.random()*firstNames.length)];
-            let lName = lastNames[Math.floor(Math.random()*lastNames.length)];
-            let fullName = `${fName} ${lName}`;
-            
-            let sKey = selectedState === "ALL" ? stateKeys[Math.floor(Math.random()*stateKeys.length)] : selectedState;
-            let info = citiesByState[sKey];
-            let street = streets[Math.floor(Math.random()*streets.length)];
-            let fullAddr = `${street}, ${info.city}, ${sKey} ${info.zip}`;
-            let phone = `+1 (${Math.floor(200 + Math.random()*800)}) ${Math.floor(200 + Math.random()*800)}-${Math.floor(1000 + Math.random()*9000)}`;
-
-            addressData.push(`姓名: ${fullName}\n地址: ${fullAddr}\n电话: ${phone}`);
-
-            let card = document.createElement("div");
-            card.className = "record-card";
-            card.innerHTML = `
-                <div class="row"><div class="label">姓名</div><div class="value">${fullName}</div><button class="copy-button">复制</button></div>
-                <div class="row"><div class="label">地址</div><div class="value">${fullAddr}</div><button class="copy-button">复制</button></div>
-                <div class="row"><div class="label">电话</div><div class="value">${phone}</div><button class="copy-button">复制</button></div>
-            `;
-            const buttons = card.querySelectorAll("button");
-            buttons[0].onclick = () => copyText(fullName, "addressStatus");
-            buttons[1].onclick = () => copyText(fullAddr, "addressStatus");
-            buttons[2].onclick = () => copyText(phone, "addressStatus");
-            list.appendChild(card);
+            let name = `${fNames[Math.floor(Math.random()*fNames.length)]} ${lNames[Math.floor(Math.random()*lNames.length)]}`;
+            let addr = `123 Main St, Los Angeles, CA 90001`;
+            let phone = `+1 (555) ${Math.floor(100+Math.random()*899)}-${Math.floor(1000+Math.random()*8999)}`;
+            addressData.push(`${name} | ${addr} | ${phone}`);
+            list.innerHTML += `<div class="item-row"><span><b>${name}</b> - ${addr} (${phone})</span><button onclick="copyText('${name}, ${addr}, ${phone}', 'addressStatus')">复制</button></div>`;
         }
-    }
-    document.getElementById("addressGenerate").onclick = generateAddresses;
-    document.getElementById("addressCopyAll").onclick = () => copyText(addressData.join("\n\n"), "addressStatus");
+    };
+    document.getElementById("addressCopyAll").onclick = () => copyText(addressData.join('\n'), "addressStatus");
+    document.getElementById("addressGenerate").click();
 
-    // 3. 自动求和脚本
-    let historyList = [];
-    function parseNumbers(input) {
-        const matches = input.match(/[-+]?(?:\d+\.?\d*|\.\d+)/g);
-        return matches ? matches.map(Number).filter(Number.isFinite) : [];
+    // 3. 自动求和
+    let history = [];
+    function getNums(str) {
+        let m = str.match(/[-+]?(?:\d+\.?\d*|\.\d+)/g);
+        return m ? m.map(Number).filter(Number.isFinite) : [];
     }
     document.getElementById("inputData").oninput = function() {
-        let nums = parseNumbers(this.value);
-        let sum = nums.reduce((a,b)=>a+b, 0);
+        let sum = getNums(this.value).reduce((a,b)=>a+b, 0);
         document.getElementById("currentResult").textContent = "当前合计：" + Number(sum.toFixed(10));
     };
-
     document.getElementById("addResult").onclick = () => {
-        let text = document.getElementById("inputData").value.trim();
-        if(!text) return;
-        let nums = parseNumbers(text);
-        let sum = nums.reduce((a,b)=>a+b, 0);
-        let val = Number(sum.toFixed(10));
-        historyList.push(val);
-        updateHistoryUI();
+        let txt = document.getElementById("inputData").value.trim();
+        if(!txt) return;
+        let sum = Number(getNums(txt).reduce((a,b)=>a+b,0).toFixed(10));
+        history.push(sum);
+        document.getElementById("historyList").innerHTML = history.map((v,i)=>`<li>记录 ${i+1}: ${v}</li>`).join('');
     };
-
-    document.getElementById("clearInput").onclick = () => {
-        document.getElementById("inputData").value = "";
-        document.getElementById("currentResult").textContent = "当前合计：0";
-    };
-
-    function updateHistoryUI() {
-        let ul = document.getElementById("historyList");
-        ul.innerHTML = "";
-        historyList.forEach((val, idx) => {
-            let li = document.createElement("li");
-            li.textContent = `记录 ${idx + 1}: ${val}`;
-            ul.appendChild(li);
-        });
-    }
-
+    document.getElementById("clearInput").onclick = () => { document.getElementById("inputData").value=""; document.getElementById("currentResult").textContent="当前合计：0"; };
     document.getElementById("calculateGrandTotal").onclick = () => {
-        let grand = historyList.reduce((a,b)=>a+b, 0);
-        document.getElementById("grandTotal").textContent = "总计：" + Number(grand.toFixed(10));
+        let g = Number(history.reduce((a,b)=>a+b,0).toFixed(10));
+        document.getElementById("grandTotal").textContent = "总计：" + g;
     };
+    document.getElementById("clearHistory").onclick = () => { history=[]; document.getElementById("historyList").innerHTML=""; document.getElementById("grandTotal").textContent="总计：0"; };
 
-    document.getElementById("clearHistory").onclick = () => {
-        historyList = [];
-        updateHistoryUI();
-        document.getElementById("grandTotal").textContent = "总计：等待计算";
-    };
-
-    // 4. API 接码脚本
-    let apiList = JSON.parse(localStorage.getItem('my_sms_apis') || '[]');
-
-    function renderApiList() {
-        let area = document.getElementById('apiListArea');
-        if (apiList.length === 0) {
-            area.innerHTML = '<div class="card" style="text-align:center;color:#666;">暂无已配置的 API 记录</div>';
-            return;
-        }
-        area.innerHTML = apiList.map((api, index) => `
-            <div class="card">
-                <div class="flex-between">
-                    <div>
-                        <b>${api.name}</b> ${api.phone ? '(' + api.phone + ')' : ''}<br>
-                        <span style="color:#666;font-size:13px;word-break:break-all;">${api.url}</span>
-                    </div>
-                    <div style="display:flex;gap:8px;">
-                        <button class="success" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="fetchSms(${index})">获取接码数据</button>
-                        <button class="danger" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="deleteApi(${index})">删除</button>
-                    </div>
-                </div>
-                <div id="smsBox_${index}" class="sms-content-box" style="display:${api.lastMessage ? 'block' : 'none'};">
-                    ${api.lastMessage || ''}
-                </div>
-            </div>
-        `).join('');
-    }
-
-    window.fetchSms = async function(index) {
-        let api = apiList[index];
-        let box = document.getElementById(`smsBox_${index}`);
-        box.style.display = 'block';
-        box.innerHTML = '正在请求接口获取最新数据...';
-        try {
-            let res = await fetch(api.url, { headers: api.token ? { 'Authorization': 'Bearer ' + api.token } : {} });
-            let text = await res.text();
-            api.lastMessage = text;
-            localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
-            box.innerHTML = text;
-        } catch(e) {
-            box.innerHTML = '请求失败（可能存在跨域拦截，建议通过后端或直接访问接口）。';
-        }
-    };
-
-    document.getElementById('saveApiBtn').onclick = () => {
-        let name = document.getElementById('apiName').value.trim();
-        let phone = document.getElementById('apiPhone').value.trim();
-        let url = document.getElementById('apiUrl').value.trim();
-        let token = document.getElementById('apiToken').value.trim();
-
-        if(!name || !url) {
-            alert('请填写 API 名称和接口地址！');
-            return;
-        }
-
-        apiList.push({ name, phone, url, token, lastMessage: '' });
-        localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
-        
-        document.getElementById('apiName').value = '';
-        document.getElementById('apiPhone').value = '';
-        document.getElementById('apiUrl').value = '';
-        document.getElementById('apiToken').value = '';
-        
-        renderApiList();
-        alert('添加成功！');
-    };
-
-    window.deleteApi = function(index) {
-        apiList.splice(index, 1);
-        localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
-        renderApiList();
-    };
-
-    document.getElementById('clearApiBtn').onclick = () => {
-        if(confirm('确定要清空所有已配置的 API 吗？')) {
-            apiList = [];
-            localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
-            renderApiList();
-        }
-    };
-
-    // 5. BIN码查询脚本
+    // 4. 多维 BIN 查询引擎
     async function searchBin() {
-        let q = document.getElementById('binQueryInput').value.trim();
+        let qBin = document.getElementById('binQueryInput').value.trim().toLowerCase();
+        let qCountry = document.getElementById('binCountryInput').value.trim().toLowerCase();
+        let qBank = document.getElementById('binBankInput').value.trim().toLowerCase();
+
+        let vVendors = Array.from(document.querySelectorAll('#vendorCheckboxes input:checked')).map(e=>e.value.toLowerCase());
+        let vLevels = Array.from(document.querySelectorAll('#levelCheckboxes input:checked')).map(e=>e.value.toLowerCase());
+        let vTypes = Array.from(document.querySelectorAll('#typeCheckboxes input:checked')).map(e=>e.value.toLowerCase());
+
         let resArea = document.getElementById('binResultArea');
-        if (q.length < 2) {
-            resArea.innerHTML = '<div class="card" style="color:red;">请至少输入 2 位以上内容进行检索！</div>';
-            return;
-        }
-        resArea.innerHTML = `<div class="card">正在全盘切片库中深度检索 "${q}"，请稍候... 🚀</div>`;
-        
-        let filesToFetch = [];
-        for (let i = 1; i <= 300; i++) {
-            filesToFetch.push(`./folder_1/chunk_${i}.json`);
-            filesToFetch.push(`./folder_2/chunk_${i}.json`);
-            filesToFetch.push(`./folder_3/chunk_${i}.json`);
-            filesToFetch.push(`./folder_4/chunk_${i}.json`);
-            filesToFetch.push(`./folder_5/chunk_${i}.json`);
-            filesToFetch.push(`./chunk_${i}.json`);
+        resArea.innerHTML = `<div style="color:#64748b; font-size:13px; text-align:center; padding:15px;">正在切片库中检索...</div>`;
+
+        let files = [];
+        for(let i=1; i<=300; i++) {
+            files.push(`./chunk_${i}.json`);
+            files.push(`./folder_1/chunk_${i}.json`);
+            files.push(`./folder_2/chunk_${i}.json`);
         }
 
         try {
-            let matchedItems = [];
-            let promises = filesToFetch.map(async (url) => {
+            let matched = [];
+            await Promise.all(files.map(async url => {
                 try {
                     let r = await fetch(url);
-                    if (r.ok) {
+                    if(r.ok) {
                         let data = await r.json();
                         let hits = data.filter(item => {
-                            let binStr = String(item.bin || '');
-                            let brandStr = String(item.brand || '');
-                            let issuerStr = String(item.issuer || '');
-                            return binStr.includes(q) || brandStr.toLowerCase().includes(q.toLowerCase()) || issuerStr.toLowerCase().includes(q.toLowerCase());
+                            let bin = String(item.bin || item.number || '').toLowerCase();
+                            let country = String(item.country || item.alpha_2 || '').toLowerCase();
+                            let vendor = String(item.brand || item.vendor || '').toLowerCase();
+                            let level = String(item.category || item.level || '').toLowerCase();
+                            let type = String(item.type || '').toLowerCase();
+                            let bank = String(item.issuer || item.bank || '').toLowerCase();
+
+                            if(qBin && !bin.includes(qBin)) return false;
+                            if(qCountry && !country.includes(qCountry)) return false;
+                            if(qBank && !bank.includes(qBank)) return false;
+                            if(vVendors.length > 0 && !vVendors.some(v => vendor.includes(v))) return false;
+                            if(vLevels.length > 0 && !vLevels.some(l => level.includes(l))) return false;
+                            if(vTypes.length > 0 && !vTypes.some(t => type.includes(t))) return false;
+                            return true;
                         });
-                        if (hits.length > 0) {
-                            matchedItems.push(...hits);
-                        }
+                        matched.push(...hits);
                     }
-                } catch(err) {}
-            });
+                }catch(e){}
+            }));
 
-            await Promise.all(promises);
-
-            if (matchedItems.length === 0) {
-                resArea.innerHTML = `<div class="card">未找到包含 "${q}" 的相关记录。</div>`;
+            if(matched.length === 0) {
+                resArea.innerHTML = `<div style="color:#dc2626; font-size:13px; text-align:center; padding:15px;">未找到匹配记录。</div>`;
                 return;
             }
 
-            resArea.innerHTML = matchedItems.slice(0, 50).map(item => `
-                <div class="card">
-                    <div class="meta-info">
-                        <b>BIN / 卡号内容:</b> <span class="value" style="color:#2563eb;font-weight:bold;">${item.bin || item.number || '未知'}</span><br>
-                        <b>卡组织:</b> ${item.brand || '未知'} | <b>类型:</b> ${item.type || '未知'} | <b>级别:</b> ${item.category || '标准'}<br>
-                        <b>发卡银行:</b> ${item.issuer || '未知机构'}<br>
-                        <b>国家:</b> ${item.country || '未知'} (${item.alpha_2 || ''})
-                    </div>
-                </div>
-            `).join('') + (matchedItems.length > 50 ? '<div class="card" style="text-align:center;color:#666;">只展示前 50 条匹配结果...</div>' : '');
+            let html = `<div class="bin-count-header">Total found ${matched.length} bins</div>`;
+            html += `
+                <table class="classic-table">
+                    <thead>
+                        <tr>
+                            <th>BIN</th>
+                            <th>Country</th>
+                            <th>Vendor</th>
+                            <th>Type</th>
+                            <th>Level</th>
+                            <th>Bank</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+            matched.slice(0, 150).forEach(item => {
+                html += `
+                    <tr>
+                        <td style="font-family:Consolas,monospace; font-weight:bold; color:#2563eb;">${item.bin || item.number || '-'}</td>
+                        <td>${item.country || item.alpha_2 || 'US'}</td>
+                        <td><b>${item.brand || item.vendor || '-'}</b></td>
+                        <td>${item.type || '-'}</td>
+                        <td>${item.category || item.level || '-'}</td>
+                        <td>${item.issuer || item.bank || '-'}</td>
+                    </tr>
+                `;
+            });
+            html += `</tbody></table>`;
+            if(matched.length > 150) html += `<div style="text-align:center; color:#64748b; font-size:12px; margin-top:8px;">仅显示前 150 条结果</div>`;
+            resArea.innerHTML = html;
 
         } catch(e) {
-            resArea.innerHTML = `<div class="card" style="color:red;">检索过程出错，请检查网络连接。</div>`;
+            resArea.innerHTML = `<div style="color:#dc2626; font-size:13px; text-align:center; padding:15px;">加载出错。</div>`;
         }
     }
-    
+
     document.getElementById('binSearchBtn').onclick = searchBin;
     document.getElementById('binResetBtn').onclick = () => {
-        document.getElementById('binQueryInput').value = '';
-        document.getElementById('binResultArea').innerHTML = '<div class="card" style="text-align: center; color: #666;">请输入关键字开始内容检索...</div>';
+        document.querySelectorAll('.bin-filter-grid input').forEach(el => {
+            if(el.type === 'checkbox') el.checked = false;
+            else el.value = '';
+        });
+        document.getElementById('binResultArea').innerHTML = `<div style="color: #64748b; font-size: 13px; text-align:center; padding:20px;">请设置筛选条件后点击 Find 开始检索...</div>`;
     };
-    document.getElementById('binQueryInput').onkeydown = e => { if (e.key === 'Enter') searchBin(); };
-
-    generateGmails();
-    generateAddresses();
-    renderApiList();
+    document.getElementById('binQueryInput').onkeydown = e => { if(e.key==='Enter') searchBin(); };
 </script>
 </body>
 </html>
