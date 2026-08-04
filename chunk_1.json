@@ -1,0 +1,6872 @@
+[
+  {
+    "bin": "bin",
+    "brand": "brand",
+    "type": "type",
+    "category": "category",
+    "issuer": "issuer",
+    "alpha_2": "alpha_2",
+    "alpha_3": "alpha_3",
+    "country": "country"
+  },
+  {
+    "bin": "19627",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "21502",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "42410",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "57164",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "63047",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "63048",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "63049",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "103003",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "111100",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "111102",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "111103",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "111301",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "111904",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "131000",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "180000",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180001",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180002",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180003",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180004",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180005",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180006",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180007",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180008",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180009",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180010",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180011",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180012",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180013",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180014",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180015",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180016",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180017",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180018",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180019",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180020",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180021",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180022",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180023",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180024",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180025",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180026",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180027",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180028",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180029",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180030",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180031",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180032",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180033",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180034",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180035",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180036",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180037",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180038",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180039",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180040",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180041",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180042",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180043",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180044",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180045",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180046",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180047",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180048",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180049",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180050",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180051",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180052",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180053",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180054",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180055",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180056",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180057",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180058",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180059",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180060",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180061",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180062",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180063",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180064",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180065",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180066",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180067",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180068",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180069",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180070",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180071",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180072",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180073",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180074",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180075",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180076",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180077",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180078",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180079",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180080",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180081",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180082",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180083",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180084",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180085",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180086",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180087",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180088",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180089",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180090",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180091",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180092",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180093",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180094",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180095",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180096",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180097",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180098",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "180099",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "198801",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "201400",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201401",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201402",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201403",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201404",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201405",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201406",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201407",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201408",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201409",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201410",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201411",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201412",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201413",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201414",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201415",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201416",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201417",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201418",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201419",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201420",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201421",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201422",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201423",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201424",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201425",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201426",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201427",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201428",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201429",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201430",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201431",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201432",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201433",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201434",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201435",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201436",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201437",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201438",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201439",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201440",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201441",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201442",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201443",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201444",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201445",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201446",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201447",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201448",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201449",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201450",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201451",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201452",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201453",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201454",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201455",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201456",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201457",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201458",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201459",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201460",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201461",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201462",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201463",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201464",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201465",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201466",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201467",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201468",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201469",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201470",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201471",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201472",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201473",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201474",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201475",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201476",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201477",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201478",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201479",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201480",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201481",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201482",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201483",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201484",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201485",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201486",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201487",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201488",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201489",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201490",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201491",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201492",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201493",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201494",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201495",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201496",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201497",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201498",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "201499",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "213100",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213101",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213102",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213103",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213104",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213105",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213106",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213107",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213108",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213109",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213110",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213111",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213112",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213113",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213114",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213115",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213116",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213117",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213118",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213119",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213120",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213121",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213122",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213123",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213124",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213125",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213126",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213127",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213128",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213129",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213130",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213131",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213132",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213133",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213134",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213135",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213136",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213137",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213138",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213139",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213140",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213141",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213142",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213143",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213144",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213145",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213146",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213147",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213148",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213149",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213150",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213151",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213152",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213153",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213154",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213155",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213156",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213157",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213158",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213159",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213160",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213161",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213162",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213163",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213164",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213165",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213166",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213167",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213168",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213169",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213170",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213171",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213172",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213173",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213174",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213175",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213176",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213177",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213178",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213179",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213180",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213181",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213182",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213183",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213184",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213185",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213186",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213187",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213188",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213189",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213190",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213191",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213192",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213193",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213194",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213195",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213196",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213197",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213198",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "213199",
+    "brand": "JCB",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JCB CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "214900",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214901",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214902",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214903",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214904",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214905",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214906",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214907",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214908",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214909",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214910",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214911",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214912",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214913",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214914",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214915",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214916",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214917",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214918",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214919",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214920",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214921",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214922",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214923",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214924",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214925",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214926",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214927",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214928",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214929",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214930",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214931",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214932",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214933",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214934",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214935",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214936",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214937",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214938",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214939",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214940",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214941",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214942",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214943",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214944",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214945",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214946",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214947",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214948",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214949",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214950",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214951",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214952",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214953",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214954",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214955",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214956",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214957",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214958",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214959",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214960",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214961",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214962",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214963",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214964",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214965",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214966",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214967",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214968",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214969",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214970",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214971",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214972",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214973",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214974",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214975",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214976",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214977",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214978",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214979",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214980",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214981",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214982",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214983",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214984",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214985",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214986",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214987",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214988",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214989",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214990",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214991",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214992",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214993",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214994",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214995",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214996",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214997",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214998",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "214999",
+    "brand": "ENROUTE",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIR CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "221571",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "221572",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "263281",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "267077",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "272476",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "272477",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "272479",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "272480",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "272481",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "272484",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "272485",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "272486",
+    "brand": "PRIVATE LABEL",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300000",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300001",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300002",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300003",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300004",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300005",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300006",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300007",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300008",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300009",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300010",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300011",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300012",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300013",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300014",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300015",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300016",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300017",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300018",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300019",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300020",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300021",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300022",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300023",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300024",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300025",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300026",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300027",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300028",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300029",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300030",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300031",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300032",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300033",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300034",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300035",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300036",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300037",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300038",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300039",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300040",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300041",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300042",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300043",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300044",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300045",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300046",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300047",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300048",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300049",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300050",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300051",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300052",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300053",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300054",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300055",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300056",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300057",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300058",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300059",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300060",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300061",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300062",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300063",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300064",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300065",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300066",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300067",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300068",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300069",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300070",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300071",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300072",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300073",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300074",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300075",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300076",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300077",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300078",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300079",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300080",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300081",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300082",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300083",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300084",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300085",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300086",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300087",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300088",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300089",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300090",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300091",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300092",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300093",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300094",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300095",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300096",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300097",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300098",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300099",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300100",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300101",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300102",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300103",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300104",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300105",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300106",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300107",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300108",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300109",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300110",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300111",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300112",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300113",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300114",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300115",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300116",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300117",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300118",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300119",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300120",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300121",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300122",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300123",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300124",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300125",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300126",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300127",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300128",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300129",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300130",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300131",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300132",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300133",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300134",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300135",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300136",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300137",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300138",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300139",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300140",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300141",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300142",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300143",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300144",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300145",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300146",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300147",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300148",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300149",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300150",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300151",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300152",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300153",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300154",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300155",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300156",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300157",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300158",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300159",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300160",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300161",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300162",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300163",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300164",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300165",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300166",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300167",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300168",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300169",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300170",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300171",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300172",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300173",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300174",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300175",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300176",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300177",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300178",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300179",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300180",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300181",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300182",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300183",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300184",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300185",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300186",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300187",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300188",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300189",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300190",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300191",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300192",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300193",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300194",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300195",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300196",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300197",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300198",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300199",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300200",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300201",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300202",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300203",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300204",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300205",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300206",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300207",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300208",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300209",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300210",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300211",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300212",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300213",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300214",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300215",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300216",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300217",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300218",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300219",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300220",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300221",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300222",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300223",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300224",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300225",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300226",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300227",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300228",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300229",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300230",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300231",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300232",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300233",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300234",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300235",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300236",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300237",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300238",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300239",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300240",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300241",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300242",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300243",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300244",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300245",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300246",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300247",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300248",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300249",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300250",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300251",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300252",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300253",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300254",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300255",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300256",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300257",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "300258",
+    "brand": "DISCOVER",
+    "type": "CREDIT",
+    "category": "BUSINESS CARD",
+    "issuer": "DINERS CLUB INTERNATIONAL",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  }
+]

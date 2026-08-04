@@ -1,0 +1,6862 @@
+[
+  {
+    "bin": "455059",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "BANQUE POUR LE COMMERCE ET lanDUSTRIE MER ROUGE",
+    "alpha_2": "DJ",
+    "alpha_3": "DJI",
+    "country": "Djibouti"
+  },
+  {
+    "bin": "455060",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "BANQUE MALGACHE DE LOCEAN INDIEN",
+    "alpha_2": "MG",
+    "alpha_3": "MDG",
+    "country": "Madagascar"
+  },
+  {
+    "bin": "455061",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "CREDIT ANDORRA, S.A.",
+    "alpha_2": "AD",
+    "alpha_3": "AND",
+    "country": "Andorra"
+  },
+  {
+    "bin": "455062",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ESBANK ESKISEHIR BANKASI T.A.S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "455063",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ESBANK ESKISEHIR BANKASI T.A.S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "455064",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ESBANK ESKISEHIR BANKASI T.A.S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "455065",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "ING BANK SLASKI, S.A.",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "455066",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ESBANK ESKISEHIR BANKASI T.A.S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "455067",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "PREMIER",
+    "issuer": "BURGAN BANK, S.A.K.",
+    "alpha_2": "KW",
+    "alpha_3": "KWT",
+    "country": "Kuwait"
+  },
+  {
+    "bin": "455068",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "BURGAN BANK, S.A.K.",
+    "alpha_2": "KW",
+    "alpha_3": "KWT",
+    "country": "Kuwait"
+  },
+  {
+    "bin": "455069",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "COMMONWEALTH BANK AND TRUST COMPANY",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455070",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "COMMONWEALTH BANK AND TRUST COMPANY",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455071",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "UNIPOL BANCA S.P.A.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "455072",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "UNIPOL BANCA S.P.A.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "455073",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "ALLIED IRISH BANKS PLC",
+    "alpha_2": "IE",
+    "alpha_3": "IRL",
+    "country": "Ireland"
+  },
+  {
+    "bin": "455074",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "NEDBANK, LTD.",
+    "alpha_2": "ZA",
+    "alpha_3": "ZAF",
+    "country": "South Africa"
+  },
+  {
+    "bin": "455075",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "PREMIER",
+    "issuer": "NEDBANK, LTD.",
+    "alpha_2": "ZA",
+    "alpha_3": "ZAF",
+    "country": "South Africa"
+  },
+  {
+    "bin": "455076",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "NEDBANK, LTD.",
+    "alpha_2": "ZA",
+    "alpha_3": "ZAF",
+    "country": "South Africa"
+  },
+  {
+    "bin": "455077",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "BUSINESS",
+    "issuer": "NEDBANK, LTD.",
+    "alpha_2": "ZA",
+    "alpha_3": "ZAF",
+    "country": "South Africa"
+  },
+  {
+    "bin": "455078",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "NEDBANK, LTD.",
+    "alpha_2": "ZA",
+    "alpha_3": "ZAF",
+    "country": "South Africa"
+  },
+  {
+    "bin": "455079",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "BUSINESS",
+    "issuer": "NEDBANK, LTD.",
+    "alpha_2": "ZA",
+    "alpha_3": "ZAF",
+    "country": "South Africa"
+  },
+  {
+    "bin": "455080",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "ING BANK SLASKI, S.A.",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "455081",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "BUSINESS",
+    "issuer": "KREDYT BANK, S.A.",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "455082",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "CAJA DE AHORROS DE MURCIA (CAJA MURCIA)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455083",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "CAJA DE AHORROS DE MURCIA (CAJA MURCIA)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455084",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455085",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455086",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BARCLAYS BANK OF ZAMBIA, LTD.",
+    "alpha_2": "ZM",
+    "alpha_3": "ZMB",
+    "country": "Zambia"
+  },
+  {
+    "bin": "455087",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO 21",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455088",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO 21",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455089",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "ARAB JORDAN INVESTMENT BANK",
+    "alpha_2": "JO",
+    "alpha_3": "JOR",
+    "country": "Jordan"
+  },
+  {
+    "bin": "455090",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "ARAB JORDAN INVESTMENT BANK",
+    "alpha_2": "JO",
+    "alpha_3": "JOR",
+    "country": "Jordan"
+  },
+  {
+    "bin": "455091",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "PREMIER",
+    "issuer": "ARAB JORDAN INVESTMENT BANK",
+    "alpha_2": "JO",
+    "alpha_3": "JOR",
+    "country": "Jordan"
+  },
+  {
+    "bin": "455092",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "ARAB BANKING CORPORATION (JORDAN)",
+    "alpha_2": "JO",
+    "alpha_3": "JOR",
+    "country": "Jordan"
+  },
+  {
+    "bin": "455093",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "ARAB BANKING CORPORATION (JORDAN)",
+    "alpha_2": "JO",
+    "alpha_3": "JOR",
+    "country": "Jordan"
+  },
+  {
+    "bin": "455094",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "VISA JORDAN CARD SERVICES",
+    "alpha_2": "JO",
+    "alpha_3": "JOR",
+    "country": "Jordan"
+  },
+  {
+    "bin": "455095",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "CAIRO AMMAN BANK",
+    "alpha_2": "JO",
+    "alpha_3": "JOR",
+    "country": "Jordan"
+  },
+  {
+    "bin": "455096",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "PREMIER",
+    "issuer": "CAIRO AMMAN BANK",
+    "alpha_2": "JO",
+    "alpha_3": "JOR",
+    "country": "Jordan"
+  },
+  {
+    "bin": "455097",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "CAIRO AMMAN BANK",
+    "alpha_2": "JO",
+    "alpha_3": "JOR",
+    "country": "Jordan"
+  },
+  {
+    "bin": "455098",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "CAIXA TARRAGONA (CAJA DE AHORROS PROVINCIAL DE TARRAGONA)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455099",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "CAIXA TARRAGONA (CAJA DE AHORROS PROVINCIAL DE TARRAGONA)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455100",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA COLOMBIA S.A. BBVA COLOMBIA",
+    "alpha_2": "CO",
+    "alpha_3": "COL",
+    "country": "Colombia"
+  },
+  {
+    "bin": "455101",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO CONTINENTAL",
+    "alpha_2": "PE",
+    "alpha_3": "PER",
+    "country": "Peru"
+  },
+  {
+    "bin": "455102",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO CONTINENTAL",
+    "alpha_2": "PE",
+    "alpha_3": "PER",
+    "country": "Peru"
+  },
+  {
+    "bin": "455103",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO CONTINENTAL",
+    "alpha_2": "PE",
+    "alpha_3": "PER",
+    "country": "Peru"
+  },
+  {
+    "bin": "455104",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CORPORATE T&E",
+    "issuer": "BANCO ITAU URUGUAY, S.A.",
+    "alpha_2": "UY",
+    "alpha_3": "URY",
+    "country": "Uruguay"
+  },
+  {
+    "bin": "455105",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "WELLS FARGO BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455106",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "BUSINESS",
+    "issuer": "FIRST NATIONAL BANK OF LA GRANGE",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455107",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO CONTINENTAL",
+    "alpha_2": "PE",
+    "alpha_3": "PER",
+    "country": "Peru"
+  },
+  {
+    "bin": "455108",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "PREPAID",
+    "issuer": "NORTH SHORE COMMUNITY BANK AND TRUST COMPANY",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455109",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "PREPAID",
+    "issuer": "LAKE FOREST BANK AND TRUST COMPANY",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455110",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "BANCO ITAU URUGUAY, S.A.",
+    "alpha_2": "UY",
+    "alpha_3": "URY",
+    "country": "Uruguay"
+  },
+  {
+    "bin": "455111",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "ROYAL BANK OF CANADA",
+    "alpha_2": "KY",
+    "alpha_3": "CYM",
+    "country": "Cayman Islands"
+  },
+  {
+    "bin": "455112",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "ROYAL BANK OF CANADA",
+    "alpha_2": "KY",
+    "alpha_3": "CYM",
+    "country": "Cayman Islands"
+  },
+  {
+    "bin": "455113",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO CONTINENTAL",
+    "alpha_2": "PE",
+    "alpha_3": "PER",
+    "country": "Peru"
+  },
+  {
+    "bin": "455114",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "TD BANK/GENERAL MOTORS CORPORATION",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455115",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "TD BANK/GENERAL MOTORS CORPORATION",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455116",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "TD BANK/GENERAL MOTORS CORPORATION",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455117",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "PREPAID",
+    "issuer": "lanE STAR NATIONAL BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455118",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "TD BANK/GENERAL MOTORS CORPORATION",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455119",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "TORONTO-DOMINION BANK",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455120",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "TORONTO-DOMINION BANK",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455121",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "TORONTO-DOMINION BANK",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455122",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "TORONTO-DOMINION BANK",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455123",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ACCESO, S.A.",
+    "alpha_2": "GT",
+    "alpha_3": "GTM",
+    "country": "Guatemala"
+  },
+  {
+    "bin": "455124",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD/PREM",
+    "issuer": "BANCO SUPERVIELLE, S.A.",
+    "alpha_2": "AR",
+    "alpha_3": "ARG",
+    "country": "Argentina"
+  },
+  {
+    "bin": "455125",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD/PREM",
+    "issuer": "BANCO SUPERVIELLE, S.A.",
+    "alpha_2": "AR",
+    "alpha_3": "ARG",
+    "country": "Argentina"
+  },
+  {
+    "bin": "455126",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ROYAL BANK OF CANADA",
+    "alpha_2": "BB",
+    "alpha_3": "BRB",
+    "country": "Barbados"
+  },
+  {
+    "bin": "455127",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO HSBC COLOMBIA, S.A.",
+    "alpha_2": "CO",
+    "alpha_3": "COL",
+    "country": "Colombia"
+  },
+  {
+    "bin": "455128",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA (DUPLICATED BID SEE 10021435)",
+    "alpha_2": "KY",
+    "alpha_3": "CYM",
+    "country": "Cayman Islands"
+  },
+  {
+    "bin": "455129",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO ATlanTIDA, S.A.",
+    "alpha_2": "HN",
+    "alpha_3": "HND",
+    "country": "Honduras"
+  },
+  {
+    "bin": "455130",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO ATlanTIDA, S.A.",
+    "alpha_2": "HN",
+    "alpha_3": "HND",
+    "country": "Honduras"
+  },
+  {
+    "bin": "455131",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "CONTINENTAL DE CREDITOS, S.A.",
+    "alpha_2": "GT",
+    "alpha_3": "GTM",
+    "country": "Guatemala"
+  },
+  {
+    "bin": "455132",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "CONTINENTAL DE CREDITOS, S.A.",
+    "alpha_2": "GT",
+    "alpha_3": "GTM",
+    "country": "Guatemala"
+  },
+  {
+    "bin": "455133",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "CONTINENTAL DE CREDITOS, S.A.",
+    "alpha_2": "GT",
+    "alpha_3": "GTM",
+    "country": "Guatemala"
+  },
+  {
+    "bin": "455134",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "NUEVO BANCO COMERCIAL, S.A.",
+    "alpha_2": "UY",
+    "alpha_3": "URY",
+    "country": "Uruguay"
+  },
+  {
+    "bin": "455135",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "GLOBAL BANK OF COMMERCE, LTD.",
+    "alpha_2": "AG",
+    "alpha_3": "ATG",
+    "country": "Antigua and Barbuda"
+  },
+  {
+    "bin": "455136",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "SWISS AMERICAN BANK",
+    "alpha_2": "AG",
+    "alpha_3": "ATG",
+    "country": "Antigua and Barbuda"
+  },
+  {
+    "bin": "455137",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "GLOBAL BANK OF COMMERCE, LTD.",
+    "alpha_2": "AG",
+    "alpha_3": "ATG",
+    "country": "Antigua and Barbuda"
+  },
+  {
+    "bin": "455138",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "SWISS AMERICAN BANK",
+    "alpha_2": "AG",
+    "alpha_3": "ATG",
+    "country": "Antigua and Barbuda"
+  },
+  {
+    "bin": "455139",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "SWISS AMERICAN BANK",
+    "alpha_2": "AG",
+    "alpha_3": "ATG",
+    "country": "Antigua and Barbuda"
+  },
+  {
+    "bin": "455140",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "EFG EUROBANK ERGASIAS, S.A.",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "455141",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD/PREM",
+    "issuer": "BANCO SUPERVIELLE, S.A.",
+    "alpha_2": "AR",
+    "alpha_3": "ARG",
+    "country": "Argentina"
+  },
+  {
+    "bin": "455142",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "BUSINESS",
+    "issuer": "CITIZENS NATIONAL BANK OF TEXAS",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455143",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "TD BANK/GENERAL MOTORS CORPORATION",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455144",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CORPORATE T&E",
+    "issuer": "POPULAR BANK LTD., INC.",
+    "alpha_2": "PA",
+    "alpha_3": "PAN",
+    "country": "Panama"
+  },
+  {
+    "bin": "455145",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ROIG COMMERCIAL BANK",
+    "alpha_2": "PR",
+    "alpha_3": "PRI",
+    "country": "Puerto Rico"
+  },
+  {
+    "bin": "455146",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "CITITARJETAS DE HONDURAS, S.A.",
+    "alpha_2": "HN",
+    "alpha_3": "HND",
+    "country": "Honduras"
+  },
+  {
+    "bin": "455147",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "VENTAS INTERNACIONALES, S.A. DE C.V.",
+    "alpha_2": "HN",
+    "alpha_3": "HND",
+    "country": "Honduras"
+  },
+  {
+    "bin": "455148",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "RIAS S.R.L. (BANCOMAT)",
+    "alpha_2": "UY",
+    "alpha_3": "URY",
+    "country": "Uruguay"
+  },
+  {
+    "bin": "455149",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "ABN AMRO BANK, N.V.",
+    "alpha_2": "CW",
+    "alpha_3": "CUW",
+    "country": "Curaçao"
+  },
+  {
+    "bin": "455150",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "TD BANK/GENERAL MOTORS CORPORATION",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455151",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "TD BANK/GENERAL MOTORS CORPORATION",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455152",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "AVAL CARD, S.A.",
+    "alpha_2": "NI",
+    "alpha_3": "NIC",
+    "country": "Nicaragua"
+  },
+  {
+    "bin": "455153",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO SANTANDER, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "455154",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "ROYAL BANK OF CANADA",
+    "alpha_2": "BS",
+    "alpha_3": "BHS",
+    "country": "Bahamas"
+  },
+  {
+    "bin": "455155",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ROYAL BANK OF CANADA",
+    "alpha_2": "BS",
+    "alpha_3": "BHS",
+    "country": "Bahamas"
+  },
+  {
+    "bin": "455156",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ROYAL BANK OF CANADA",
+    "alpha_2": "BS",
+    "alpha_3": "BHS",
+    "country": "Bahamas"
+  },
+  {
+    "bin": "455157",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "TD BANK/GENERAL MOTORS CORPORATION",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455158",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO ANDINO, S.A.",
+    "alpha_2": "CO",
+    "alpha_3": "COL",
+    "country": "Colombia"
+  },
+  {
+    "bin": "455159",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "PRIMER BANCO DEL ISTMO, S.A.",
+    "alpha_2": "PA",
+    "alpha_3": "PAN",
+    "country": "Panama"
+  },
+  {
+    "bin": "455160",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "HEALTHCARE SERVICES C.U.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455161",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO NACIONAL DE TRABAJADORES",
+    "alpha_2": "PY",
+    "alpha_3": "PRY",
+    "country": "Paraguay"
+  },
+  {
+    "bin": "455162",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "RBC ROYAL BANK (JAMAICA), LTD.",
+    "alpha_2": "JM",
+    "alpha_3": "JAM",
+    "country": "Jamaica"
+  },
+  {
+    "bin": "455163",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA (DUPLICATED BID SEE 10021435)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455164",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO SANTANDER, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "455165",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO SANTANDER, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "455166",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO DO ESTADO DE SAO PAULO",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "455167",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO SANTANDER, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "455168",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO SANTANDER, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "455169",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "BANCO SANTANDER, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "455170",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO CONTINENTAL",
+    "alpha_2": "PE",
+    "alpha_3": "PER",
+    "country": "Peru"
+  },
+  {
+    "bin": "455171",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "TD BANK/GENERAL MOTORS CORPORATION",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455172",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "TD BANK/GENERAL MOTORS CORPORATION",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455173",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "TD BANK/GENERAL MOTORS CORPORATION",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455174",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "TD BANK/GENERAL MOTORS CORPORATION",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455175",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO ITAU URUGUAY, S.A.",
+    "alpha_2": "UY",
+    "alpha_3": "URY",
+    "country": "Uruguay"
+  },
+  {
+    "bin": "455176",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO ITAU URUGUAY, S.A.",
+    "alpha_2": "UY",
+    "alpha_3": "URY",
+    "country": "Uruguay"
+  },
+  {
+    "bin": "455177",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO DEL PACIFICO, S.A.",
+    "alpha_2": "EC",
+    "alpha_3": "ECU",
+    "country": "Ecuador"
+  },
+  {
+    "bin": "455178",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO DEL PACIFICO, S.A.",
+    "alpha_2": "EC",
+    "alpha_3": "ECU",
+    "country": "Ecuador"
+  },
+  {
+    "bin": "455179",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO DEL PACIFICO, S.A.",
+    "alpha_2": "EC",
+    "alpha_3": "ECU",
+    "country": "Ecuador"
+  },
+  {
+    "bin": "455180",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "S.M.W. 104 F.C.U.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455181",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO BRADESCO CARTOES, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "455182",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO BRADESCO, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "455183",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO BRADESCO, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "455184",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO BRADESCO, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "455185",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "BANCO BRADESCO CARTOES, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "455186",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "BANCO BRADESCO, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "455187",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "BANCO BRADESCO, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "455188",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CORPORATE T&E",
+    "issuer": "BANCO BRADESCO CARTOES, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "455189",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO ITAU URUGUAY, S.A.",
+    "alpha_2": "UY",
+    "alpha_3": "URY",
+    "country": "Uruguay"
+  },
+  {
+    "bin": "455190",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "BUSINESS",
+    "issuer": "TEXAS STAR BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455191",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO BOLIVARIANO, C.A.",
+    "alpha_2": "EC",
+    "alpha_3": "ECU",
+    "country": "Ecuador"
+  },
+  {
+    "bin": "455192",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "EFG EUROBANK ERGASIAS, S.A.",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "455193",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD/PREM",
+    "issuer": "BANCO SUPERVIELLE, S.A.",
+    "alpha_2": "AR",
+    "alpha_3": "ARG",
+    "country": "Argentina"
+  },
+  {
+    "bin": "455194",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD/PREM",
+    "issuer": "BANCO SUPERVIELLE, S.A.",
+    "alpha_2": "AR",
+    "alpha_3": "ARG",
+    "country": "Argentina"
+  },
+  {
+    "bin": "455195",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD/PREM",
+    "issuer": "BANCO SUPERVIELLE, S.A.",
+    "alpha_2": "AR",
+    "alpha_3": "ARG",
+    "country": "Argentina"
+  },
+  {
+    "bin": "455196",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO SUPERVIELLE, S.A.",
+    "alpha_2": "AR",
+    "alpha_3": "ARG",
+    "country": "Argentina"
+  },
+  {
+    "bin": "455197",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD/PREM",
+    "issuer": "BANCO SUPERVIELLE, S.A.",
+    "alpha_2": "AR",
+    "alpha_3": "ARG",
+    "country": "Argentina"
+  },
+  {
+    "bin": "455198",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO SUPERVIELLE, S.A.",
+    "alpha_2": "AR",
+    "alpha_3": "ARG",
+    "country": "Argentina"
+  },
+  {
+    "bin": "455199",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO CREDITO AGRICOLA DE CARTAGO",
+    "alpha_2": "CR",
+    "alpha_3": "CRI",
+    "country": "Costa Rica"
+  },
+  {
+    "bin": "455200",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ABSA GROUP, LTD.",
+    "alpha_2": "ZA",
+    "alpha_3": "ZAF",
+    "country": "South Africa"
+  },
+  {
+    "bin": "455201",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO GANADERO",
+    "alpha_2": "CO",
+    "alpha_3": "COL",
+    "country": "Colombia"
+  },
+  {
+    "bin": "455202",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO ZARAGOZANO S.A. (BANZANO)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455203",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "BANCO ZARAGOZANO S.A. (BANZANO)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455204",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "MASHREQBANK",
+    "alpha_2": "AE",
+    "alpha_3": "ARE",
+    "country": "United Arab Emirates"
+  },
+  {
+    "bin": "455205",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "BANK OF AYUDHYA PUBLIC CO., LTD.",
+    "alpha_2": "TH",
+    "alpha_3": "THA",
+    "country": "Thailand"
+  },
+  {
+    "bin": "455206",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "CO-OPERATIVE BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455207",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "SANTANDER UK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455208",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "HSBC BANK MIDDLE EAST",
+    "alpha_2": "JO",
+    "alpha_3": "JOR",
+    "country": "Jordan"
+  },
+  {
+    "bin": "455209",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "ARAB BANK PLC",
+    "alpha_2": "MA",
+    "alpha_3": "MAR",
+    "country": "Morocco"
+  },
+  {
+    "bin": "455210",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO POPULAR ESPANOL, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455211",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "TRANSACCIONES UNIVERSALES, S.A.",
+    "alpha_2": "GT",
+    "alpha_3": "GTM",
+    "country": "Guatemala"
+  },
+  {
+    "bin": "455212",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO POPULAR ESPANOL, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455213",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "BANCO DE ANDALUCIA, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455214",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "CAJA DE AHORROS MUNICIPAL DE PAMPlanA",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455215",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO POPULAR ESPANOL, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455216",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ABSA GROUP, LTD.",
+    "alpha_2": "ZA",
+    "alpha_3": "ZAF",
+    "country": "South Africa"
+  },
+  {
+    "bin": "455217",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CAIXABANK S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455218",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA S.A. (BBVA)",
+    "alpha_2": "BE",
+    "alpha_3": "BEL",
+    "country": "Belgium"
+  },
+  {
+    "bin": "455219",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "SOCIETE GENERALE MAROCAINE DE BANQUES",
+    "alpha_2": "MA",
+    "alpha_3": "MAR",
+    "country": "Morocco"
+  },
+  {
+    "bin": "455220",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO NACIONAL DE MEXICO, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455221",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO PASTOR, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455222",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ROIG COMMERCIAL BANK",
+    "alpha_2": "PR",
+    "alpha_3": "PRI",
+    "country": "Puerto Rico"
+  },
+  {
+    "bin": "455223",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA S.A. (BBVA)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455224",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "CAIXA DESTALVIS DE MANRESA",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455225",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO DE GRANADA, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455226",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO GALLEGO, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455227",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "HONGKONG AND SHANGHAI BANKING CORP., LTD.",
+    "alpha_2": "SG",
+    "alpha_3": "SGP",
+    "country": "Singapore"
+  },
+  {
+    "bin": "455228",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "HONGKONG AND SHANGHAI BANKING CORP., LTD.",
+    "alpha_2": "SG",
+    "alpha_3": "SGP",
+    "country": "Singapore"
+  },
+  {
+    "bin": "455229",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO COMERCIAL PORTUGUES, S.A.",
+    "alpha_2": "PT",
+    "alpha_3": "PRT",
+    "country": "Portugal"
+  },
+  {
+    "bin": "455230",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO SANTANDER TOTTA, S.A.",
+    "alpha_2": "PT",
+    "alpha_3": "PRT",
+    "country": "Portugal"
+  },
+  {
+    "bin": "455231",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "PREMIER",
+    "issuer": "BANCO ESPIRITO SANTO, S.A.",
+    "alpha_2": "PT",
+    "alpha_3": "PRT",
+    "country": "Portugal"
+  },
+  {
+    "bin": "455232",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "DUNCAN LAWRIE, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455233",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BILBAO BIZKAIA KUTXA (BBK)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455234",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "VISA AUSTRIA",
+    "alpha_2": "AT",
+    "alpha_3": "AUT",
+    "country": "Austria"
+  },
+  {
+    "bin": "455235",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BOC CREDIT CARD (INTERNATIONAL), LTD.",
+    "alpha_2": "CN",
+    "alpha_3": "CHN",
+    "country": "China"
+  },
+  {
+    "bin": "455236",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "SOCIETE INTERBANK, S.A.",
+    "alpha_2": "MA",
+    "alpha_3": "MAR",
+    "country": "Morocco"
+  },
+  {
+    "bin": "455237",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "SANTANDER CONSUMER BANK AG",
+    "alpha_2": "DE",
+    "alpha_3": "DEU",
+    "country": "Germany"
+  },
+  {
+    "bin": "455238",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "SISTEMA 4B, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455239",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CAJA DE AHORROS DE CUENCA Y CIUDAD REAL",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455240",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANK OF VALLETTA P.L.C",
+    "alpha_2": "MT",
+    "alpha_3": "MLT",
+    "country": "Malta"
+  },
+  {
+    "bin": "455241",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "BANQUE MAROCAINE POUR LE COMMERCE ET lanDUSTRIE",
+    "alpha_2": "MA",
+    "alpha_3": "MAR",
+    "country": "Morocco"
+  },
+  {
+    "bin": "455242",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "OMAN INTERNATIONAL BANK S.A.O.",
+    "alpha_2": "OM",
+    "alpha_3": "OMN",
+    "country": "Oman"
+  },
+  {
+    "bin": "455243",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WORKERS SAVINGS AND LOAN BANK",
+    "alpha_2": "JM",
+    "alpha_3": "JAM",
+    "country": "Jamaica"
+  },
+  {
+    "bin": "455244",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "MASHREQBANK",
+    "alpha_2": "AE",
+    "alpha_3": "ARE",
+    "country": "United Arab Emirates"
+  },
+  {
+    "bin": "455245",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "CAJA DE AHORROS Y MONTE DE PIEDAD DE EXTREMADURA (CAJA DE EX",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455246",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "FINCONSUM E.F.C., S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455247",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "FINCONSUM E.F.C., S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455248",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "CAJA DE AHORROS DE GALICIA, VIGO, ORENSE Y PONTEVEDRA",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455249",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "HONGKONG AND SHANGHAI BANKING CORPORATION",
+    "alpha_2": "HK",
+    "alpha_3": "HKG",
+    "country": "Hong Kong"
+  },
+  {
+    "bin": "455250",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "BANCO SANTANDER TOTTA, S.A.",
+    "alpha_2": "PT",
+    "alpha_3": "PRT",
+    "country": "Portugal"
+  },
+  {
+    "bin": "455251",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "BANCAJA (CAJA DE AHORROS DE VAlanCIA, CASTELlan Y ALICANTE)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455252",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO DE CASTILLA-LA MANCHA, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455253",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "CAJA DE AHORROS Y MONTE DE PIEDAD DE EXTREMADURA (CAJA DE EX",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455254",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "CAJA DE AHORROS DE GALICIA, VIGO, ORENSE Y PONTEVEDRA",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455255",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "TARJETAS BANAMEX S.A. DE C.V. SOFOM ENTIDAD REGULADA",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455256",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "CREDIT DU MAROC, S.A.",
+    "alpha_2": "MA",
+    "alpha_3": "MAR",
+    "country": "Morocco"
+  },
+  {
+    "bin": "455257",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ARAB FINANCIAL SERVICES COMPANY",
+    "alpha_2": "BH",
+    "alpha_3": "BHR",
+    "country": "Bahrain"
+  },
+  {
+    "bin": "455258",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "ALPHA BANK",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "455259",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "CAJA DE ARQUITECTOS",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455260",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "CAJA DE ARQUITECTOS",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455261",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "MONTE DE PIEDAD Y CAJA DE AHORROS DE GUADALAJARA, HUELVA, JE",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455262",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "SKANDINAVISKA ENSKILDA BANKEN AB",
+    "alpha_2": "SE",
+    "alpha_3": "SWE",
+    "country": "Sweden"
+  },
+  {
+    "bin": "455263",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AIB BANK",
+    "alpha_2": "IE",
+    "alpha_3": "IRL",
+    "country": "Ireland"
+  },
+  {
+    "bin": "455264",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO DE LA PRODUCCION, S.A.",
+    "alpha_2": "NI",
+    "alpha_3": "NIC",
+    "country": "Nicaragua"
+  },
+  {
+    "bin": "455265",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "TECNICARD, INC.",
+    "alpha_2": "CR",
+    "alpha_3": "CRI",
+    "country": "Costa Rica"
+  },
+  {
+    "bin": "455266",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "DEMIRBANK T.A.S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "455267",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO DE CASTILLA-LA MANCHA, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455268",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COOPERATIVE BANK",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455269",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO DE LA PRODUCCION, S.A.",
+    "alpha_2": "NI",
+    "alpha_3": "NIC",
+    "country": "Nicaragua"
+  },
+  {
+    "bin": "455270",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO DE LA PRODUCCION, S.A.",
+    "alpha_2": "NI",
+    "alpha_3": "NIC",
+    "country": "Nicaragua"
+  },
+  {
+    "bin": "455271",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANK OF EAST ASIA, LTD.",
+    "alpha_2": "HK",
+    "alpha_3": "HKG",
+    "country": "Hong Kong"
+  },
+  {
+    "bin": "455272",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANK OF EAST ASIA, LTD.",
+    "alpha_2": "HK",
+    "alpha_3": "HKG",
+    "country": "Hong Kong"
+  },
+  {
+    "bin": "455273",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANK OF CYPRUS (lanDON), LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455274",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "COlanYA - CAIXA DE POLlanSA (CAJA DE AHORROS DE POLlanCA)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455275",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA (DUPLICATED BID SEE 10021435)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455276",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO COOPERATIVO ESPANOL, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455277",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "ARAB FINANCIAL SERVICES COMPANY",
+    "alpha_2": "BH",
+    "alpha_3": "BHR",
+    "country": "Bahrain"
+  },
+  {
+    "bin": "455278",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COOPERATIVE BANK",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455279",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "DUNCAN LAWRIE, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455280",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "DUNCAN LAWRIE, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455281",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "DUNCAN LAWRIE, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455282",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "CREDIT DU MAROC, S.A.",
+    "alpha_2": "MA",
+    "alpha_3": "MAR",
+    "country": "Morocco"
+  },
+  {
+    "bin": "455283",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "CREDIT ANDORRA",
+    "alpha_2": "AD",
+    "alpha_3": "AND",
+    "country": "Andorra"
+  },
+  {
+    "bin": "455284",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO DE AMERICA CENTRAL",
+    "alpha_2": "NI",
+    "alpha_3": "NIC",
+    "country": "Nicaragua"
+  },
+  {
+    "bin": "455285",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "BANCO DE AMERICA CENTRAL",
+    "alpha_2": "NI",
+    "alpha_3": "NIC",
+    "country": "Nicaragua"
+  },
+  {
+    "bin": "455286",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "ALTAE BANCO, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455287",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANK OF AYUDHYA PUBLIC CO., LTD.",
+    "alpha_2": "TH",
+    "alpha_3": "THA",
+    "country": "Thailand"
+  },
+  {
+    "bin": "455288",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "SISTEMA 4B, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455289",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO DE FOMENTO, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455290",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO ESPIRITO SANTO, S.A.",
+    "alpha_2": "PT",
+    "alpha_3": "PRT",
+    "country": "Portugal"
+  },
+  {
+    "bin": "455291",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO DEL ESTADO, S.A.",
+    "alpha_2": "CO",
+    "alpha_3": "COL",
+    "country": "Colombia"
+  },
+  {
+    "bin": "455292",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO INTERNACIONAL DE CREDITO, SARL",
+    "alpha_2": "PT",
+    "alpha_3": "PRT",
+    "country": "Portugal"
+  },
+  {
+    "bin": "455293",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANK OF AYUDHYA PUBLIC CO., LTD.",
+    "alpha_2": "TH",
+    "alpha_3": "THA",
+    "country": "Thailand"
+  },
+  {
+    "bin": "455294",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "CREDIT IMMOBILIER ET HOTELIER",
+    "alpha_2": "MA",
+    "alpha_3": "MAR",
+    "country": "Morocco"
+  },
+  {
+    "bin": "455295",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "OVERSEAS UNION BANK, LTD.",
+    "alpha_2": "SG",
+    "alpha_3": "SGP",
+    "country": "Singapore"
+  },
+  {
+    "bin": "455296",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANK OF AYUDHYA PUBLIC CO., LTD.",
+    "alpha_2": "TH",
+    "alpha_3": "THA",
+    "country": "Thailand"
+  },
+  {
+    "bin": "455297",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "BANCO COOPERATIVO ESPANOL, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455298",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COOPERATIVE BANK",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455299",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "MBNA EUROPE BANK, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455300",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PURCHASING",
+    "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA S.A. (BBVA)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455301",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "PURCHASING",
+    "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA S.A. (BBVA)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455302",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BC CARD CO., LTD.",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455303",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BC CARD CO., LTD.",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455304",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "SERVICES C.U.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455305",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "COLUMBUS BANK AND TRUST COMPANY",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455306",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "KOOKMIN BANK",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455307",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "COLUMBUS BANK AND TRUST COMPANY",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455308",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "GRIFFlanD COMMUNITY F.C.U.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455309",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "HELM BANK, S.A.",
+    "alpha_2": "CO",
+    "alpha_3": "COL",
+    "country": "Colombia"
+  },
+  {
+    "bin": "455310",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "SAUDI BRITISH BANK",
+    "alpha_2": "SA",
+    "alpha_3": "SAU",
+    "country": "Saudi Arabia"
+  },
+  {
+    "bin": "455311",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BC CARD CO., LTD.",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455312",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "BC CARD CO., LTD.",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455313",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "PARAMOUNT BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455314",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "lanDMARK BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455315",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "FIRST FINANCIAL BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455316",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CREDICORP BANK, S.A.",
+    "alpha_2": "PA",
+    "alpha_3": "PAN",
+    "country": "Panama"
+  },
+  {
+    "bin": "455317",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ARUBA BANK, N.V.",
+    "alpha_2": "AW",
+    "alpha_3": "ABW",
+    "country": "Aruba"
+  },
+  {
+    "bin": "455318",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "CARD SERVICES FOR CREDIT UNIONS, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455319",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WING HANG BANK, LTD.",
+    "alpha_2": "HK",
+    "alpha_3": "HKG",
+    "country": "Hong Kong"
+  },
+  {
+    "bin": "455320",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BC CARD CO., LTD.",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455321",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "BC CARD CO., LTD.",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455322",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "BC CARD CO., LTD.",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455323",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BC CARD CO., LTD.",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455324",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "BC CARD CO., LTD.",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455325",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BC CARD CO., LTD.",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455326",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "BANCO DE COSTA RICA",
+    "alpha_2": "CR",
+    "alpha_3": "CRI",
+    "country": "Costa Rica"
+  },
+  {
+    "bin": "455327",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BC CARD CO., LTD.",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455328",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "BANESCO, S.A.",
+    "alpha_2": "PA",
+    "alpha_3": "PAN",
+    "country": "Panama"
+  },
+  {
+    "bin": "455329",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WING HANG BANK, LTD.",
+    "alpha_2": "HK",
+    "alpha_3": "HKG",
+    "country": "Hong Kong"
+  },
+  {
+    "bin": "455330",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "BANCA NAZIONALE DEL LAVORO, S.A.",
+    "alpha_2": "AR",
+    "alpha_3": "ARG",
+    "country": "Argentina"
+  },
+  {
+    "bin": "455331",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BC CARD CO., LTD.",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455332",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "BC CARD CO., LTD.",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455333",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "BC CARD CO., LTD.",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455334",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "BANCO FEDERAL, C.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455335",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WING HANG BANK, LTD.",
+    "alpha_2": "HK",
+    "alpha_3": "HKG",
+    "country": "Hong Kong"
+  },
+  {
+    "bin": "455336",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "BC CARD CO., LTD.",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455337",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AVAL CARD (COSTA RICA), S.A.",
+    "alpha_2": "CR",
+    "alpha_3": "CRI",
+    "country": "Costa Rica"
+  },
+  {
+    "bin": "455338",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "HOCKING VALLEY BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455339",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BC CARD CO., LTD.",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455340",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "SAUDI BRITISH BANK",
+    "alpha_2": "SA",
+    "alpha_3": "SAU",
+    "country": "Saudi Arabia"
+  },
+  {
+    "bin": "455341",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "VISA NORGE A/S",
+    "alpha_2": "NO",
+    "alpha_3": "NOR",
+    "country": "Norway"
+  },
+  {
+    "bin": "455342",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "CORP BANCA",
+    "alpha_2": "CL",
+    "alpha_3": "CHL",
+    "country": "Chile"
+  },
+  {
+    "bin": "455343",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WING HANG BANK, LTD.",
+    "alpha_2": "HK",
+    "alpha_3": "HKG",
+    "country": "Hong Kong"
+  },
+  {
+    "bin": "455344",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "UNITED OVERSEAS BANK (MALAYSIA) BHD",
+    "alpha_2": "MY",
+    "alpha_3": "MYS",
+    "country": "Malaysia"
+  },
+  {
+    "bin": "455345",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO DE VITORIA, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455346",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "BANCO DESARROLLO ECONOMICO ESPANOL (BANDESCO)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455347",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO DESARROLLO ECONOMICO ESPANOL (BANDESCO)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455348",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "RBC ROYAL BANK (JAMAICA), LTD.",
+    "alpha_2": "JM",
+    "alpha_3": "JAM",
+    "country": "Jamaica"
+  },
+  {
+    "bin": "455349",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "HSBC BANK ARGENTINA, S.A.",
+    "alpha_2": "AR",
+    "alpha_3": "ARG",
+    "country": "Argentina"
+  },
+  {
+    "bin": "455350",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO WENG HANG, S.A.",
+    "alpha_2": "MO",
+    "alpha_3": "MAC",
+    "country": "MACAU"
+  },
+  {
+    "bin": "455351",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO WENG HANG, S.A.",
+    "alpha_2": "MO",
+    "alpha_3": "MAC",
+    "country": "MACAU"
+  },
+  {
+    "bin": "455352",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "WING HANG BANK, LTD.",
+    "alpha_2": "HK",
+    "alpha_3": "HKG",
+    "country": "Hong Kong"
+  },
+  {
+    "bin": "455353",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "WING HANG BANK, LTD.",
+    "alpha_2": "HK",
+    "alpha_3": "HKG",
+    "country": "Hong Kong"
+  },
+  {
+    "bin": "455354",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "BUSINESS",
+    "issuer": "ALLEGACY F.C.U.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455355",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "ALLEGACY F.C.U.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455356",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "BUSINESS",
+    "issuer": "MKB BANK ZRT.",
+    "alpha_2": "HU",
+    "alpha_3": "HUN",
+    "country": "Hungary"
+  },
+  {
+    "bin": "455357",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "PUBLIC BANK BERHAD",
+    "alpha_2": "MY",
+    "alpha_3": "MYS",
+    "country": "Malaysia"
+  },
+  {
+    "bin": "455358",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "PUBLIC BANK BERHAD",
+    "alpha_2": "MY",
+    "alpha_3": "MYS",
+    "country": "Malaysia"
+  },
+  {
+    "bin": "455359",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "YAPI VE KREDI BANKASI, A.S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "455360",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "PREMIER",
+    "issuer": "YAPI VE KREDI BANKASI, A.S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "455361",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "BANCO DE VITORIA, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455362",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO DE GRANADA, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455363",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CITIBANK ESPANA, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455364",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "EMIRATES NBD BANK (P.J.S.C.)",
+    "alpha_2": "AE",
+    "alpha_3": "ARE",
+    "country": "United Arab Emirates"
+  },
+  {
+    "bin": "455365",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "NATIONAL BANK OF DUBAI PUBLIC JSC",
+    "alpha_2": "AE",
+    "alpha_3": "ARE",
+    "country": "United Arab Emirates"
+  },
+  {
+    "bin": "455366",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "BANCO COOPERATIVO ESPANOL, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455367",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "CREDICARD, S.A.",
+    "alpha_2": "NI",
+    "alpha_3": "NIC",
+    "country": "Nicaragua"
+  },
+  {
+    "bin": "455368",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CREDICARD, S.A.",
+    "alpha_2": "NI",
+    "alpha_3": "NIC",
+    "country": "Nicaragua"
+  },
+  {
+    "bin": "455369",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "CREDICARD, S.A.",
+    "alpha_2": "NI",
+    "alpha_3": "NIC",
+    "country": "Nicaragua"
+  },
+  {
+    "bin": "455370",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "BANCO DAVIVIENDA, S.A.",
+    "alpha_2": "CO",
+    "alpha_3": "COL",
+    "country": "Colombia"
+  },
+  {
+    "bin": "455371",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "GRANBANCO, S.A.",
+    "alpha_2": "CO",
+    "alpha_3": "COL",
+    "country": "Colombia"
+  },
+  {
+    "bin": "455372",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "UNITED OVERSEAS BANK, LTD.",
+    "alpha_2": "VN",
+    "alpha_3": "VNM",
+    "country": "Vietnam"
+  },
+  {
+    "bin": "455373",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CORPORATE T&E",
+    "issuer": "ALLIED IRISH BANKS PLC",
+    "alpha_2": "IE",
+    "alpha_3": "IRL",
+    "country": "Ireland"
+  },
+  {
+    "bin": "455374",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "METROBAN, S.A.",
+    "alpha_2": "CR",
+    "alpha_3": "CRI",
+    "country": "Costa Rica"
+  },
+  {
+    "bin": "455375",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO BILBAO VIZCAYA ARGENTARIA (DUPLICATED BID SEE 10021435)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455376",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "BANCO COOPERATIVO ESPANOL, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455377",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "HONGKONG AND SHANGHAI BANKING CORP., LTD.",
+    "alpha_2": "CN",
+    "alpha_3": "CHN",
+    "country": "China"
+  },
+  {
+    "bin": "455378",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "HONGKONG AND SHANGHAI BANKING CORP., LTD.",
+    "alpha_2": "CN",
+    "alpha_3": "CHN",
+    "country": "China"
+  },
+  {
+    "bin": "455379",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANK MELLI IRAN",
+    "alpha_2": "IR",
+    "alpha_3": "IRN",
+    "country": "IRAN"
+  },
+  {
+    "bin": "455380",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO BANEX, S.A.",
+    "alpha_2": "CR",
+    "alpha_3": "CRI",
+    "country": "Costa Rica"
+  },
+  {
+    "bin": "455381",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "ARAB BANKING CORPORATION (JORDAN)",
+    "alpha_2": "JO",
+    "alpha_3": "JOR",
+    "country": "Jordan"
+  },
+  {
+    "bin": "455382",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "SERVIRED, SOCIEDAD ESPANOLA DE MEDIOS DE PAGO, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455383",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "SERVIRED, SOCIEDAD ESPANOLA DE MEDIOS DE PAGO, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455384",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "SISTEMA 4B, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455385",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCA PUEYO",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455386",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "DELAWARE PLACE BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455387",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WING HANG BANK, LTD.",
+    "alpha_2": "HK",
+    "alpha_3": "HKG",
+    "country": "Hong Kong"
+  },
+  {
+    "bin": "455388",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "PUBLIC BANK BERHAD",
+    "alpha_2": "MY",
+    "alpha_3": "MYS",
+    "country": "Malaysia"
+  },
+  {
+    "bin": "455389",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "SAUDI BRITISH BANK",
+    "alpha_2": "SA",
+    "alpha_3": "SAU",
+    "country": "Saudi Arabia"
+  },
+  {
+    "bin": "455390",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CORPORATE T&E",
+    "issuer": "CITIBANK",
+    "alpha_2": "IN",
+    "alpha_3": "IND",
+    "country": "India"
+  },
+  {
+    "bin": "455391",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "HSBC BANK MIDDLE EAST",
+    "alpha_2": "QA",
+    "alpha_3": "QAT",
+    "country": "Qatar"
+  },
+  {
+    "bin": "455392",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BRITISH BANK OF THE MIDDLE EAST",
+    "alpha_2": "OM",
+    "alpha_3": "OMN",
+    "country": "Oman"
+  },
+  {
+    "bin": "455393",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "HSBC BANK MIDDLE EAST",
+    "alpha_2": "BH",
+    "alpha_3": "BHR",
+    "country": "Bahrain"
+  },
+  {
+    "bin": "455394",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BRITISH BANK OF THE MIDDLE EAST",
+    "alpha_2": "AE",
+    "alpha_3": "ARE",
+    "country": "United Arab Emirates"
+  },
+  {
+    "bin": "455395",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BAYERISCHE lanDESBANK",
+    "alpha_2": "DE",
+    "alpha_3": "DEU",
+    "country": "Germany"
+  },
+  {
+    "bin": "455396",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "HANA BANK",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455397",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "HANA BANK",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455398",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WING HANG BANK, LTD.",
+    "alpha_2": "HK",
+    "alpha_3": "HKG",
+    "country": "Hong Kong"
+  },
+  {
+    "bin": "455399",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WING HANG BANK, LTD.",
+    "alpha_2": "HK",
+    "alpha_3": "HKG",
+    "country": "Hong Kong"
+  },
+  {
+    "bin": "455400",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "BANK OF TENNESSEE",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455401",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "WELLS FARGO BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455402",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "WELLS FARGO BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455403",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "WELLS FARGO BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455404",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "WELLS FARGO BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455405",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "TERRABANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455406",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "BUSINESS",
+    "issuer": "WELLS FARGO BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455407",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "WELLS FARGO BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455408",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "WELLS FARGO BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455409",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "WELLS FARGO BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455410",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "WELLS FARGO BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455411",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "WELLS FARGO BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455412",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "WELLS FARGO BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455413",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "WELLS FARGO BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455414",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "WELLS FARGO BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455415",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "WELLS FARGO BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455416",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455417",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "WELLS FARGO BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455418",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "WELLS FARGO BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455419",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "WELLS FARGO BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455420",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BC CARD CO., LTD.",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455421",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455422",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455423",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455424",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455425",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455426",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455427",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "BUSINESS",
+    "issuer": "INDUE, LTD.",
+    "alpha_2": "AU",
+    "alpha_3": "AUS",
+    "country": "Australia"
+  },
+  {
+    "bin": "455428",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455429",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455430",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455431",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455432",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455433",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455434",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CORPORATE T&E",
+    "issuer": "CITIBANK TAIWAN, LTD.",
+    "alpha_2": "TW",
+    "alpha_3": "TWN",
+    "country": "Taiwan"
+  },
+  {
+    "bin": "455435",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455436",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455437",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "KOREA EXCHANGE BANK",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "455438",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "TRAVEL MONEY",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "AU",
+    "alpha_3": "AUS",
+    "country": "Australia"
+  },
+  {
+    "bin": "455439",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "AU",
+    "alpha_3": "AUS",
+    "country": "Australia"
+  },
+  {
+    "bin": "455440",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "AU",
+    "alpha_3": "AUS",
+    "country": "Australia"
+  },
+  {
+    "bin": "455441",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455442",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455443",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455444",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455445",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "STANDARD CHARTERED BANK",
+    "alpha_2": "BD",
+    "alpha_3": "BGD",
+    "country": "Bangladesh"
+  },
+  {
+    "bin": "455446",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "PLATINUM",
+    "issuer": "ICICI BANK, LTD.",
+    "alpha_2": "IN",
+    "alpha_3": "IND",
+    "country": "India"
+  },
+  {
+    "bin": "455447",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455448",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455449",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455450",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455451",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "PLATINUM",
+    "issuer": "ICICI BANK, LTD.",
+    "alpha_2": "IN",
+    "alpha_3": "IND",
+    "country": "India"
+  },
+  {
+    "bin": "455452",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "ICICI BANK, LTD.",
+    "alpha_2": "IN",
+    "alpha_3": "IND",
+    "country": "India"
+  },
+  {
+    "bin": "455453",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "VIETNAM TECHNOLOGICAL AND COMMERCIAL JSB",
+    "alpha_2": "VN",
+    "alpha_3": "VNM",
+    "country": "Vietnam"
+  },
+  {
+    "bin": "455454",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "STATE BANK OF INDIA",
+    "alpha_2": "IN",
+    "alpha_3": "IND",
+    "country": "India"
+  },
+  {
+    "bin": "455455",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "LUKAS BANK SWIETOKRZYSKI, S.A.",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "455456",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455457",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455458",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455459",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455460",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455461",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455462",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455463",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455464",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455465",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455466",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455467",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455468",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455469",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455470",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455471",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455472",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455473",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455474",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455475",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455476",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455477",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455478",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455479",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "455480",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455481",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455482",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455483",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455484",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455485",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455486",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455487",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455488",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455489",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455490",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455491",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455492",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANK OF KANSAS CITY",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455493",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455494",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455495",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455496",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455497",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455498",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455499",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "455500",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455501",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455502",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455503",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455504",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "INFINITE",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455505",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455506",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455507",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455508",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455509",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "PREMIER",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455510",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455511",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "BUSINESS",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455512",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455513",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455514",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455515",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CORPORATE T&E",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455516",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455517",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PURCHASING",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455518",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PURCHASING",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455519",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455520",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455521",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455522",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455523",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455524",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455525",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455526",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455527",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455528",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455529",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455530",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455531",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455532",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455533",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455534",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455535",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455536",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455537",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455538",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455539",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455540",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455541",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455542",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455543",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455544",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455545",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455546",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455547",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "COOPERATIVE BANK",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455548",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455549",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455550",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BBVA BANCOMER, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455551",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CAJA DE AHORROS DEL MEDITERRANEO",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455552",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO DEL AZUAY",
+    "alpha_2": "EC",
+    "alpha_3": "ECU",
+    "country": "Ecuador"
+  },
+  {
+    "bin": "455553",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO DEL AZUAY",
+    "alpha_2": "EC",
+    "alpha_3": "ECU",
+    "country": "Ecuador"
+  },
+  {
+    "bin": "455554",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "DEUTSCHE BANK PRIVAT- UND GESCHAEFTSKUNDEN AG",
+    "alpha_2": "DE",
+    "alpha_3": "DEU",
+    "country": "Germany"
+  },
+  {
+    "bin": "455555",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "GE MONEY BANK",
+    "alpha_2": "DE",
+    "alpha_3": "DEU",
+    "country": "Germany"
+  },
+  {
+    "bin": "455556",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "FIlanBANCO, S.A.",
+    "alpha_2": "EC",
+    "alpha_3": "ECU",
+    "country": "Ecuador"
+  },
+  {
+    "bin": "455557",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "COOPERATIVE BANK",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455558",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "COOPERATIVE BANK",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455559",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANK OF CEYlan",
+    "alpha_2": "LK",
+    "alpha_3": "LKA",
+    "country": "Sri lanka"
+  },
+  {
+    "bin": "455560",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANK OF CEYlan",
+    "alpha_2": "LK",
+    "alpha_3": "LKA",
+    "country": "Sri lanka"
+  },
+  {
+    "bin": "455561",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCA NAZIONALE DEL LAVORO S.P.A.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "455562",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "BANQUE CENTRALE POPULAIRE",
+    "alpha_2": "MA",
+    "alpha_3": "MAR",
+    "country": "Morocco"
+  },
+  {
+    "bin": "455563",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "AMEN BANK",
+    "alpha_2": "TN",
+    "alpha_3": "TUN",
+    "country": "Tunisia"
+  },
+  {
+    "bin": "455564",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "PREMIER",
+    "issuer": "AMEN BANK",
+    "alpha_2": "TN",
+    "alpha_3": "TUN",
+    "country": "Tunisia"
+  },
+  {
+    "bin": "455565",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "COOPERATIVE BANK",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455566",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "TURKIYE GARANTI BANKASI A. S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "455567",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "TURKIYE GARANTI BANKASI A. S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "455568",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "TURKIYE GARANTI BANKASI A. S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "455569",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "TURKIYE GARANTI BANKASI A. S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "455570",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "OYAK BANK, A.S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "455571",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "ING BANK, A.S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "455572",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "CO-OPERATIVE BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455573",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO SANTANDER TOTTA, S.A.",
+    "alpha_2": "PT",
+    "alpha_3": "PRT",
+    "country": "Portugal"
+  },
+  {
+    "bin": "455574",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCA NAZIONALE DEL LAVORO S.P.A.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "455575",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "PREMIER",
+    "issuer": "BANCO INTERNACIONAL DO FUNCHAL S.A. (BANIF)",
+    "alpha_2": "PT",
+    "alpha_3": "PRT",
+    "country": "Portugal"
+  },
+  {
+    "bin": "455576",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "PREMIER",
+    "issuer": "BANCO ESPIRITO SANTO, S.A.",
+    "alpha_2": "PT",
+    "alpha_3": "PRT",
+    "country": "Portugal"
+  },
+  {
+    "bin": "455577",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO ESPIRITO SANTO, S.A.",
+    "alpha_2": "PT",
+    "alpha_3": "PRT",
+    "country": "Portugal"
+  },
+  {
+    "bin": "455578",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "lanDESBANK BERlan AG",
+    "alpha_2": "DE",
+    "alpha_3": "DEU",
+    "country": "Germany"
+  },
+  {
+    "bin": "455579",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "lanDESBANK BERlan AG",
+    "alpha_2": "DE",
+    "alpha_3": "DEU",
+    "country": "Germany"
+  },
+  {
+    "bin": "455580",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANK 1 SAAR EG",
+    "alpha_2": "DE",
+    "alpha_3": "DEU",
+    "country": "Germany"
+  },
+  {
+    "bin": "455581",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "UNION BANCAIRE POUR LE COMMERCE ET lanDUSTRIE",
+    "alpha_2": "TN",
+    "alpha_3": "TUN",
+    "country": "Tunisia"
+  },
+  {
+    "bin": "455582",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "UNION BANCAIRE POUR LE COMMERCE ET lanDUSTRIE",
+    "alpha_2": "TN",
+    "alpha_3": "TUN",
+    "country": "Tunisia"
+  },
+  {
+    "bin": "455583",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "COOPERATIVE BANK",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455584",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "COOPERATIVE BANK",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455585",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "COOPERATIVE BANK",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455586",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "COOPERATIVE BANK",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455587",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "FIlanBANCO, S.A.",
+    "alpha_2": "EC",
+    "alpha_3": "ECU",
+    "country": "Ecuador"
+  },
+  {
+    "bin": "455588",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "PLATINUM",
+    "issuer": "UNITED BANK, LTD.",
+    "alpha_2": "PK",
+    "alpha_3": "PAK",
+    "country": "Pakistan"
+  },
+  {
+    "bin": "455589",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "COOPERATIVE BANK",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455590",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "NZ",
+    "alpha_3": "NZL",
+    "country": "New Zealand"
+  },
+  {
+    "bin": "455591",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "NZ",
+    "alpha_3": "NZL",
+    "country": "New Zealand"
+  },
+  {
+    "bin": "455592",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "BRANCH BANKING AND TRUST COMPANY",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455593",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "AMEN BANK",
+    "alpha_2": "TN",
+    "alpha_3": "TUN",
+    "country": "Tunisia"
+  },
+  {
+    "bin": "455594",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "LLOYDS BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455595",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "CITIBANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455596",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "CITIBANK",
+    "alpha_2": "TH",
+    "alpha_3": "THA",
+    "country": "Thailand"
+  },
+  {
+    "bin": "455597",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "POPULAR BANK LTD., INC.",
+    "alpha_2": "PA",
+    "alpha_3": "PAN",
+    "country": "Panama"
+  },
+  {
+    "bin": "455598",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PURCHASING",
+    "issuer": "HSBC BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455599",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO BANSUD, S.A.",
+    "alpha_2": "AR",
+    "alpha_3": "ARG",
+    "country": "Argentina"
+  },
+  {
+    "bin": "455600",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "SANTANDER CONSUMER BANK AG",
+    "alpha_2": "DE",
+    "alpha_3": "DEU",
+    "country": "Germany"
+  },
+  {
+    "bin": "455601",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "INTERNATIONAL CARD SERVICES BV",
+    "alpha_2": "NL",
+    "alpha_3": "NLD",
+    "country": "Netherlands"
+  },
+  {
+    "bin": "455602",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "MKB BANK ZRT.",
+    "alpha_2": "HU",
+    "alpha_3": "HUN",
+    "country": "Hungary"
+  },
+  {
+    "bin": "455603",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CITIBANK",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "455604",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CITIBANK",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "455605",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANK OF AMERICA N.T. AND, S.A.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455606",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "OVERSEAS UNION BANK, LTD.",
+    "alpha_2": "SG",
+    "alpha_3": "SGP",
+    "country": "Singapore"
+  },
+  {
+    "bin": "455607",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "PREPAID",
+    "issuer": "GREATER TEXAS F.C.U.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455608",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO CAPITAL, C.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455609",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO CAPITAL, C.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455610",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO CAPITAL, C.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455611",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO CAPITAL, C.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455612",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO DE VENEZUELA, S.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455613",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO DE VENEZUELA, S.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455614",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CORPORATE T&E",
+    "issuer": "BANCO DE VENEZUELA, S.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455615",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO DE VENEZUELA, S.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455616",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "BUSINESS",
+    "issuer": "ITS BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455617",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "SCOTIABANK INVERLAT, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "455618",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "BANK OF AMERICA N.T. AND, S.A.",
+    "alpha_2": "NL",
+    "alpha_3": "NLD",
+    "country": "Netherlands"
+  },
+  {
+    "bin": "455619",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANK OF AMERICA N.T. AND, S.A.",
+    "alpha_2": "NL",
+    "alpha_3": "NLD",
+    "country": "Netherlands"
+  },
+  {
+    "bin": "455620",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "SANTANDER CONSUMER BANK AG",
+    "alpha_2": "DE",
+    "alpha_3": "DEU",
+    "country": "Germany"
+  },
+  {
+    "bin": "455621",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "DBS BANK, LTD.",
+    "alpha_2": "SG",
+    "alpha_3": "SGP",
+    "country": "Singapore"
+  },
+  {
+    "bin": "455622",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "DBS BANK, LTD.",
+    "alpha_2": "SG",
+    "alpha_3": "SGP",
+    "country": "Singapore"
+  },
+  {
+    "bin": "455623",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "NEW YORK COMMERCIAL BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455624",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "BUSINESS",
+    "issuer": "NEW YORK COMMERCIAL BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455625",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "UNIBANCO - UNIAO DE BANCOS BRASILEIROS, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "455626",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "UNIBANCO - UNIAO DE BANCOS BRASILEIROS, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "455627",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO DE VENEZUELA, S.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455628",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CITIBANK",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "455629",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CITIBANK",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "455630",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO DE VENEZUELA, S.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455631",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO DE VENEZUELA, S.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455632",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "PT. BANK CENTRAL ASIA TBK",
+    "alpha_2": "ID",
+    "alpha_3": "IDN",
+    "country": "Indonesia"
+  },
+  {
+    "bin": "455633",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "PT. BANK CENTRAL ASIA TBK",
+    "alpha_2": "ID",
+    "alpha_3": "IDN",
+    "country": "Indonesia"
+  },
+  {
+    "bin": "455634",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CITIBANK",
+    "alpha_2": "TW",
+    "alpha_3": "TWN",
+    "country": "Taiwan"
+  },
+  {
+    "bin": "455635",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO REGIONAL DE CUYO",
+    "alpha_2": "AR",
+    "alpha_3": "ARG",
+    "country": "Argentina"
+  },
+  {
+    "bin": "455636",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO REGIONAL DE CUYO",
+    "alpha_2": "AR",
+    "alpha_3": "ARG",
+    "country": "Argentina"
+  },
+  {
+    "bin": "455637",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO REGIONAL DE CUYO",
+    "alpha_2": "AR",
+    "alpha_3": "ARG",
+    "country": "Argentina"
+  },
+  {
+    "bin": "455638",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CITIBANK",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "455639",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CITIBANK",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "455640",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO MERCANTIL, S.A.C.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455641",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO MERCANTIL, S.A.C.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455642",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO CAIXA GERAL, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455643",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "CITIBANK INTERNATIONAL PLC",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "455644",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "CITIBANK INTERNATIONAL PLC",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "455645",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "TURK EKONOMI BANKASI, A.S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "455646",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "BARCLAYS BANK, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455647",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANK OF SCOTlanD PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455648",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "MKB BANK ZRT.",
+    "alpha_2": "HU",
+    "alpha_3": "HUN",
+    "country": "Hungary"
+  },
+  {
+    "bin": "455649",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO LUSO ESPANOL",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455650",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "ITS BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455651",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "MONTE DE PIEDAD Y CAJA DE AHORROS DE RONDA, CADIZ, ALMERIA,",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455652",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "INTERBANK, A.S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "455653",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "MBNA EUROPE BANK, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "455654",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "CAIXA TARRAGONA (CAJA DE AHORROS PROVINCIAL DE TARRAGONA)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455655",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "CAIXA TARRAGONA (CAJA DE AHORROS PROVINCIAL DE TARRAGONA)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455656",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "CAJA PROVINCIAL DE AHORROS DE GRANADA",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455657",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "CAIXA ECONOMICA MONTEPIO GERAL",
+    "alpha_2": "PT",
+    "alpha_3": "PRT",
+    "country": "Portugal"
+  },
+  {
+    "bin": "455658",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "BANCO COMERCIAL PORTUGUES, S.A.",
+    "alpha_2": "PT",
+    "alpha_3": "PRT",
+    "country": "Portugal"
+  },
+  {
+    "bin": "455659",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CAJA DE AHORROS LAYETANA",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455660",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "NATIXIS",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455661",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CORPORATE T",
+    "issuer": "CAISSE NATIONALE DES CAISSES D'EPARGNE (CNCE)",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455662",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "INFINITE",
+    "issuer": "SOCIETE GENERALE, S.A.",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455663",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "NATEXIS BANQUES POPULAIRES",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455664",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "BUSINESS",
+    "issuer": "NATIXIS",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455665",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CORPORATE T",
+    "issuer": "CAISSE NATIONALE DES CAISSES D'EPARGNE (CNCE)",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455666",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CORPORATE T",
+    "issuer": "CAISSE NATIONALE DES CAISSES D'EPARGNE (CNCE)",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455667",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CORPORATE T",
+    "issuer": "CAISSE NATIONALE DES CAISSES D'EPARGNE (CNCE)",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455668",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "CAISSE NATIONALE DES CAISSES D'EPARGNE (CNCE)",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455669",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "CAISSE NATIONALE DES CAISSES D'EPARGNE (CNCE)",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455670",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CORPORATE T&E",
+    "issuer": "CREDIT INDUSTRIEL ET COMMERCIAL",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455671",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "CAISSE NATIONALE DES CAISSES D'EPARGNE (CNCE)",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455672",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CORPORATE T&E",
+    "issuer": "CREDIT INDUSTRIEL ET COMMERCIAL",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455673",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CORPORATE T",
+    "issuer": "CREDIT INDUSTRIEL ET COMMERCIAL",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455674",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "INFINITE",
+    "issuer": "CREDIT INDUSTRIEL ET COMMERCIAL",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455675",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "BUSINESS",
+    "issuer": "CREDIT DU NORD",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455676",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "SOCIETE GENERALE",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455677",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "CREDIT DU NORD",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455678",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "CREDIT DU NORD",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455679",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "CREDIT DU NORD",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455680",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CORPORATE T&E",
+    "issuer": "CREDIT DU NORD",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455681",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "CREDIT DU NORD",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455682",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "CREDIT DU NORD",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455683",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "CREDIT DU NORD",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455684",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "CREDIT DU NORD",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455685",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "NATIXIS",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455686",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CORPORATE T",
+    "issuer": "CREDIT DU NORD",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455687",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "SOCIETE GENERALE",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455688",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "CREDIT DU NORD",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455689",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "BUSINESS",
+    "issuer": "CREDIT DU NORD",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455690",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "NATEXIS BANQUES POPULAIRES",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455691",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CORPORATE T&E",
+    "issuer": "CREDIT DU NORD",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455692",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "CREDIT DU NORD",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455693",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CORPORATE T&E",
+    "issuer": "CREDIT DU NORD",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455694",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "CREDIT DU NORD",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455695",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "CREDIT LYONNAIS",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455696",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "CREDIT LYONNAIS",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455697",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "CREDIT LYONNAIS",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455698",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "CREDIT LYONNAIS",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455699",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "CREDIT LYONNAIS",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "455700",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO SANTANDER COLOMBIA, S.A.",
+    "alpha_2": "CO",
+    "alpha_3": "COL",
+    "country": "Colombia"
+  },
+  {
+    "bin": "455701",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "NATIONAL AUSTRALIA BANK, LTD.",
+    "alpha_2": "AU",
+    "alpha_3": "AUS",
+    "country": "Australia"
+  },
+  {
+    "bin": "455702",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "NATIONAL AUSTRALIA BANK, LTD.",
+    "alpha_2": "AU",
+    "alpha_3": "AUS",
+    "country": "Australia"
+  },
+  {
+    "bin": "455703",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "NATIONAL AUSTRALIA BANK, LTD.",
+    "alpha_2": "AU",
+    "alpha_3": "AUS",
+    "country": "Australia"
+  },
+  {
+    "bin": "455704",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "NATIONAL AUSTRALIA BANK, LTD.",
+    "alpha_2": "AU",
+    "alpha_3": "AUS",
+    "country": "Australia"
+  },
+  {
+    "bin": "455705",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO DI CARIBE, N.V.",
+    "alpha_2": "CW",
+    "alpha_3": "CUW",
+    "country": "Curaçao"
+  },
+  {
+    "bin": "455706",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO DI CARIBE, N.V.",
+    "alpha_2": "CW",
+    "alpha_3": "CUW",
+    "country": "Curaçao"
+  },
+  {
+    "bin": "455707",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "HANG SENG BANK, LTD.",
+    "alpha_2": "HK",
+    "alpha_3": "HKG",
+    "country": "Hong Kong"
+  },
+  {
+    "bin": "455708",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "UNITED SAUDI COMMERCIAL BANK",
+    "alpha_2": "SA",
+    "alpha_3": "SAU",
+    "country": "Saudi Arabia"
+  },
+  {
+    "bin": "455709",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO PROVINCIAL S.A.I.C.A. - S.A.C.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455710",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO POPULAR, C.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455711",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO PROVINCIAL S.A.I.C.A. - S.A.C.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455712",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "ZIVNOSTENSKA BANKA",
+    "alpha_2": "CZ",
+    "alpha_3": "CZE",
+    "country": "CZECHIA"
+  },
+  {
+    "bin": "455713",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO COOPERATIVO ESPANOL, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455714",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO DE FINANZAS E INVERSIONES S.A. (FIBANC)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455715",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO DE FINANZAS E INVERSIONES S.A. (FIBANC)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455716",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "CITIBANK INTERNATIONAL PLC",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "455717",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO UNIVERSAL, S.A.",
+    "alpha_2": "DO",
+    "alpha_3": "DOM",
+    "country": "Dominican Republic"
+  },
+  {
+    "bin": "455718",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "ULSTER BANK, LTD.",
+    "alpha_2": "IE",
+    "alpha_3": "IRL",
+    "country": "Ireland"
+  },
+  {
+    "bin": "455719",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "SERVIRED, SOCIEDAD ESPANOLA DE MEDIOS DE PAGO, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455720",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "SERVIRED, SOCIEDAD ESPANOLA DE MEDIOS DE PAGO, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455721",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "ELECTRON",
+    "issuer": "BANCO COOPERATIVO ESPANOL, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "455722",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANCO DE OCCIDENTE, S.A.",
+    "alpha_2": "CO",
+    "alpha_3": "COL",
+    "country": "Colombia"
+  },
+  {
+    "bin": "455723",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "BANK OF CREDIT (BCP)",
+    "alpha_2": "PE",
+    "alpha_3": "PER",
+    "country": "Peru"
+  },
+  {
+    "bin": "455724",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO DE VENEZUELA, S.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455725",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO DE VENEZUELA, S.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455726",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO DE VENEZUELA, S.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455727",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO DE VENEZUELA, S.A.",
+    "alpha_2": "VE",
+    "alpha_3": "VEN",
+    "country": "VENEZUELA"
+  },
+  {
+    "bin": "455728",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "HANG SENG BANK, LTD.",
+    "alpha_2": "HK",
+    "alpha_3": "HKG",
+    "country": "Hong Kong"
+  },
+  {
+    "bin": "455729",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "PLATINUM",
+    "issuer": "HANG SENG BANK, LTD.",
+    "alpha_2": "HK",
+    "alpha_3": "HKG",
+    "country": "Hong Kong"
+  },
+  {
+    "bin": "455730",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "HANG SENG BANK, LTD.",
+    "alpha_2": "HK",
+    "alpha_3": "HKG",
+    "country": "Hong Kong"
+  },
+  {
+    "bin": "455731",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANK SIMPANAN NASIONAL",
+    "alpha_2": "MY",
+    "alpha_3": "MYS",
+    "country": "Malaysia"
+  },
+  {
+    "bin": "455732",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "BANCO GENERAL, S.A.",
+    "alpha_2": "PA",
+    "alpha_3": "PAN",
+    "country": "Panama"
+  },
+  {
+    "bin": "455733",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO GENERAL, S.A.",
+    "alpha_2": "PA",
+    "alpha_3": "PAN",
+    "country": "Panama"
+  },
+  {
+    "bin": "455734",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "UNICREDIT BANK CZECHIA, A.S.",
+    "alpha_2": "CZ",
+    "alpha_3": "CZE",
+    "country": "CZECHIA"
+  },
+  {
+    "bin": "455735",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "BAY ATlanTIC F.C.U.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455736",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "GOLD PREMIUM",
+    "issuer": "BANCO BANEX, S.A.",
+    "alpha_2": "CR",
+    "alpha_3": "CRI",
+    "country": "Costa Rica"
+  },
+  {
+    "bin": "455737",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "GREATER HARTFORD POLICE F.C.U.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "455738",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO UNIVERSAL, S.A.",
+    "alpha_2": "DO",
+    "alpha_3": "DOM",
+    "country": "Dominican Republic"
+  },
+  {
+    "bin": "455739",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "PREMIER",
+    "issuer": "AL RAJHI BANKING AND INVESTMENT CORP.",
+    "alpha_2": "SA",
+    "alpha_3": "SAU",
+    "country": "Saudi Arabia"
+  },
+  {
+    "bin": "455740",
+    "brand": "VISA",
+    "type": "DEBIT",
+    "category": "CLASSIC",
+    "issuer": "AL RAJHI BANKING AND INVESTMENT CORP.",
+    "alpha_2": "SA",
+    "alpha_3": "SAU",
+    "country": "Saudi Arabia"
+  },
+  {
+    "bin": "455741",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANCO NICARAGUENSE DE INDUSTRIA Y COMERCIO",
+    "alpha_2": "NI",
+    "alpha_3": "NIC",
+    "country": "Nicaragua"
+  },
+  {
+    "bin": "455742",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "FINANCIAL INFORMATION SERVICE CO., LTD.",
+    "alpha_2": "TW",
+    "alpha_3": "TWN",
+    "country": "Taiwan"
+  },
+  {
+    "bin": "455743",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "CLASSIC",
+    "issuer": "BANK HAPOALIM B M",
+    "alpha_2": "IL",
+    "alpha_3": "ISR",
+    "country": "Israel"
+  },
+  {
+    "bin": "455744",
+    "brand": "VISA",
+    "type": "CREDIT",
+    "category": "PREMIER",
+    "issuer": "BANK HAPOALIM B M",
+    "alpha_2": "IL",
+    "alpha_3": "ISR",
+    "country": "Israel"
+  }
+]
