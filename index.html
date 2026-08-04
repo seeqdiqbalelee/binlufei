@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>多功能实用工具与 API 接码中心</title>
+    <title>多功能实用工具与 BIN 码智能查询中心</title>
     <style>
         * { box-sizing: border-box; }
         body {
@@ -22,13 +22,13 @@
         .header h1 { margin: 0 0 8px; font-size: 30px; }
         .header p { margin: 0; opacity: .9; }
         .container {
-            width: min(1180px, calc(100% - 28px));
+            width: min(1240px, calc(100% - 28px));
             margin: 24px auto 50px;
         }
         .tabs {
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 8px;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
             margin-bottom: 16px;
         }
         .tab {
@@ -37,7 +37,7 @@
             border-radius: 12px;
             background: #e5e7eb;
             color: #334155;
-            font-size: 14px;
+            font-size: 15px;
             font-weight: 800;
             cursor: pointer;
             transition: .18s ease;
@@ -68,14 +68,13 @@
             gap: 12px;
             align-items: center;
         }
-        .gmail-controls { grid-template-columns: 1fr auto auto; }
         input, select, textarea, button { font-family: inherit; }
         input, select {
-            height: 46px;
+            height: 44px;
             border: 1px solid #cbd5e1;
-            border-radius: 11px;
+            border-radius: 10px;
             padding: 0 12px;
-            font-size: 15px;
+            font-size: 14px;
             background: white;
             width: 100%;
         }
@@ -83,7 +82,7 @@
             min-height: 42px;
             border: 0;
             border-radius: 10px;
-            padding: 0 16px;
+            padding: 0 18px;
             font-size: 15px;
             font-weight: 700;
             cursor: pointer;
@@ -94,13 +93,8 @@
         .success { background: #16a34a; color: white; }
         .secondary { background: #6c757d; color: white; }
         .danger { background: #dc2626; color: white; }
-        .warning { background: #d97706; color: white; }
-        .info { background: #0284c7; color: white; }
-        .list {
-            margin-top: 20px;
-            display: grid;
-            gap: 11px;
-        }
+        
+        .list { margin-top: 20px; display: grid; gap: 11px; }
         .email-item, .record-card, .card {
             border: 1px solid #e2e8f0;
             border-radius: 14px;
@@ -204,35 +198,89 @@
             font-size: 20px;
             font-weight: 800;
         }
-        .flex-between { display: flex; justify-content: space-between; align-items: center; }
-        .meta-info { color: #666; font-size: 14px; line-height: 1.6; }
-        .api-form {
-            background: white;
-            border: 1px solid #e2e8f0;
+
+        /* BIN 查询增强面板样式 */
+        .bin-filter-box {
+            background: #f8fafc;
+            border: 1px solid #cbd5e1;
             border-radius: 14px;
             padding: 20px;
             margin-bottom: 20px;
-            box-shadow: 0 5px 16px rgba(15,23,42,.05);
             display: grid;
-            gap: 12px;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
         }
-        .sms-content-box {
-            margin-top: 12px;
-            background: #f0fdf4;
-            border: 2px solid #22c55e;
-            padding: 14px;
+        @media(max-width: 900px) { .bin-filter-box { grid-template-columns: 1fr; } }
+        .filter-group label {
+            display: block;
+            font-weight: bold;
+            font-size: 13px;
+            color: #475569;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .checkbox-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 6px;
+            background: white;
+            border: 1px solid #cbd5e1;
             border-radius: 10px;
+            padding: 10px;
+            max-height: 140px;
+            overflow-y: auto;
+            font-size: 13px;
+        }
+        .checkbox-grid label {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-weight: normal;
+            color: #334155;
+            cursor: pointer;
+            margin: 0;
+            text-transform: none;
+        }
+        .bin-action-bar {
+            display: flex;
+            gap: 10px;
+            margin-top: 14px;
+            justify-content: flex-end;
+        }
+        .bin-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(15,23,42,.05);
+            border: 1px solid #e2e8f0;
+        }
+        .bin-table th, .bin-table td {
+            padding: 12px 14px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+            font-size: 14px;
+        }
+        .bin-table th {
+            background: #f1f5f9;
+            font-weight: 700;
+            color: #334155;
+        }
+        .bin-table tr:hover { background: #f8fafc; }
+        .bin-count-info {
+            font-weight: bold;
+            color: #2563eb;
+            margin-bottom: 12px;
             font-size: 15px;
-            color: #14532d;
-            word-break: break-all;
-            white-space: pre-wrap;
         }
     </style>
 </head>
 <body>
     <header class="header">
         <h1>多功能实用工具</h1>
-        <p>随机邮箱、美国地址、自动求和、API 接码配置与全局 BIN 码智能查询</p>
+        <p>随机邮箱、美国地址、自动求和与全球 BIN 码多维智能查询中心</p>
     </header>
 
     <main class="container">
@@ -240,7 +288,6 @@
             <button class="tab active" data-page="gmailPage">谷歌邮箱</button>
             <button class="tab" data-page="addressPage">美国地址电话</button>
             <button class="tab" data-page="sumPage">自动求和</button>
-            <button class="tab" data-page="smsPage">📱 API 接码</button>
             <button class="tab" data-page="binPage">🔍 BIN码查询</button>
         </nav>
 
@@ -248,7 +295,7 @@
             <div id="gmailPage" class="page active">
                 <h2>随机 Gmail 地址生成器</h2>
                 <p class="description">网页每次打开会自动生成新结果。输入数量后可重新生成，每个邮箱都能单独复制。</p>
-                <div class="controls gmail-controls">
+                <div class="controls" style="grid-template-columns: 1fr auto auto;">
                     <input id="gmailCount" type="number" min="1" max="500" value="10" placeholder="生成数量">
                     <button id="gmailGenerate" class="primary">随机生成</button>
                     <button id="gmailCopyAll" class="success">复制全部</button>
@@ -304,35 +351,61 @@
                 </div>
             </div>
 
-            <div id="smsPage" class="page">
-                <h2>添加/配置接码 API</h2>
-                <div class="api-form">
-                    <input id="apiName" type="text" placeholder="API名称 (例如: SMS8接码)">
-                    <input id="apiPhone" type="text" placeholder="手机号 (例如: +17088517798)">
-                    <input id="apiUrl" type="text" placeholder="接口地址 (URL)">
-                    <input id="apiToken" type="text" placeholder="Token 密钥 (可选)">
-                    <button id="saveApiBtn" class="primary" style="width: 130px;">保存并添加</button>
-                </div>
-
-                <div class="flex-between" style="margin-top: 24px;">
-                    <h3>已配置的 API 列表与网页实时解析</h3>
-                    <button class="danger" id="clearApiBtn" style="min-height:34px; font-size:13px;">清空全部列表</button>
-                </div>
-                <div id="apiListArea" class="list"></div>
-            </div>
-
             <div id="binPage" class="page">
-                <h2>🔍 全球 BIN 码智能查询中心</h2>
-                <p class="description">输入卡号前几位或关键字，系统将自动全盘检索对应的切片内容文件。</p>
+                <h2>🔍 全球 BIN 码多维智能查询中心</h2>
+                <p class="description">支持按号段、卡组织、卡片等级、卡类型、银行及国家进行全盘切片联合精准检索。</p>
                 
-                <div class="controls gmail-controls">
-                    <input id="binQueryInput" type="text" maxlength="16" placeholder="输入要搜索的卡号内容 (如 533248)">
-                    <button id="binSearchBtn" class="primary">立即查询</button>
-                    <button id="binResetBtn" class="secondary">重置</button>
+                <div class="bin-filter-box">
+                    <div class="filter-group">
+                        <label>BINS / 号段关键字</label>
+                        <input id="binQueryInput" type="text" placeholder="如 4071 或 5332">
+                        <label style="margin-top: 12px;">Bank Name / 发卡银行</label>
+                        <input id="binBankInput" type="text" placeholder="如 COMERICA BANK">
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label>Vendor / 卡组织</label>
+                        <div class="checkbox-grid" id="vendorCheckboxes">
+                            <label><input type="checkbox" value="VISA"> Visa</label>
+                            <label><input type="checkbox" value="MC"> Mastercard</label>
+                            <label><input type="checkbox" value="AMEX"> Amex</label>
+                            <label><input type="checkbox" value="DISCOVER"> Discover</label>
+                            <label><input type="checkbox" value="UNIONPAY"> UnionPay</label>
+                            <label><input type="checkbox" value="JCB"> JCB</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <label>Level / 卡片等级</label>
+                        <div class="checkbox-grid" id="levelCheckboxes">
+                            <label><input type="checkbox" value="CLASSIC"> Classic/Standard</label>
+                            <label><input type="checkbox" value="GOLD"> Gold/Prem</label>
+                            <label><input type="checkbox" value="PLATINUM"> Platinum</label>
+                            <label><input type="checkbox" value="SIGNATURE"> Signature</label>
+                            <label><input type="checkbox" value="BUSINESS"> Business</label>
+                            <label><input type="checkbox" value="PREPAID"> Prepaid</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <label>Type & Region / 类型与国家</label>
+                        <div style="display:grid; gap:8px;">
+                            <div class="checkbox-grid" style="max-height: 80px;" id="typeCheckboxes">
+                                <label><input type="checkbox" value="CREDIT"> Credit</label>
+                                <label><input type="checkbox" value="DEBIT"> Debit</label>
+                            </div>
+                            <input id="binCountryInput" type="text" placeholder="国家代码 (如 US)" style="height:38px;">
+                        </div>
+                    </div>
                 </div>
 
-                <div id="binResultArea" class="list">
-                    <div class="card" style="text-align: center; color: #666;">请输入关键字开始内容检索...</div>
+                <div class="bin-action-bar">
+                    <button id="binResetBtn" class="secondary">重置条件</button>
+                    <button id="binSearchBtn" class="primary">立即查询 (Find)</button>
+                </div>
+
+                <div id="binResultArea" style="margin-top: 20px;">
+                    <div class="card" style="text-align: center; color: #666;">请设置筛选条件或输入关键字开始查询...</div>
                 </div>
             </div>
         </section>
@@ -504,120 +577,18 @@
         document.getElementById("grandTotal").textContent = "总计：等待计算";
     };
 
-    // 4. API 接码后台与 CORS 代理网页解析脚本
-    let apiList = JSON.parse(localStorage.getItem('my_sms_apis') || '[]');
-
-    function renderApiList() {
-        let area = document.getElementById('apiListArea');
-        if (apiList.length === 0) {
-            area.innerHTML = '<div class="card" style="text-align:center;color:#666;">暂无已配置的 API 记录</div>';
-            return;
-        }
-        area.innerHTML = apiList.map((api, index) => `
-            <div class="card">
-                <div class="flex-between">
-                    <div>
-                        <b>${api.name}</b> ${api.phone ? '(' + api.phone + ')' : ''}<br>
-                        <span style="color:#666;font-size:13px;word-break:break-all;">${api.url}</span>
-                    </div>
-                    <div style="display:flex;gap:8px;flex-wrap:wrap;">
-                        <button class="success" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="fetchSmsInPage(${index})">🔄 网页抓取解析</button>
-                        <button class="warning" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="clearSmsContent(${index})">清空</button>
-                        <button class="danger" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="deleteApi(${index})">删除</button>
-                    </div>
-                </div>
-                <div id="smsBox_${index}" class="sms-content-box">
-                    ${api.lastMessage ? '<b>最新解析内容：</b>\n' + api.lastMessage : '<span style="color:#64748b; font-weight:normal;">点击上方“🔄 网页抓取解析”即可在网页内直接获取并展示内容！</span>'}
-                </div>
-            </div>
-        `).join('');
-    }
-
-    window.fetchSmsInPage = async function(index) {
-        let api = apiList[index];
-        let box = document.getElementById(`smsBox_${index}`);
-        box.innerHTML = '<span style="color:#2563eb; font-weight:normal;">正在通过公共代理中转获取接口数据... ⏳</span>';
-        
-        let targetUrl = api.phone ? `${api.url}?phone=${encodeURIComponent(api.phone)}` : api.url;
-        // 使用公开稳定的跨域代理服务
-        let proxyUrl = `https://api.allorigins.win/get?url=` + encodeURIComponent(targetUrl);
-        
-        try {
-            let response = await fetch(proxyUrl);
-            if(response.ok) {
-                let data = await response.json();
-                let rawText = data.contents;
-                
-                // 尝试美化 JSON 显示
-                try {
-                    let jsonObj = JSON.parse(rawText);
-                    api.lastMessage = JSON.stringify(jsonObj, null, 2);
-                } catch {
-                    api.lastMessage = rawText;
-                }
-
-                localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
-                box.innerHTML = `<b>最新解析内容：</b>\n${api.lastMessage}`;
-            } else {
-                throw new Error("代理请求失败");
-            }
-        } catch(e) {
-            box.innerHTML = `<span style="color:red; font-weight:normal;">获取失败，可能由于网络超时或代理限制。请检查接口地址是否公开可访问。</span>`;
-        }
-    };
-
-    window.clearSmsContent = function(index) {
-        apiList[index].lastMessage = '';
-        localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
-        renderApiList();
-    };
-
-    document.getElementById('saveApiBtn').onclick = () => {
-        let name = document.getElementById('apiName').value.trim();
-        let phone = document.getElementById('apiPhone').value.trim();
-        let url = document.getElementById('apiUrl').value.trim();
-        let token = document.getElementById('apiToken').value.trim();
-
-        if(!name || !url) {
-            alert('请填写 API 名称和接口地址！');
-            return;
-        }
-
-        apiList.push({ name, phone, url, token, lastMessage: '' });
-        localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
-        
-        document.getElementById('apiName').value = '';
-        document.getElementById('apiPhone').value = '';
-        document.getElementById('apiUrl').value = '';
-        document.getElementById('apiToken').value = '';
-        
-        renderApiList();
-        alert('添加成功！');
-    };
-
-    window.deleteApi = function(index) {
-        apiList.splice(index, 1);
-        localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
-        renderApiList();
-    };
-
-    document.getElementById('clearApiBtn').onclick = () => {
-        if(confirm('确定要清空所有已配置的 API 吗？')) {
-            apiList = [];
-            localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
-            renderApiList();
-        }
-    };
-
-    // 5. 全盘内容智能搜索脚本
+    // 4. 多维 BIN 码智能查询脚本
     async function searchBin() {
-        let q = document.getElementById('binQueryInput').value.trim();
+        let binQuery = document.getElementById('binQueryInput').value.trim().toLowerCase();
+        let bankQuery = document.getElementById('binBankInput').value.trim().toLowerCase();
+        let countryQuery = document.getElementById('binCountryInput').value.trim().toLowerCase();
+        
+        let selectedVendors = Array.from(document.querySelectorAll('#vendorCheckboxes input:checked')).map(el => el.value.toLowerCase());
+        let selectedLevels = Array.from(document.querySelectorAll('#levelCheckboxes input:checked')).map(el => el.value.toLowerCase());
+        let selectedTypes = Array.from(document.querySelectorAll('#typeCheckboxes input:checked')).map(el => el.value.toLowerCase());
+
         let resArea = document.getElementById('binResultArea');
-        if (q.length < 2) {
-            resArea.innerHTML = '<div class="card" style="color:red;">请至少输入 2 位以上内容进行检索！</div>';
-            return;
-        }
-        resArea.innerHTML = `<div class="card">正在全盘切片库中深度检索 "${q}"，请稍候... 🚀</div>`;
+        resArea.innerHTML = `<div class="card">正在全盘切片库中深度检索匹配项，请稍候... 🚀</div>`;
         
         let filesToFetch = [];
         for (let i = 1; i <= 300; i++) {
@@ -637,10 +608,23 @@
                     if (r.ok) {
                         let data = await r.json();
                         let hits = data.filter(item => {
-                            let binStr = String(item.bin || '');
-                            let brandStr = String(item.brand || '');
-                            let issuerStr = String(item.issuer || '');
-                            return binStr.includes(q) || brandStr.toLowerCase().includes(q.toLowerCase()) || issuerStr.toLowerCase().includes(q.toLowerCase());
+                            let binStr = String(item.bin || item.number || '').toLowerCase();
+                            let brandStr = String(item.brand || item.vendor || '').toLowerCase();
+                            let issuerStr = String(item.issuer || item.bank || '').toLowerCase();
+                            let levelStr = String(item.category || item.level || '').toLowerCase();
+                            let typeStr = String(item.type || '').toLowerCase();
+                            let countryStr = String(item.country || item.alpha_2 || '').toLowerCase();
+
+                            // 条件过滤
+                            if (binQuery && !binStr.includes(binQuery)) return false;
+                            if (bankQuery && !issuerStr.includes(bankQuery)) return false;
+                            if (countryQuery && !countryStr.includes(countryQuery)) return false;
+                            
+                            if (selectedVendors.length > 0 && !selectedVendors.some(v => brandStr.includes(v))) return false;
+                            if (selectedLevels.length > 0 && !selectedLevels.some(l => levelStr.includes(l))) return false;
+                            if (selectedTypes.length > 0 && !selectedTypes.some(t => typeStr.includes(t))) return false;
+
+                            return true;
                         });
                         if (hits.length > 0) {
                             matchedItems.push(...hits);
@@ -652,20 +636,45 @@
             await Promise.all(promises);
 
             if (matchedItems.length === 0) {
-                resArea.innerHTML = `<div class="card">未找到包含 "${q}" 的相关记录。</div>`;
+                resArea.innerHTML = `<div class="card">未找到符合条件的相关记录。</div>`;
                 return;
             }
 
-            resArea.innerHTML = matchedItems.slice(0, 50).map(item => `
-                <div class="card">
-                    <div class="meta-info">
-                        <b>BIN / 卡号内容:</b> <span class="value" style="color:#2563eb;font-weight:bold;">${item.bin || item.number || '未知'}</span><br>
-                        <b>卡组织:</b> ${item.brand || '未知'} | <b>类型:</b> ${item.type || '未知'} | <b>级别:</b> ${item.category || '标准'}<br>
-                        <b>发卡银行:</b> ${item.issuer || '未知机构'}<br>
-                        <b>国家:</b> ${item.country || '未知'} (${item.alpha_2 || ''})
-                    </div>
-                </div>
-            `).join('') + (matchedItems.length > 50 ? '<div class="card" style="text-align:center;color:#666;">只展示前 50 条匹配结果...</div>' : '');
+            let html = `<div class="bin-count-info">Total found ${matchedItems.length} bins</div>`;
+            html += `
+                <table class="bin-table">
+                    <thead>
+                        <tr>
+                            <th>BIN</th>
+                            <th>Country</th>
+                            <th>Vendor</th>
+                            <th>Type</th>
+                            <th>Level</th>
+                            <th>Bank</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+
+            matchedItems.slice(0, 150).forEach(item => {
+                html += `
+                    <tr>
+                        <td class="value" style="font-weight:bold; color:#2563eb;">${item.bin || item.number || '未知'}</td>
+                        <td>${item.country || item.alpha_2 || 'US'}</td>
+                        <td><b>${item.brand || item.vendor || '未知'}</b></td>
+                        <td>${item.type || 'UNKNOWN'}</td>
+                        <td>${item.category || item.level || 'STANDARD'}</td>
+                        <td>${item.issuer || item.bank || '未知机构'}</td>
+                    </tr>
+                `;
+            });
+
+            html += `</tbody></table>`;
+            if (matchedItems.length > 150) {
+                html += `<div class="card" style="text-align:center;color:#666; margin-top:10px;">为保证流畅度，表格仅展示前 150 条匹配结果...</div>`;
+            }
+
+            resArea.innerHTML = html;
 
         } catch(e) {
             resArea.innerHTML = `<div class="card" style="color:red;">检索过程出错，请检查网络连接。</div>`;
@@ -675,13 +684,16 @@
     document.getElementById('binSearchBtn').onclick = searchBin;
     document.getElementById('binResetBtn').onclick = () => {
         document.getElementById('binQueryInput').value = '';
-        document.getElementById('binResultArea').innerHTML = '<div class="card" style="text-align: center; color: #666;">请输入关键字开始内容检索...</div>';
+        document.getElementById('binBankInput').value = '';
+        document.getElementById('binCountryInput').value = '';
+        document.querySelectorAll('.bin-filter-box input[type="checkbox"]').forEach(cb => cb.checked = false);
+        document.getElementById('binResultArea').innerHTML = '<div class="card" style="text-align: center; color: #666;">请设置筛选条件或输入关键字开始查询...</div>';
     };
     document.getElementById('binQueryInput').onkeydown = e => { if (e.key === 'Enter') searchBin(); };
+    document.getElementById('binBankInput').onkeydown = e => { if (e.key === 'Enter') searchBin(); };
 
     generateGmails();
     generateAddresses();
-    renderApiList();
 </script>
 </body>
 </html>
