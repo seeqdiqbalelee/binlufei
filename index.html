@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>多功能实用工具与全盘 BIN 码智能查询</title>
+    <title>多功能实用工具与 API 接码中心</title>
     <style>
         * { box-sizing: border-box; }
         body {
@@ -203,14 +203,25 @@
             font-weight: 800;
         }
         .flex-between { display: flex; justify-content: space-between; align-items: center; }
-        .code-box { font-size: 20px; font-weight: bold; color: #d9534f; background: #fdf7f7; padding: 12px 15px; border-radius: 8px; margin: 12px 0; border: 1px dashed #ebccd1; word-break: break-all; }
         .meta-info { color: #666; font-size: 14px; line-height: 1.6; }
+        
+        /* 接码后台专属样式 */
+        .api-form {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 14px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 16px rgba(15,23,42,.05);
+            display: grid;
+            gap: 12px;
+        }
     </style>
 </head>
 <body>
     <header class="header">
         <h1>多功能实用工具</h1>
-        <p>随机邮箱、美国地址、自动求和、模拟接码与全球 BIN 码内容智能查询</p>
+        <p>随机邮箱、美国地址、自动求和、API 接码配置与全局 BIN 码智能查询</p>
     </header>
 
     <main class="container">
@@ -218,7 +229,7 @@
             <button class="tab active" data-page="gmailPage">谷歌邮箱</button>
             <button class="tab" data-page="addressPage">美国地址电话</button>
             <button class="tab" data-page="sumPage">自动求和</button>
-            <button class="tab" data-page="smsPage">📱 模拟接码</button>
+            <button class="tab" data-page="smsPage">📱 API 接码</button>
             <button class="tab" data-page="binPage">🔍 BIN码查询</button>
         </nav>
 
@@ -283,20 +294,20 @@
             </div>
 
             <div id="smsPage" class="page">
-                <div class="flex-between">
-                    <h2>📱 模拟接码中心</h2>
-                    <div class="button-row" style="margin-top:0;">
-                        <button class="secondary" id="refreshBtn">🔄 刷新状态</button>
-                        <button class="danger" id="clearBtn">🗑️ 清空记录</button>
-                    </div>
+                <h2>添加/配置接码 API</h2>
+                <div class="api-form">
+                    <input id="apiName" type="text" placeholder="API名称 (例如: 接码平台A)">
+                    <input id="apiPhone" type="text" placeholder="手机号 (可选)">
+                    <input id="apiUrl" type="text" placeholder="接口地址 (URL)">
+                    <input id="apiToken" type="text" placeholder="Token 密钥">
+                    <button id="saveApiBtn" class="primary" style="width: 130px;">保存并添加</button>
                 </div>
-                <p class="description">纯静态版本支持本地自定义或演示接码展示。</p>
-                <div id="smsList" class="list">
-                    <div class="card">
-                        <div class="meta-info"><b>演示接口:</b> 示例平台<br><b>手机号:</b> +1 (716) 437-7051<br><b>时间:</b> 2026/8/4</div>
-                        <div class="code-box">8892 (示例验证码)</div>
-                    </div>
+
+                <div class="flex-between" style="margin-top: 24px;">
+                    <h3>已配置的 API 列表</h3>
+                    <button class="danger" id="clearApiBtn" style="min-height:34px; font-size:13px;">清空全部列表</button>
                 </div>
+                <div id="apiListArea" class="list"></div>
             </div>
 
             <div id="binPage" class="page">
@@ -482,12 +493,62 @@
         document.getElementById("grandTotal").textContent = "总计：等待计算";
     };
 
-    // 4. 模拟接码脚本
-    document.getElementById("refreshBtn").onclick = () => {
-        alert("已刷新接码状态，当前暂无新短信。");
+    // 4. API 接码后台管理脚本
+    let apiList = JSON.parse(localStorage.getItem('my_sms_apis') || '[]');
+
+    function renderApiList() {
+        let area = document.getElementById('apiListArea');
+        if (apiList.length === 0) {
+            area.innerHTML = '<div class="card" style="text-align:center;color:#666;">暂无已配置的 API 记录</div>';
+            return;
+        }
+        area.innerHTML = apiList.map((api, index) => `
+            <div class="card flex-between">
+                <div>
+                    <b>${api.name}</b> ${api.phone ? '(' + api.phone + ')' : ''}<br>
+                    <span style="color:#666;font-size:13px;word-break:break-all;">${api.url}</span>
+                </div>
+                <button class="danger" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="deleteApi(${index})">删除</button>
+            </div>
+        `).join('');
+    }
+
+    document.getElementById('saveApiBtn').onclick = () => {
+        let name = document.getElementById('apiName').value.trim();
+        let phone = document.getElementById('apiPhone').value.trim();
+        let url = document.getElementById('apiUrl').value.trim();
+        let token = document.getElementById('apiToken').value.trim();
+
+        if(!name || !url) {
+            alert('请填写 API 名称和接口地址！');
+            return;
+        }
+
+        apiList.push({ name, phone, url, token });
+        localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
+        
+        // 清空输入框
+        document.getElementById('apiName').value = '';
+        document.getElementById('apiPhone').value = '';
+        document.getElementById('apiUrl').value = '';
+        document.getElementById('apiToken').value = '';
+        
+        renderApiList();
+        alert('添加成功！');
     };
-    document.getElementById("clearBtn").onclick = () => {
-        document.getElementById("smsList").innerHTML = '<div class="card" style="text-align:center;color:#666;">暂无接码记录</div>';
+
+    window.deleteApi = function(index) {
+        apiList.splice(index, 1);
+        localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
+        renderApiList();
+    };
+
+    document.getElementById('clearApiBtn').onclick = () => {
+        if(confirm('确定要清空所有已配置的 API 吗？')) {
+            apiList = [];
+            localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
+            renderApiList();
+        }
     };
 
     // 5. 全盘内容智能搜索核心逻辑
@@ -562,6 +623,7 @@
 
     generateGmails();
     generateAddresses();
+    renderApiList();
 </script>
 </body>
 </html>
