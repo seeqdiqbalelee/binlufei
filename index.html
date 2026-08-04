@@ -94,15 +94,6 @@
         .success { background: #16a34a; color: white; }
         .secondary { background: #6c757d; color: white; }
         .danger { background: #dc2626; color: white; }
-        .warning {
-            margin-top: 18px;
-            padding: 14px 16px;
-            border-radius: 12px;
-            background: #fff7ed;
-            border: 1px solid #fed7aa;
-            color: #9a3412;
-            line-height: 1.7;
-        }
         .list {
             margin-top: 20px;
             display: grid;
@@ -310,7 +301,7 @@
 
             <div id="binPage" class="page">
                 <h2>🔍 全球 BIN 码智能查询中心</h2>
-                <p class="description">输入卡号前 4 位（例如 4571），系统将自动精准加载对应的小切片文件进行极速检索。</p>
+                <p class="description">输入卡号前 4 位或完整 6 位 BIN 码，系统将自动检索 5 个文件夹中的切片文件。</p>
                 
                 <div class="controls gmail-controls">
                     <input id="binQueryInput" type="text" maxlength="8" placeholder="输入卡号前 4 位或完整 6 位 BIN 码 (如 4571)">
@@ -389,10 +380,6 @@
     document.getElementById("gmailCopyAll").onclick = () => copyText(gmailData.join("\n"), "gmailStatus");
 
     // 2. 美国地址脚本
-    const stateData = {
-        CA:{cities:[["Los Angeles","90001"],["San Diego","92101"]],areas:["213","310"]},
-        NY:{cities:[["New York","10001"],["Buffalo","14201"]],areas:["212","716"]}
-    };
     function generateAddresses() {
         let count = Number(document.getElementById("addressCount").value);
         const list = document.getElementById("addressList");
@@ -403,7 +390,7 @@
             let name = "John Smith";
             let addr = "123 Main St, New York, NY 10001";
             card.innerHTML = `<div class="row"><div class="label">姓名</div><div class="value">${name}</div><button class="copy-button" onclick="copyText('${name}', 'addressStatus')">复制</button></div>
-                              <div class="row"><div class="label">地址</div><div class="value">${addr}</div><button class="copy-button" onclick="copyText('${addr}', 'addressStatus')">复制</button></div>`;
+                            <div class="row"><div class="label">地址</div><div class="value">${addr}</div><button class="copy-button" onclick="copyText('${addr}', 'addressStatus')">复制</button></div>`;
             list.appendChild(card);
         }
     }
@@ -420,7 +407,7 @@
         document.getElementById("currentResult").textContent = "当前合计：" + Number(sum.toFixed(10));
     };
 
-    // 5. BIN 码智能切片查询核心逻辑（对接 GitHub 上的 bins/{prefix}.json）
+    // 5. BIN 码智能多文件夹切片查询核心逻辑（遍历 folder_1 到 folder_5）
     async function searchBin() {
         let q = document.getElementById('binQueryInput').value.trim();
         let resArea = document.getElementById('binResultArea');
@@ -428,17 +415,32 @@
             resArea.innerHTML = '<div class="card" style="color:red;">请输入至少前 4 位 BIN 码进行查询！</div>';
             return;
         }
-        let prefix = q.slice(0, 4);
-        resArea.innerHTML = `<div class="card">正在加载号段 ${prefix}.json 文件... 🚀</div>`;
+        resArea.innerHTML = `<div class="card">正在 5 个文件夹中的切片文件检索 "${q}"... 🚀</div>`;
+        
+        let matched = [];
         try {
-            let r = await fetch(`./bins/${prefix}.json`);
-            if(!r.ok) throw new Error("未找到");
-            let data = await r.json();
-            let matched = data.filter(item => item.bin.startsWith(q));
+            // 遍历 folder_1 到 folder_5
+            for (let f = 1; f <= 5; f++) {
+                // 每个文件夹下有 100 个 chunk 文件
+                for (let i = 1; i <= 100; i++) {
+                    try {
+                        let r = await fetch(`./folder_${f}/chunk_${i}.json`);
+                        if (r.ok) {
+                            let data = await r.json();
+                            let found = data.filter(item => item.bin.startsWith(q));
+                            matched = matched.concat(found);
+                        }
+                    } catch (err) {
+                        // 忽略单个文件加载失败或不存在的情况
+                    }
+                }
+            }
+
             if (matched.length === 0) {
                 resArea.innerHTML = '<div class="card">未找到匹配的 BIN 记录。</div>';
                 return;
             }
+
             resArea.innerHTML = matched.map(item => `
                 <div class="card">
                     <div class="meta-info">
@@ -450,9 +452,10 @@
                 </div>
             `).join('');
         } catch(e) {
-            resArea.innerHTML = `<div class="card" style="color:red;">未找到号段文件 (${prefix}.json)，请确认已将切片文件夹上传至 GitHub 的 bins 目录中。</div>`;
+            resArea.innerHTML = `<div class="card" style="color:red;">查询出错，请检查网络或确认文件夹是否上传完整。</div>`;
         }
     }
+    
     document.getElementById('binSearchBtn').onclick = searchBin;
     document.getElementById('binResetBtn').onclick = () => {
         document.getElementById('binQueryInput').value = '';
