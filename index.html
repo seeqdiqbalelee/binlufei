@@ -301,7 +301,7 @@
 
             <div id="binPage" class="page">
                 <h2>🔍 全球 BIN 码智能查询中心</h2>
-                <p class="description">输入卡号前 4 位或完整 6 位 BIN 码，系统将自动检索 5 个文件夹中的切片文件。</p>
+                <p class="description">输入卡号前 4 位（例如 4571），系统将自动加载对应的切片文件进行检索。</p>
                 
                 <div class="controls gmail-controls">
                     <input id="binQueryInput" type="text" maxlength="8" placeholder="输入卡号前 4 位或完整 6 位 BIN 码 (如 4571)">
@@ -407,7 +407,7 @@
         document.getElementById("currentResult").textContent = "当前合计：" + Number(sum.toFixed(10));
     };
 
-    // 5. BIN 码智能多文件夹切片查询核心逻辑（遍历 folder_1 到 folder_5）
+    // 5. BIN 码直接查询根目录下对应切片文件核心逻辑
     async function searchBin() {
         let q = document.getElementById('binQueryInput').value.trim();
         let resArea = document.getElementById('binResultArea');
@@ -415,27 +415,16 @@
             resArea.innerHTML = '<div class="card" style="color:red;">请输入至少前 4 位 BIN 码进行查询！</div>';
             return;
         }
-        resArea.innerHTML = `<div class="card">正在 5 个文件夹中的切片文件检索 "${q}"... 🚀</div>`;
+        let prefix = q.slice(0, 4);
+        resArea.innerHTML = `<div class="card">正在根目录下检索号段 ${prefix}.json 文件... 🚀</div>`;
         
-        let matched = [];
         try {
-            // 遍历 folder_1 到 folder_5
-            for (let f = 1; f <= 5; f++) {
-                // 每个文件夹下有 100 个 chunk 文件
-                for (let i = 1; i <= 100; i++) {
-                    try {
-                        let r = await fetch(`./folder_${f}/chunk_${i}.json`);
-                        if (r.ok) {
-                            let data = await r.json();
-                            let found = data.filter(item => item.bin.startsWith(q));
-                            matched = matched.concat(found);
-                        }
-                    } catch (err) {
-                        // 忽略单个文件加载失败或不存在的情况
-                    }
-                }
-            }
-
+            // 直接请求根目录下的对应切片文件
+            let r = await fetch(`./${prefix}.json`);
+            if(!r.ok) throw new Error("未找到");
+            let data = await r.json();
+            let matched = data.filter(item => item.bin.startsWith(q));
+            
             if (matched.length === 0) {
                 resArea.innerHTML = '<div class="card">未找到匹配的 BIN 记录。</div>';
                 return;
@@ -452,7 +441,7 @@
                 </div>
             `).join('');
         } catch(e) {
-            resArea.innerHTML = `<div class="card" style="color:red;">查询出错，请检查网络或确认文件夹是否上传完整。</div>`;
+            resArea.innerHTML = `<div class="card" style="color:red;">未找到号段文件 (${prefix}.json)，请确认该切片文件已上传至仓库根目录中。</div>`;
         }
     }
     
