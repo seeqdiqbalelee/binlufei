@@ -95,6 +95,7 @@
         .secondary { background: #6c757d; color: white; }
         .danger { background: #dc2626; color: white; }
         .warning { background: #d97706; color: white; }
+        .info { background: #0284c7; color: white; }
         .list {
             margin-top: 20px;
             display: grid;
@@ -215,7 +216,6 @@
             display: grid;
             gap: 12px;
         }
-        /* 增强的短信高亮展示框 */
         .sms-content-box {
             margin-top: 12px;
             background: #f0fdf4;
@@ -504,7 +504,7 @@
         document.getElementById("grandTotal").textContent = "总计：等待计算";
     };
 
-    // 4. API 接码后台、高亮展示与清空验证码脚本
+    // 4. API 接码后台、高亮展示与备用直连跳转脚本
     let apiList = JSON.parse(localStorage.getItem('my_sms_apis') || '[]');
 
     function renderApiList() {
@@ -520,18 +520,25 @@
                         <b>${api.name}</b> ${api.phone ? '(' + api.phone + ')' : ''}<br>
                         <span style="color:#666;font-size:13px;word-break:break-all;">${api.url}</span>
                     </div>
-                    <div style="display:flex;gap:8px;">
+                    <div style="display:flex;gap:8px;flex-wrap:wrap;">
                         <button class="success" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="fetchSmsContent(${index})">🔄 刷新短信</button>
-                        <button class="warning" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="clearSmsContent(${index})">清空验证码</button>
+                        <button class="info" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="openApiTab(${index})">🔗 新标签页打开</button>
+                        <button class="warning" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="clearSmsContent(${index})">清空</button>
                         <button class="danger" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="deleteApi(${index})">删除</button>
                     </div>
                 </div>
                 <div id="smsBox_${index}" class="sms-content-box">
-                    ${api.lastMessage ? '<b>最新短信内容：</b> <span style="color:#15803d; font-size:18px;">' + api.lastMessage + '</span>' : '<span style="color:#64748b; font-weight:normal;">点击上方“刷新短信”尝试从接口获取最新验证码内容...</span>'}
+                    ${api.lastMessage ? '<b>最新短信内容：</b> <span style="color:#15803d; font-size:18px;">' + api.lastMessage + '</span>' : '<span style="color:#64748b; font-weight:normal;">点击上方“刷新短信”或“新标签页打开”查看验证码...</span>'}
                 </div>
             </div>
         `).join('');
     }
+
+    window.openApiTab = function(index) {
+        let api = apiList[index];
+        let targetUrl = api.phone ? `${api.url}?phone=${encodeURIComponent(api.phone)}` : api.url;
+        window.open(targetUrl, '_blank');
+    };
 
     window.fetchSmsContent = async function(index) {
         let api = apiList[index];
@@ -540,8 +547,6 @@
         
         try {
             let targetUrl = api.phone ? `${api.url}?phone=${encodeURIComponent(api.phone)}` : api.url;
-            
-            // 使用公共代理绕过浏览器跨域限制，确保能够顺利连通接口
             let proxyUrl = `https://api.allorigins.win/get?url=` + encodeURIComponent(targetUrl);
             
             let response = await fetch(proxyUrl);
@@ -559,19 +564,10 @@
                 localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
                 box.innerHTML = `<b>最新短信内容：</b> <span style="color:#15803d; font-size:18px;">${api.lastMessage}</span>`;
             } else {
-                box.innerHTML = `<span style="color:red; font-weight:normal;">请求失败，状态码: ${response.status}</span>`;
+                throw new Error("Proxy failed");
             }
         } catch(e) {
-            // 备用直连尝试
-            try {
-                let fallbackRes = await fetch(api.phone ? `${api.url}?phone=${encodeURIComponent(api.phone)}` : api.url);
-                let textData = await fallbackRes.text();
-                api.lastMessage = textData;
-                localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
-                box.innerHTML = `<b>最新短信内容：</b> <span style="color:#15803d; font-size:18px;">${api.lastMessage}</span>`;
-            } catch(err) {
-                box.innerHTML = `<span style="color:red; font-weight:normal;">获取异常：无法连通该接口，请检查网址或网络环境。</span>`;
-            }
+            box.innerHTML = `<span style="color:red; font-weight:normal;">浏览器被跨域安全拦截。请点击右侧的 <b style="color:#0284c7;">“🔗 新标签页打开”</b> 按钮直接查看接口数据！</span>`;
         }
     };
 
