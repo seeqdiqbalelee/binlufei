@@ -95,7 +95,6 @@
         .secondary { background: #6c757d; color: white; }
         .danger { background: #dc2626; color: white; }
         .warning { background: #d97706; color: white; }
-        .info { background: #0284c7; color: white; }
         .list {
             margin-top: 20px;
             display: grid;
@@ -227,12 +226,20 @@
             font-weight: 700;
             word-break: break-all;
         }
+        .sms-iframe {
+            width: 100%;
+            height: 120px;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            background: white;
+            margin-top: 8px;
+        }
     </style>
 </head>
 <body>
     <header class="header">
         <h1>多功能实用工具</h1>
-        <p>随机邮箱、美国地址、自动求和、API 接码配置与全局 BIN 码智能查询</p>
+        <p>随机邮箱, 美国地址, 自动求和, API 接码配置与全局 BIN 码智能查询</p>
     </header>
 
     <main class="container">
@@ -282,7 +289,7 @@
 
             <div id="sumPage" class="page">
                 <h2>自动求和与历史记录</h2>
-                <p class="description">支持空格、换行、逗号和加号分隔，支持整数、小数和负数。添加后会进入历史记录。</p>
+                <p class="description">支持空格、换行、逗号和加号分隔，支持整数, 小数和负数。添加后会进入历史记录。</p>
                 <div class="sum-layout">
                     <div>
                         <textarea id="inputData" placeholder="例如：10 + 20&#10;35.5&#10;-5"></textarea>
@@ -315,7 +322,7 @@
                 </div>
 
                 <div class="flex-between" style="margin-top: 24px;">
-                    <h3>已配置的 API 列表与实时接码内容</h3>
+                    <h3>已配置的 API 列表与网页内嵌接码窗口</h3>
                     <button class="danger" id="clearApiBtn" style="min-height:34px; font-size:13px;">清空全部列表</button>
                 </div>
                 <div id="apiListArea" class="list"></div>
@@ -504,7 +511,7 @@
         document.getElementById("grandTotal").textContent = "总计：等待计算";
     };
 
-    // 4. API 接码后台、高亮展示与备用直连跳转脚本
+    // 4. API 接码后台、网页内嵌展示与清空脚本
     let apiList = JSON.parse(localStorage.getItem('my_sms_apis') || '[]');
 
     function renderApiList() {
@@ -513,7 +520,9 @@
             area.innerHTML = '<div class="card" style="text-align:center;color:#666;">暂无已配置的 API 记录</div>';
             return;
         }
-        area.innerHTML = apiList.map((api, index) => `
+        area.innerHTML = apiList.map((api, index) => {
+            let targetUrl = api.phone ? `${api.url}?phone=${encodeURIComponent(api.phone)}` : api.url;
+            return `
             <div class="card">
                 <div class="flex-between">
                     <div>
@@ -521,39 +530,36 @@
                         <span style="color:#666;font-size:13px;word-break:break-all;">${api.url}</span>
                     </div>
                     <div style="display:flex;gap:8px;flex-wrap:wrap;">
-                        <button class="success" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="fetchSmsContent(${index})">🔄 刷新短信</button>
-                        <button class="info" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="openApiTab(${index})">🔗 新标签页打开</button>
+                        <button class="success" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="loadSmsInPage(${index})">🔄 网页内加载</button>
                         <button class="warning" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="clearSmsContent(${index})">清空</button>
                         <button class="danger" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="deleteApi(${index})">删除</button>
                     </div>
                 </div>
                 <div id="smsBox_${index}" class="sms-content-box">
-                    ${api.lastMessage ? '<b>最新短信内容：</b> <span style="color:#15803d; font-size:18px;">' + api.lastMessage + '</span>' : '<span style="color:#64748b; font-weight:normal;">点击上方“刷新短信”或“新标签页打开”查看验证码...</span>'}
+                    ${api.lastMessage ? '<b>最新短信内容：</b> <span style="color:#15803d; font-size:18px;">' + api.lastMessage + '</span>' : '<span style="color:#64748b; font-weight:normal;">点击上方“🔄 网页内加载”即可在下方直接显示接码内容！</span>'}
                 </div>
+                <div id="iframeBox_${index}" style="margin-top:10px;"></div>
             </div>
-        `).join('');
+        `;
+        }).join('');
     }
 
-    window.openApiTab = function(index) {
-        let api = apiList[index];
-        let targetUrl = api.phone ? `${api.url}?phone=${encodeURIComponent(api.phone)}` : api.url;
-        window.open(targetUrl, '_blank');
-    };
-
-    window.fetchSmsContent = async function(index) {
+    window.loadSmsInPage = async function(index) {
         let api = apiList[index];
         let box = document.getElementById(`smsBox_${index}`);
-        box.innerHTML = '<span style="color:#2563eb; font-weight:normal;">正在连接接口获取短信内容... ⏳</span>';
+        let iframeBox = document.getElementById(`iframeBox_${index}`);
+        box.innerHTML = '<span style="color:#2563eb; font-weight:normal;">正在通过代理在网页内加载... ⏳</span>';
+        iframeBox.innerHTML = '';
+        
+        let targetUrl = api.phone ? `${api.url}?phone=${encodeURIComponent(api.phone)}` : api.url;
         
         try {
-            let targetUrl = api.phone ? `${api.url}?phone=${encodeURIComponent(api.phone)}` : api.url;
+            // 尝试通过公共代理获取数据并在网页文本框显示
             let proxyUrl = `https://api.allorigins.win/get?url=` + encodeURIComponent(targetUrl);
-            
             let response = await fetch(proxyUrl);
             if(response.ok) {
                 let proxyData = await response.json();
                 let textData = proxyData.contents;
-                
                 try {
                     let jsonData = JSON.parse(textData);
                     let msg = jsonData.message || jsonData.sms || jsonData.code || jsonData.data || JSON.stringify(jsonData);
@@ -564,15 +570,18 @@
                 localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
                 box.innerHTML = `<b>最新短信内容：</b> <span style="color:#15803d; font-size:18px;">${api.lastMessage}</span>`;
             } else {
-                throw new Error("Proxy failed");
+                throw new Error();
             }
         } catch(e) {
-            box.innerHTML = `<span style="color:red; font-weight:normal;">浏览器被跨域安全拦截。请点击右侧的 <b style="color:#0284c7;">“🔗 新标签页打开”</b> 按钮直接查看接口数据！</span>`;
+            // 如果接口限制严格无法通过文本抓取，直接在网页内嵌一个内联小网页(iframe)展示，完全不跳出当前页面！
+            box.innerHTML = `<span style="color:#d97706; font-weight:normal;">已为您直接内嵌加载网页视图：</span>`;
+            iframeBox.innerHTML = `<iframe src="${targetUrl}" class="sms-iframe"></iframe>`;
         }
     };
 
     window.clearSmsContent = function(index) {
         apiList[index].lastMessage = '';
+        document.getElementById(`iframeBox_${index}`).innerHTML = '';
         localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
         renderApiList();
     };
