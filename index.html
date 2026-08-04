@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多功能实用工具与接码中心</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+            background: linear-gradient(135deg, #eef3ff, #f8fbff);
+            color: #1f2937;
+        }
+        .header {
+            padding: 34px 20px 28px;
+            text-align: center;
+            background: linear-gradient(135deg, #1d4ed8, #0ea5e9);
+            color: white;
+        }
+        .header h1 { margin: 0 0 8px; font-size: 30px; }
+        .header p { margin: 0; opacity: .9; }
+        .container {
+            width: min(1180px, calc(100% - 28px));
+            margin: 24px auto 50px;
+        }
+        .tabs {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        .tab {
+            min-height: 50px;
+            border: 0;
+            border-radius: 12px;
+            background: #e5e7eb;
+            color: #334155;
+            font-size: 14px;
+            font-weight: 800;
+            cursor: pointer;
+            transition: .18s ease;
+        }
+        .tab:hover { transform: translateY(-1px); }
+        .tab.active {
+            background: #2563eb;
+            color: white;
+            box-shadow: 0 8px 20px rgba(37, 99, 235, .22);
+        }
+        .panel {
+            background: rgba(255,255,255,.97);
+            border-radius: 18px;
+            padding: 24px;
+            box-shadow: 0 14px 40px rgba(15,23,42,.1);
+        }
+        .page { display: none; }
+        .page.active { display: block; }
+        h2 { margin: 0 0 8px; font-size: 27px; }
+        .description {
+            margin: 0 0 20px;
+            color: #64748b;
+            line-height: 1.7;
+        }
+        .controls {
+            display: grid;
+            grid-template-columns: 170px 1fr auto auto;
+            gap: 12px;
+            align-items: center;
+        }
+        .gmail-controls { grid-template-columns: 1fr auto auto; }
+        input, select, textarea, button { font-family: inherit; }
+        input, select {
+            height: 46px;
+            border: 1px solid #cbd5e1;
+            border-radius: 11px;
+            padding: 0 12px;
+            font-size: 15px;
+            background: white;
+            width: 100%;
+        }
+        button {
+            min-height: 42px;
+            border: 0;
+            border-radius: 10px;
+            padding: 0 16px;
+            font-size: 15px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: .18s ease;
+        }
+        button:hover { transform: translateY(-1px); }
+        .primary { background: #2563eb; color: white; }
+        .success { background: #16a34a; color: white; }
+        .secondary { background: #6c757d; color: white; }
+        .danger { background: #dc2626; color: white; }
+        .warning {
+            margin-top: 18px;
+            padding: 14px 16px;
+            border-radius: 12px;
+            background: #fff7ed;
+            border: 1px solid #fed7aa;
+            color: #9a3412;
+            line-height: 1.7;
+        }
+        .list {
+            margin-top: 20px;
+            display: grid;
+            gap: 11px;
+        }
+        .email-item, .record-card, .card {
+            border: 1px solid #e2e8f0;
+            border-radius: 14px;
+            background: white;
+            box-shadow: 0 5px 16px rgba(15,23,42,.05);
+            padding: 18px;
+        }
+        .email-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+            padding: 13px 14px;
+        }
+        .email-text, .value {
+            font-family: Consolas, "Courier New", monospace;
+            word-break: break-word;
+        }
+        .copy-button {
+            min-height: 34px;
+            padding: 0 13px;
+            border: 1px solid #2563eb;
+            background: white;
+            color: #2563eb;
+            flex: 0 0 auto;
+        }
+        .row {
+            display: grid;
+            grid-template-columns: 94px 1fr auto;
+            align-items: center;
+            gap: 12px;
+            padding: 6px 0;
+        }
+        .label { font-weight: 700; color: #64748b; }
+        .status {
+            min-height: 24px;
+            margin-top: 12px;
+            color: #15803d;
+            font-weight: 700;
+        }
+        .sum-layout {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 320px;
+            gap: 24px;
+        }
+        textarea {
+            width: 100%;
+            height: 190px;
+            resize: vertical;
+            border: 1px solid #cbd5e1;
+            border-radius: 12px;
+            padding: 14px;
+            font-size: 17px;
+            outline: none;
+        }
+        textarea:focus, input:focus, select:focus {
+            border-color: #2563eb;
+            box-shadow: 0 0 0 3px rgba(37,99,235,.12);
+            outline: none;
+        }
+        .button-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        .current-result {
+            margin-top: 14px;
+            min-height: 48px;
+            padding: 12px 14px;
+            border-radius: 11px;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .history-panel {
+            border-left: 2px solid #e2e8f0;
+            padding-left: 22px;
+        }
+        .history-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 14px;
+            max-height: 360px;
+            overflow: auto;
+        }
+        .history-list li {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            margin-bottom: 7px;
+            padding: 9px 10px;
+            border-radius: 8px;
+        }
+        .total-box {
+            margin-top: 14px;
+            padding: 13px;
+            border: 1px solid #dc2626;
+            border-radius: 10px;
+            color: #dc2626;
+            font-size: 20px;
+            font-weight: 800;
+        }
+        .flex-between { display: flex; justify-content: space-between; align-items: center; }
+        .code-box { font-size: 20px; font-weight: bold; color: #d9534f; background: #fdf7f7; padding: 12px 15px; border-radius: 8px; margin: 12px 0; border: 1px dashed #ebccd1; word-break: break-all; }
+        .meta-info { color: #666; font-size: 14px; line-height: 1.6; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>多功能实用工具</h1>
+        <p>随机邮箱、美国地址、自动求和、模拟接码与全球 BIN 码智能查询</p>
+    </header>
+
+    <main class="container">
+        <nav class="tabs">
+            <button class="tab active" data-page="gmailPage">谷歌邮箱</button>
+            <button class="tab" data-page="addressPage">美国地址电话</button>
+            <button class="tab" data-page="sumPage">自动求和</button>
+            <button class="tab" data-page="smsPage">📱 模拟接码</button>
+            <button class="tab" data-page="binPage">🔍 BIN码查询</button>
+        </nav>
+
+        <section class="panel">
+            <div id="gmailPage" class="page active">
+                <h2>随机 Gmail 地址生成器</h2>
+                <p class="description">网页每次打开会自动生成新结果。输入数量后可重新生成，每个邮箱都能单独复制。</p>
+                <div class="controls gmail-controls">
+                    <input id="gmailCount" type="number" min="1" max="500" value="10" placeholder="生成数量">
+                    <button id="gmailGenerate" class="primary">随机生成</button>
+                    <button id="gmailCopyAll" class="success">复制全部</button>
+                </div>
+                <div id="gmailList" class="list"></div>
+                <div id="gmailStatus" class="status"></div>
+            </div>
+
+            <div id="addressPage" class="page">
+                <h2>随机美国地址与电话生成器</h2>
+                <p class="description">地址和电话均为虚构测试数据。可选择州、单独复制每项信息或复制全部。</p>
+                <div class="controls">
+                    <input id="addressCount" type="number" min="1" max="100" value="10" placeholder="生成数量">
+                    <select id="stateSelect">
+                        <option value="ALL">随机所有州</option>
+                        <option value="CA">California</option>
+                        <option value="NY">New York</option>
+                        <option value="TX">Texas</option>
+                        <option value="FL">Florida</option>
+                        <option value="IL">Illinois</option>
+                        <option value="WA">Washington</option>
+                        <option value="MA">Massachusetts</option>
+                        <option value="AZ">Arizona</option>
+                    </select>
+                    <button id="addressGenerate" class="primary">随机生成</button>
+                    <button id="addressCopyAll" class="success">复制全部</button>
+                </div>
+                <div id="addressList" class="list"></div>
+                <div id="addressStatus" class="status"></div>
+            </div>
+
+            <div id="sumPage" class="page">
+                <h2>自动求和与历史记录</h2>
+                <p class="description">支持空格、换行、逗号和加号分隔，支持整数、小数和负数。添加后会进入历史记录。</p>
+                <div class="sum-layout">
+                    <div>
+                        <textarea id="inputData" placeholder="例如：10 + 20&#10;35.5&#10;-5"></textarea>
+                        <div class="button-row">
+                            <button id="addResult" class="primary">添加到历史</button>
+                            <button id="clearInput" class="secondary">清空输入</button>
+                        </div>
+                        <div id="currentResult" class="current-result">当前合计：0</div>
+                    </div>
+                    <aside class="history-panel">
+                        <h3>历史记录</h3>
+                        <ul id="historyList" class="history-list"></ul>
+                        <div class="button-row">
+                            <button id="calculateGrandTotal" class="success">计算总计</button>
+                            <button id="clearHistory" class="danger">清空列表</button>
+                        </div>
+                        <div id="grandTotal" class="total-box">总计：等待计算</div>
+                    </aside>
+                </div>
+            </div>
+
+            <div id="smsPage" class="page">
+                <div class="flex-between">
+                    <h2>📱 模拟接码中心</h2>
+                    <div class="button-row" style="margin-top:0;">
+                        <button class="secondary" id="refreshBtn">🔄 刷新状态</button>
+                        <button class="danger" id="clearBtn">🗑️ 清空记录</button>
+                    </div>
+                </div>
+                <p class="description">纯静态版本支持本地自定义或演示接码展示。</p>
+                <div id="smsList" class="list">
+                    <div class="card">
+                        <div class="meta-info"><b>演示接口:</b> 示例平台<br><b>手机号:</b> +1 (716) 437-7051<br><b>时间:</b> 2026/8/4</div>
+                        <div class="code-box">8892 (示例验证码)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="binPage" class="page">
+                <h2>🔍 全球 BIN 码智能查询中心</h2>
+                <p class="description">输入卡号前 4 位（例如 4571），系统将自动精准加载对应的小切片文件进行极速检索。</p>
+                
+                <div class="controls gmail-controls">
+                    <input id="binQueryInput" type="text" maxlength="8" placeholder="输入卡号前 4 位或完整 6 位 BIN 码 (如 4571)">
+                    <button id="binSearchBtn" class="primary">立即查询</button>
+                    <button id="binResetBtn" class="secondary">重置</button>
+                </div>
+
+                <div id="binResultArea" class="list">
+                    <div class="card" style="text-align: center; color: #666;">请输入号段开始查询...</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<script>
+    const tabs = document.querySelectorAll(".tab");
+    const pages = document.querySelectorAll(".page");
+
+    tabs.forEach(tab => {
+        tab.addEventListener("click", () => {
+            tabs.forEach(item => item.classList.remove("active"));
+            pages.forEach(page => page.classList.remove("active"));
+            tab.classList.add("active");
+            document.getElementById(tab.dataset.page).classList.add("active");
+        });
+    });
+
+    function showStatus(id, message) {
+        const element = document.getElementById(id);
+        if (!element) return;
+        element.textContent = message;
+        clearTimeout(element.timer);
+        element.timer = setTimeout(() => element.textContent = "", 1800);
+    }
+
+    async function copyText(text, statusId) {
+        try {
+            await navigator.clipboard.writeText(text);
+        } catch {
+            const box = document.createElement("textarea");
+            box.value = text;
+            document.body.appendChild(box);
+            box.select();
+            document.execCommand("copy");
+            box.remove();
+        }
+        if(statusId) showStatus(statusId, "复制成功");
+    }
+
+    // 1. 谷歌邮箱脚本
+    const letters = "abcdefghijklmnopqrstuvwxyz";
+    const lettersNumbers = letters + "0123456789";
+    let gmailData = [];
+
+    function generateGmails() {
+        let count = Number(document.getElementById("gmailCount").value);
+        count = Math.min(Math.max(count, 1), 500);
+        const unique = new Set();
+        while (unique.size < count) {
+            let u = letters[Math.floor(Math.random()*letters.length)];
+            for (let i = 1; i < 9; i++) u += lettersNumbers[Math.floor(Math.random()*lettersNumbers.length)];
+            unique.add(u + "@gmail.com");
+        }
+        gmailData = [...unique];
+        const list = document.getElementById("gmailList");
+        list.innerHTML = "";
+        gmailData.forEach(email => {
+            const item = document.createElement("div");
+            item.className = "email-item";
+            item.innerHTML = `<span class="email-text">${email}</span><button class="copy-button">复制</button>`;
+            item.querySelector("button").onclick = () => copyText(email, "gmailStatus");
+            list.appendChild(item);
+        });
+    }
+    document.getElementById("gmailGenerate").onclick = generateGmails;
+    document.getElementById("gmailCopyAll").onclick = () => copyText(gmailData.join("\n"), "gmailStatus");
+
+    // 2. 美国地址脚本
+    const stateData = {
+        CA:{cities:[["Los Angeles","90001"],["San Diego","92101"]],areas:["213","310"]},
+        NY:{cities:[["New York","10001"],["Buffalo","14201"]],areas:["212","716"]}
+    };
+    function generateAddresses() {
+        let count = Number(document.getElementById("addressCount").value);
+        const list = document.getElementById("addressList");
+        list.innerHTML = "";
+        for(let i=0; i<count; i++) {
+            let card = document.createElement("div");
+            card.className = "record-card";
+            let name = "John Smith";
+            let addr = "123 Main St, New York, NY 10001";
+            card.innerHTML = `<div class="row"><div class="label">姓名</div><div class="value">${name}</div><button class="copy-button" onclick="copyText('${name}', 'addressStatus')">复制</button></div>
+                              <div class="row"><div class="label">地址</div><div class="value">${addr}</div><button class="copy-button" onclick="copyText('${addr}', 'addressStatus')">复制</button></div>`;
+            list.appendChild(card);
+        }
+    }
+    document.getElementById("addressGenerate").onclick = generateAddresses;
+
+    // 3. 自动求和脚本
+    function parseNumbers(input) {
+        const matches = input.match(/[-+]?(?:\d+\.?\d*|\.\d+)/g);
+        return matches ? matches.map(Number).filter(Number.isFinite) : [];
+    }
+    document.getElementById("inputData").oninput = function() {
+        let nums = parseNumbers(this.value);
+        let sum = nums.reduce((a,b)=>a+b, 0);
+        document.getElementById("currentResult").textContent = "当前合计：" + Number(sum.toFixed(10));
+    };
+
+    // 5. BIN 码智能切片查询核心逻辑（对接 GitHub 上的 bins/{prefix}.json）
+    async function searchBin() {
+        let q = document.getElementById('binQueryInput').value.trim();
+        let resArea = document.getElementById('binResultArea');
+        if (q.length < 4) {
+            resArea.innerHTML = '<div class="card" style="color:red;">请输入至少前 4 位 BIN 码进行查询！</div>';
+            return;
+        }
+        let prefix = q.slice(0, 4);
+        resArea.innerHTML = `<div class="card">正在加载号段 ${prefix}.json 文件... 🚀</div>`;
+        try {
+            let r = await fetch(`./bins/${prefix}.json`);
+            if(!r.ok) throw new Error("未找到");
+            let data = await r.json();
+            let matched = data.filter(item => item.bin.startsWith(q));
+            if (matched.length === 0) {
+                resArea.innerHTML = '<div class="card">未找到匹配的 BIN 记录。</div>';
+                return;
+            }
+            resArea.innerHTML = matched.map(item => `
+                <div class="card">
+                    <div class="meta-info">
+                        <b>BIN 码:</b> <span class="value" style="color:#2563eb;font-weight:bold;">${item.bin}</span><br>
+                        <b>卡组织:</b> ${item.brand || '未知'} | <b>类型:</b> ${item.type || '未知'} | <b>级别:</b> ${item.category || '标准'}<br>
+                        <b>发卡银行:</b> ${item.issuer || '未知机构'}<br>
+                        <b>国家:</b> ${item.country || '未知'} (${item.alpha_2 || ''})
+                    </div>
+                </div>
+            `).join('');
+        } catch(e) {
+            resArea.innerHTML = `<div class="card" style="color:red;">未找到号段文件 (${prefix}.json)，请确认已将切片文件夹上传至 GitHub 的 bins 目录中。</div>`;
+        }
+    }
+    document.getElementById('binSearchBtn').onclick = searchBin;
+    document.getElementById('binResetBtn').onclick = () => {
+        document.getElementById('binQueryInput').value = '';
+        document.getElementById('binResultArea').innerHTML = '<div class="card" style="text-align: center; color: #666;">请输入号段开始查询...</div>';
+    };
+    document.getElementById('binQueryInput').onkeydown = e => { if (e.key === 'Enter') searchBin(); };
+
+    generateGmails();
+    generateAddresses();
+</script>
+</body>
+</html>
