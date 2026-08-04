@@ -204,8 +204,6 @@
         }
         .flex-between { display: flex; justify-content: space-between; align-items: center; }
         .meta-info { color: #666; font-size: 14px; line-height: 1.6; }
-        
-        /* 接码后台专属样式 */
         .api-form {
             background: white;
             border: 1px solid #e2e8f0;
@@ -215,6 +213,15 @@
             box-shadow: 0 5px 16px rgba(15,23,42,.05);
             display: grid;
             gap: 12px;
+        }
+        .sms-content-box {
+            margin-top: 10px;
+            background: #f8fafc;
+            border: 1px dashed #cbd5e1;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 14px;
+            color: #0f172a;
         }
     </style>
 </head>
@@ -296,15 +303,15 @@
             <div id="smsPage" class="page">
                 <h2>添加/配置接码 API</h2>
                 <div class="api-form">
-                    <input id="apiName" type="text" placeholder="API名称 (例如: 接码平台A)">
-                    <input id="apiPhone" type="text" placeholder="手机号 (可选)">
+                    <input id="apiName" type="text" placeholder="API名称 (例如: SMS8接码)">
+                    <input id="apiPhone" type="text" placeholder="手机号 (例如: +17088517798)">
                     <input id="apiUrl" type="text" placeholder="接口地址 (URL)">
-                    <input id="apiToken" type="text" placeholder="Token 密钥">
+                    <input id="apiToken" type="text" placeholder="Token 密钥 (可选)">
                     <button id="saveApiBtn" class="primary" style="width: 130px;">保存并添加</button>
                 </div>
 
                 <div class="flex-between" style="margin-top: 24px;">
-                    <h3>已配置的 API 列表</h3>
+                    <h3>已配置的 API 列表与实时接码内容</h3>
                     <button class="danger" id="clearApiBtn" style="min-height:34px; font-size:13px;">清空全部列表</button>
                 </div>
                 <div id="apiListArea" class="list"></div>
@@ -312,11 +319,11 @@
 
             <div id="binPage" class="page">
                 <h2>🔍 全球 BIN 码智能查询中心</h2>
-                <p class="description">输入完整卡号或前几位数字，系统将自动检索你上传的所有切片内容库。</p>
+                <p class="description">输入卡号前几位或关键字，系统将自动全盘检索对应的切片内容文件。</p>
                 
                 <div class="controls gmail-controls">
                     <input id="binQueryInput" type="text" maxlength="16" placeholder="输入要搜索的卡号内容 (如 533248)">
-                    <button id="binSearchBtn" class="primary">立即检索</button>
+                    <button id="binSearchBtn" class="primary">立即查询</button>
                     <button id="binResetBtn" class="secondary">重置</button>
                 </div>
 
@@ -493,7 +500,7 @@
         document.getElementById("grandTotal").textContent = "总计：等待计算";
     };
 
-    // 4. API 接码后台管理脚本
+    // 4. API 接码后台与短信内容展示脚本
     let apiList = JSON.parse(localStorage.getItem('my_sms_apis') || '[]');
 
     function renderApiList() {
@@ -503,15 +510,59 @@
             return;
         }
         area.innerHTML = apiList.map((api, index) => `
-            <div class="card flex-between">
-                <div>
-                    <b>${api.name}</b> ${api.phone ? '(' + api.phone + ')' : ''}<br>
-                    <span style="color:#666;font-size:13px;word-break:break-all;">${api.url}</span>
+            <div class="card">
+                <div class="flex-between">
+                    <div>
+                        <b>${api.name}</b> ${api.phone ? '(' + api.phone + ')' : ''}<br>
+                        <span style="color:#666;font-size:13px;word-break:break-all;">${api.url}</span>
+                    </div>
+                    <div style="display:flex;gap:8px;">
+                        <button class="success" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="fetchSmsContent(${index})">🔄 刷新短信</button>
+                        <button class="danger" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="deleteApi(${index})">删除</button>
+                    </div>
                 </div>
-                <button class="danger" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="deleteApi(${index})">删除</button>
+                <div id="smsBox_${index}" class="sms-content-box">
+                    ${api.lastMessage ? '<b>最新短信内容：</b> ' + api.lastMessage : '点击上方“刷新短信”尝试从接口获取最新验证码内容...'}
+                </div>
             </div>
         `).join('');
     }
+
+    window.fetchSmsContent = async function(index) {
+        let api = apiList[index];
+        let box = document.getElementById(`smsBox_${index}`);
+        box.innerHTML = '正在连接接口获取短信内容... ⏳';
+        
+        try {
+            // 尝试通过 fetch 请求用户配置的 API 地址（若接口支持跨域或同源返回）
+            let headers = {};
+            if(api.token) {
+                headers['Authorization'] = 'Bearer ' + api.token;
+                headers['token'] = api.token;
+            }
+            
+            let targetUrl = api.phone ? `${api.url}?phone=${encodeURIComponent(api.phone)}` : api.url;
+            let response = await fetch(targetUrl, { method: 'GET', headers: headers });
+            
+            if(response.ok) {
+                let textData = await response.text();
+                try {
+                    let jsonData = JSON.parse(textData);
+                    // 尝试智能提取常见字段中的短信内容
+                    let msg = jsonData.message || jsonData.sms || jsonData.code || JSON.stringify(jsonData);
+                    api.lastMessage = msg;
+                } catch {
+                    api.lastMessage = textData; // 如果不是JSON，直接显示纯文本
+                }
+                localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
+                box.innerHTML = `<b>最新短信内容：</b> <span style="color:#16a34a;font-weight:bold;">${api.lastMessage}</span>`;
+            } else {
+                box.innerHTML = `<span style="color:red;">请求失败 (状态码: ${response.status})。可能是浏览器跨域限制(CORS)，建议使用后端代理或直接查看接口响应。</span>`;
+            }
+        } catch(e) {
+            box.innerHTML = `<span style="color:red;">获取异常：无法连接到该接口。请检查网址是否正确或是否存在跨域拦截。</span>`;
+        }
+    };
 
     document.getElementById('saveApiBtn').onclick = () => {
         let name = document.getElementById('apiName').value.trim();
@@ -524,10 +575,9 @@
             return;
         }
 
-        apiList.push({ name, phone, url, token });
+        apiList.push({ name, phone, url, token, lastMessage: '' });
         localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
         
-        // 清空输入框
         document.getElementById('apiName').value = '';
         document.getElementById('apiPhone').value = '';
         document.getElementById('apiUrl').value = '';
@@ -551,7 +601,7 @@
         }
     };
 
-    // 5. 全盘内容智能搜索核心逻辑
+    // 5. 全盘内容智能搜索脚本
     async function searchBin() {
         let q = document.getElementById('binQueryInput').value.trim();
         let resArea = document.getElementById('binResultArea');
@@ -610,7 +660,7 @@
             `).join('') + (matchedItems.length > 50 ? '<div class="card" style="text-align:center;color:#666;">只展示前 50 条匹配结果...</div>' : '');
 
         } catch(e) {
-            resArea.innerHTML = `<div class="card" style="color:red;">检索过程出错，请检查网络或切片文件格式。</div>`;
+            resArea.innerHTML = `<div class="card" style="color:red;">检索过程出错，请检查网络连接。</div>`;
         }
     }
     
