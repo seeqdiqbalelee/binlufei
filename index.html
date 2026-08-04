@@ -27,7 +27,7 @@
         }
         .tabs {
             display: grid;
-            grid-template-columns: repeat(5, 1fr); /* 修改为5列 */
+            grid-template-columns: repeat(5, 1fr);
             gap: 8px;
             margin-bottom: 16px;
         }
@@ -281,7 +281,7 @@
 
             <div id="sumPage" class="page">
                 <h2>自动求和与历史记录</h2>
-                <p class="description">支持空格、换行、逗号和加号分隔，支持整数、小数和负数。添加后会进入历史记录。</p>
+                <p class="description">支持空格、换行、逗号和加号分隔，支持整数, 小数和负数。添加后会进入历史记录。</p>
                 <div class="sum-layout">
                     <div>
                         <textarea id="inputData" placeholder="例如：10 + 20&#10;35.5&#10;-5"></textarea>
@@ -344,4 +344,319 @@
     tabs.forEach(tab => {
         tab.addEventListener("click", () => {
             tabs.forEach(item => item.classList.remove("active"));
-            pages.forEach(page => page.classList.
+            pages.forEach(page => page.classList.remove("active"));
+            tab.classList.add("active");
+            document.getElementById(tab.dataset.page).classList.add("active");
+        });
+    });
+
+    function showStatus(id, message) {
+        const element = document.getElementById(id);
+        if (!element) return;
+        element.textContent = message;
+        clearTimeout(element.timer);
+        element.timer = setTimeout(() => element.textContent = "", 1800);
+    }
+
+    async function copyText(text, statusId) {
+        try {
+            await navigator.clipboard.writeText(text);
+        } catch {
+            const box = document.createElement("textarea");
+            box.value = text;
+            document.body.appendChild(box);
+            box.select();
+            document.execCommand("copy");
+            box.remove();
+        }
+        if(statusId) showStatus(statusId, "复制成功");
+    }
+
+    // 1. 谷歌邮箱脚本
+    const letters = "abcdefghijklmnopqrstuvwxyz";
+    const lettersNumbers = letters + "0123456789";
+    let gmailData = [];
+
+    function generateGmails() {
+        let count = Number(document.getElementById("gmailCount").value);
+        count = Math.min(Math.max(count, 1), 500);
+        const unique = new Set();
+        while (unique.size < count) {
+            let u = letters[Math.floor(Math.random()*letters.length)];
+            for (let i = 1; i < 9; i++) u += lettersNumbers[Math.floor(Math.random()*lettersNumbers.length)];
+            unique.add(u + "@gmail.com");
+        }
+        gmailData = [...unique];
+        const list = document.getElementById("gmailList");
+        list.innerHTML = "";
+        gmailData.forEach(email => {
+            const item = document.createElement("div");
+            item.className = "email-item";
+            item.innerHTML = `<span class="email-text">${email}</span><button class="copy-button">复制</button>`;
+            item.querySelector("button").onclick = () => copyText(email, "gmailStatus");
+            list.appendChild(item);
+        });
+    }
+    document.getElementById("gmailGenerate").onclick = generateGmails;
+    document.getElementById("gmailCopyAll").onclick = () => copyText(gmailData.join("\n"), "gmailStatus");
+
+    // 2. 美国地址脚本
+    const firstNames = ["James", "John", "Robert", "Michael", "William", "David", "Mary", "Jennifer", "Linda", "Patricia"];
+    const lastNames = ["Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller", "Davis", "Rodriguez", "Martinez"];
+    const streets = ["123 Main St", "456 Oak Ave", "789 Pine Rd", "321 Elm St", "654 Maple Dr"];
+    const citiesByState = {
+        "CA": { state: "California", city: "Los Angeles", zip: "90001" },
+        "NY": { state: "New York", city: "New York", zip: "10001" },
+        "TX": { state: "Texas", city: "Houston", zip: "77001" },
+        "FL": { state: "Florida", city: "Miami", zip: "33101" },
+        "IL": { state: "Illinois", city: "Chicago", zip: "60601" },
+        "WA": { state: "Washington", city: "Seattle", zip: "98101" },
+        "MA": { state: "Massachusetts", city: "Boston", zip: "02101" },
+        "AZ": { state: "Arizona", city: "Phoenix", zip: "85001" }
+    };
+    let addressData = [];
+
+    function generateAddresses() {
+        let count = Number(document.getElementById("addressCount").value);
+        let selectedState = document.getElementById("stateSelect").value;
+        const list = document.getElementById("addressList");
+        list.innerHTML = "";
+        addressData = [];
+
+        let stateKeys = Object.keys(citiesByState);
+
+        for(let i=0; i<count; i++) {
+            let fName = firstNames[Math.floor(Math.random()*firstNames.length)];
+            let lName = lastNames[Math.floor(Math.random()*lastNames.length)];
+            let fullName = `${fName} ${lName}`;
+            
+            let sKey = selectedState === "ALL" ? stateKeys[Math.floor(Math.random()*stateKeys.length)] : selectedState;
+            let info = citiesByState[sKey];
+            let street = streets[Math.floor(Math.random()*streets.length)];
+            let fullAddr = `${street}, ${info.city}, ${sKey} ${info.zip}`;
+            let phone = `+1 (${Math.floor(200 + Math.random()*800)}) ${Math.floor(200 + Math.random()*800)}-${Math.floor(1000 + Math.random()*9000)}`;
+
+            addressData.push(`姓名: ${fullName}\n地址: ${fullAddr}\n电话: ${phone}`);
+
+            let card = document.createElement("div");
+            card.className = "record-card";
+            card.innerHTML = `
+                <div class="row"><div class="label">姓名</div><div class="value">${fullName}</div><button class="copy-button">复制</button></div>
+                <div class="row"><div class="label">地址</div><div class="value">${fullAddr}</div><button class="copy-button">复制</button></div>
+                <div class="row"><div class="label">电话</div><div class="value">${phone}</div><button class="copy-button">复制</button></div>
+            `;
+            const buttons = card.querySelectorAll("button");
+            buttons[0].onclick = () => copyText(fullName, "addressStatus");
+            buttons[1].onclick = () => copyText(fullAddr, "addressStatus");
+            buttons[2].onclick = () => copyText(phone, "addressStatus");
+            list.appendChild(card);
+        }
+    }
+    document.getElementById("addressGenerate").onclick = generateAddresses;
+    document.getElementById("addressCopyAll").onclick = () => copyText(addressData.join("\n\n"), "addressStatus");
+
+    // 3. 自动求和脚本
+    let historyList = [];
+    function parseNumbers(input) {
+        const matches = input.match(/[-+]?(?:\d+\.?\d*|\.\d+)/g);
+        return matches ? matches.map(Number).filter(Number.isFinite) : [];
+    }
+    document.getElementById("inputData").oninput = function() {
+        let nums = parseNumbers(this.value);
+        let sum = nums.reduce((a,b)=>a+b, 0);
+        document.getElementById("currentResult").textContent = "当前合计：" + Number(sum.toFixed(10));
+    };
+
+    document.getElementById("addResult").onclick = () => {
+        let text = document.getElementById("inputData").value.trim();
+        if(!text) return;
+        let nums = parseNumbers(text);
+        let sum = nums.reduce((a,b)=>a+b, 0);
+        let val = Number(sum.toFixed(10));
+        historyList.push(val);
+        updateHistoryUI();
+    };
+
+    document.getElementById("clearInput").onclick = () => {
+        document.getElementById("inputData").value = "";
+        document.getElementById("currentResult").textContent = "当前合计：0";
+    };
+
+    function updateHistoryUI() {
+        let ul = document.getElementById("historyList");
+        ul.innerHTML = "";
+        historyList.forEach((val, idx) => {
+            let li = document.createElement("li");
+            li.textContent = `记录 ${idx + 1}: ${val}`;
+            ul.appendChild(li);
+        });
+    }
+
+    document.getElementById("calculateGrandTotal").onclick = () => {
+        let grand = historyList.reduce((a,b)=>a+b, 0);
+        document.getElementById("grandTotal").textContent = "总计：" + Number(grand.toFixed(10));
+    };
+
+    document.getElementById("clearHistory").onclick = () => {
+        historyList = [];
+        updateHistoryUI();
+        document.getElementById("grandTotal").textContent = "总计：等待计算";
+    };
+
+    // 4. API 接码脚本
+    let apiList = JSON.parse(localStorage.getItem('my_sms_apis') || '[]');
+
+    function renderApiList() {
+        let area = document.getElementById('apiListArea');
+        if (apiList.length === 0) {
+            area.innerHTML = '<div class="card" style="text-align:center;color:#666;">暂无已配置的 API 记录</div>';
+            return;
+        }
+        area.innerHTML = apiList.map((api, index) => `
+            <div class="card">
+                <div class="flex-between">
+                    <div>
+                        <b>${api.name}</b> ${api.phone ? '(' + api.phone + ')' : ''}<br>
+                        <span style="color:#666;font-size:13px;word-break:break-all;">${api.url}</span>
+                    </div>
+                    <div style="display:flex;gap:8px;">
+                        <button class="success" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="fetchSms(${index})">获取接码数据</button>
+                        <button class="danger" style="min-height:34px; padding:0 12px; font-size:13px;" onclick="deleteApi(${index})">删除</button>
+                    </div>
+                </div>
+                <div id="smsBox_${index}" class="sms-content-box" style="display:${api.lastMessage ? 'block' : 'none'};">
+                    ${api.lastMessage || ''}
+                </div>
+            </div>
+        `).join('');
+    }
+
+    window.fetchSms = async function(index) {
+        let api = apiList[index];
+        let box = document.getElementById(`smsBox_${index}`);
+        box.style.display = 'block';
+        box.innerHTML = '正在请求接口获取最新数据...';
+        try {
+            let res = await fetch(api.url, { headers: api.token ? { 'Authorization': 'Bearer ' + api.token } : {} });
+            let text = await res.text();
+            api.lastMessage = text;
+            localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
+            box.innerHTML = text;
+        } catch(e) {
+            box.innerHTML = '请求失败（可能存在跨域拦截，建议通过后端或直接访问接口）。';
+        }
+    };
+
+    document.getElementById('saveApiBtn').onclick = () => {
+        let name = document.getElementById('apiName').value.trim();
+        let phone = document.getElementById('apiPhone').value.trim();
+        let url = document.getElementById('apiUrl').value.trim();
+        let token = document.getElementById('apiToken').value.trim();
+
+        if(!name || !url) {
+            alert('请填写 API 名称和接口地址！');
+            return;
+        }
+
+        apiList.push({ name, phone, url, token, lastMessage: '' });
+        localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
+        
+        document.getElementById('apiName').value = '';
+        document.getElementById('apiPhone').value = '';
+        document.getElementById('apiUrl').value = '';
+        document.getElementById('apiToken').value = '';
+        
+        renderApiList();
+        alert('添加成功！');
+    };
+
+    window.deleteApi = function(index) {
+        apiList.splice(index, 1);
+        localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
+        renderApiList();
+    };
+
+    document.getElementById('clearApiBtn').onclick = () => {
+        if(confirm('确定要清空所有已配置的 API 吗？')) {
+            apiList = [];
+            localStorage.setItem('my_sms_apis', JSON.stringify(apiList));
+            renderApiList();
+        }
+    };
+
+    // 5. BIN码查询脚本
+    async function searchBin() {
+        let q = document.getElementById('binQueryInput').value.trim();
+        let resArea = document.getElementById('binResultArea');
+        if (q.length < 2) {
+            resArea.innerHTML = '<div class="card" style="color:red;">请至少输入 2 位以上内容进行检索！</div>';
+            return;
+        }
+        resArea.innerHTML = `<div class="card">正在全盘切片库中深度检索 "${q}"，请稍候... 🚀</div>`;
+        
+        let filesToFetch = [];
+        for (let i = 1; i <= 300; i++) {
+            filesToFetch.push(`./folder_1/chunk_${i}.json`);
+            filesToFetch.push(`./folder_2/chunk_${i}.json`);
+            filesToFetch.push(`./folder_3/chunk_${i}.json`);
+            filesToFetch.push(`./folder_4/chunk_${i}.json`);
+            filesToFetch.push(`./folder_5/chunk_${i}.json`);
+            filesToFetch.push(`./chunk_${i}.json`);
+        }
+
+        try {
+            let matchedItems = [];
+            let promises = filesToFetch.map(async (url) => {
+                try {
+                    let r = await fetch(url);
+                    if (r.ok) {
+                        let data = await r.json();
+                        let hits = data.filter(item => {
+                            let binStr = String(item.bin || '');
+                            let brandStr = String(item.brand || '');
+                            let issuerStr = String(item.issuer || '');
+                            return binStr.includes(q) || brandStr.toLowerCase().includes(q.toLowerCase()) || issuerStr.toLowerCase().includes(q.toLowerCase());
+                        });
+                        if (hits.length > 0) {
+                            matchedItems.push(...hits);
+                        }
+                    }
+                } catch(err) {}
+            });
+
+            await Promise.all(promises);
+
+            if (matchedItems.length === 0) {
+                resArea.innerHTML = `<div class="card">未找到包含 "${q}" 的相关记录。</div>`;
+                return;
+            }
+
+            resArea.innerHTML = matchedItems.slice(0, 50).map(item => `
+                <div class="card">
+                    <div class="meta-info">
+                        <b>BIN / 卡号内容:</b> <span class="value" style="color:#2563eb;font-weight:bold;">${item.bin || item.number || '未知'}</span><br>
+                        <b>卡组织:</b> ${item.brand || '未知'} | <b>类型:</b> ${item.type || '未知'} | <b>级别:</b> ${item.category || '标准'}<br>
+                        <b>发卡银行:</b> ${item.issuer || '未知机构'}<br>
+                        <b>国家:</b> ${item.country || '未知'} (${item.alpha_2 || ''})
+                    </div>
+                </div>
+            `).join('') + (matchedItems.length > 50 ? '<div class="card" style="text-align:center;color:#666;">只展示前 50 条匹配结果...</div>' : '');
+
+        } catch(e) {
+            resArea.innerHTML = `<div class="card" style="color:red;">检索过程出错，请检查网络连接。</div>`;
+        }
+    }
+    
+    document.getElementById('binSearchBtn').onclick = searchBin;
+    document.getElementById('binResetBtn').onclick = () => {
+        document.getElementById('binQueryInput').value = '';
+        document.getElementById('binResultArea').innerHTML = '<div class="card" style="text-align: center; color: #666;">请输入关键字开始内容检索...</div>';
+    };
+    document.getElementById('binQueryInput').onkeydown = e => { if (e.key === 'Enter') searchBin(); };
+
+    generateGmails();
+    generateAddresses();
+    renderApiList();
+</script>
+</body>
+</html>
