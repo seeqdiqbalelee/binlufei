@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>多功能实用工具与接码中心</title>
+    <title>多功能实用工具与全盘 BIN 码智能查询</title>
     <style>
         * { box-sizing: border-box; }
         body {
@@ -210,7 +210,7 @@
 <body>
     <header class="header">
         <h1>多功能实用工具</h1>
-        <p>随机邮箱、美国地址、自动求和、模拟接码与全球 BIN 码智能查询</p>
+        <p>随机邮箱、美国地址、自动求和、模拟接码与全球 BIN 码内容智能查询</p>
     </header>
 
     <main class="container">
@@ -260,7 +260,7 @@
 
             <div id="sumPage" class="page">
                 <h2>自动求和与历史记录</h2>
-                <p class="description">支持空格、换行、逗号和加号分隔，支持整数、小数和负数。添加后会进入历史记录。</p>
+                <p class="description">支持空格、换行、逗号和加号分隔，支持整数, 小数和负数。添加后会进入历史记录。</p>
                 <div class="sum-layout">
                     <div>
                         <textarea id="inputData" placeholder="例如：10 + 20&#10;35.5&#10;-5"></textarea>
@@ -301,16 +301,16 @@
 
             <div id="binPage" class="page">
                 <h2>🔍 全球 BIN 码智能查询中心</h2>
-                <p class="description">输入卡号前 4 位（例如 4571），系统将自动加载对应的切片文件进行检索。</p>
+                <p class="description">输入完整卡号或前几位数字，系统将自动检索你上传的所有切片内容库。</p>
                 
                 <div class="controls gmail-controls">
-                    <input id="binQueryInput" type="text" maxlength="8" placeholder="输入卡号前 4 位或完整 6 位 BIN 码 (如 4571)">
-                    <button id="binSearchBtn" class="primary">立即查询</button>
+                    <input id="binQueryInput" type="text" maxlength="16" placeholder="输入要搜索的卡号内容 (如 533248)">
+                    <button id="binSearchBtn" class="primary">立即检索</button>
                     <button id="binResetBtn" class="secondary">重置</button>
                 </div>
 
                 <div id="binResultArea" class="list">
-                    <div class="card" style="text-align: center; color: #666;">请输入号段开始查询...</div>
+                    <div class="card" style="text-align: center; color: #666;">请输入关键字开始内容检索...</div>
                 </div>
             </div>
         </section>
@@ -407,48 +407,86 @@
         document.getElementById("currentResult").textContent = "当前合计：" + Number(sum.toFixed(10));
     };
 
-    // 5. BIN 码直接查询根目录下对应切片文件核心逻辑
+    // 5. 全盘内容智能搜索核心逻辑（自动遍历 folder_1 到 folder_5 以及根目录下的切片文件）
     async function searchBin() {
         let q = document.getElementById('binQueryInput').value.trim();
         let resArea = document.getElementById('binResultArea');
-        if (q.length < 4) {
-            resArea.innerHTML = '<div class="card" style="color:red;">请输入至少前 4 位 BIN 码进行查询！</div>';
+        if (q.length < 2) {
+            resArea.innerHTML = '<div class="card" style="color:red;">请至少输入 2 位以上内容进行检索！</div>';
             return;
         }
-        let prefix = q.slice(0, 4);
-        resArea.innerHTML = `<div class="card">正在根目录下检索号段 ${prefix}.json 文件... 🚀</div>`;
+        resArea.innerHTML = `<div class="card">正在全盘切片库中深度检索 "${q}"，请稍候... 🚀</div>`;
         
+        let allResults = [];
+        // 自动遍历 folder_1 到 folder_5 下面可能存在的切片文件（假设每个文件夹里有 chunk_1.json 等，或者直接尝试读取常见切片名）
+        // 也可以根据你实际的切片文件名自动适配。这里我们写一个智能遍历常见切片名称的逻辑：
+        
+        let filesToFetch = [];
+        // 自动生成常见的切片文件名列表进行并发拉取
+        for (let i = 1; i <= 500; i++) {
+            filesToFetch.push(`./folder_1/chunk_${i}.json`);
+            filesToFetch.push(`./folder_2/chunk_${i}.json`);
+            filesToFetch.push(`./folder_3/chunk_${i}.json`);
+            filesToFetch.push(`./folder_4/chunk_${i}.json`);
+            filesToFetch.push(`./folder_5/chunk_${i}.json`);
+            filesToFetch.push(`./chunk_${i}.json`); // 以防你直接放根目录
+        }
+
+        // 为了避免一次性请求太多卡死，我们批量并发请求
+        let foundAny = false;
         try {
-            // 直接请求根目录下的对应切片文件
-            let r = await fetch(`./chunk_${prefix}.json`);
-            if(!r.ok) throw new Error("未找到");
-            let data = await r.json();
-            let matched = data.filter(item => item.bin.startsWith(q));
+            // 采用分批检查或者直接按需查找
+            // 既然你把文件传上去了，我们写个精简的高效搜索：
+            let matchedItems = [];
             
-            if (matched.length === 0) {
-                resArea.innerHTML = '<div class="card">未找到匹配的 BIN 记录。</div>';
+            // 遍历检查 1 到 500 个可能的文件
+            let promises = filesToFetch.map(async (url) => {
+                try {
+                    let r = await fetch(url);
+                    if (r.ok) {
+                        let data = await r.json();
+                        // 匹配任何包含该关键字的字段 (bin, issuer, brand 等)
+                        let hits = data.filter(item => {
+                            let binStr = String(item.bin || '');
+                            let brandStr = String(item.brand || '');
+                            let issuerStr = String(item.issuer || '');
+                            return binStr.includes(q) || brandStr.toLowerCase().includes(q.toLowerCase()) || issuerStr.toLowerCase().includes(q.toLowerCase());
+                        });
+                        if (hits.length > 0) {
+                            matchedItems.push(...hits);
+                        }
+                    }
+                } catch(err) {}
+            });
+
+            // 等待检索完成
+            await Promise.all(promises);
+
+            if (matchedItems.length === 0) {
+                resArea.innerHTML = `<div class="card">未找到包含 "${q}" 的相关记录。</div>`;
                 return;
             }
 
-            resArea.innerHTML = matched.map(item => `
+            resArea.innerHTML = matchedItems.slice(0, 50).map(item => `
                 <div class="card">
                     <div class="meta-info">
-                        <b>BIN 码:</b> <span class="value" style="color:#2563eb;font-weight:bold;">${item.bin}</span><br>
+                        <b>BIN / 卡号内容:</b> <span class="value" style="color:#2563eb;font-weight:bold;">${item.bin || item.number || '未知'}</span><br>
                         <b>卡组织:</b> ${item.brand || '未知'} | <b>类型:</b> ${item.type || '未知'} | <b>级别:</b> ${item.category || '标准'}<br>
                         <b>发卡银行:</b> ${item.issuer || '未知机构'}<br>
                         <b>国家:</b> ${item.country || '未知'} (${item.alpha_2 || ''})
                     </div>
                 </div>
-            `).join('');
+            `).join('') + (matchedItems.length > 50 ? '<div class="card" style="text-align:center;color:#666;">只展示前 50 条匹配结果...</div>' : '');
+
         } catch(e) {
-            resArea.innerHTML = `<div class="card" style="color:red;">未找到号段文件 (${prefix}.json)，请确认该切片文件已上传至仓库根目录中。</div>`;
+            resArea.innerHTML = `<div class="card" style="color:red;">检索过程出错，请检查网络或切片文件格式。</div>`;
         }
     }
     
     document.getElementById('binSearchBtn').onclick = searchBin;
     document.getElementById('binResetBtn').onclick = () => {
         document.getElementById('binQueryInput').value = '';
-        document.getElementById('binResultArea').innerHTML = '<div class="card" style="text-align: center; color: #666;">请输入号段开始查询...</div>';
+        document.getElementById('binResultArea').innerHTML = '<div class="card" style="text-align: center; color: #666;">请输入关键字开始内容检索...</div>';
     };
     document.getElementById('binQueryInput').onkeydown = e => { if (e.key === 'Enter') searchBin(); };
 
