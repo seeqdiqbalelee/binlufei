@@ -1,0 +1,6862 @@
+[
+  {
+    "bin": "520328",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MDM BANK OJSC",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520329",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "VALES INTERCONTINENTALES, S.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520330",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "FINDOMESTIC BANCA S.P.A.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "520331",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520332",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "GOVERNOR AND COMPANY OF THE BANK OF IRElanD",
+    "alpha_2": "IE",
+    "alpha_3": "IRL",
+    "country": "Ireland"
+  },
+  {
+    "bin": "520333",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "GOVERNOR AND COMPANY OF THE BANK OF IRElanD",
+    "alpha_2": "IE",
+    "alpha_3": "IRL",
+    "country": "Ireland"
+  },
+  {
+    "bin": "520334",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANK OF SCOTlanD",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520335",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JSC VNESHTORGBANK RETAIL FINANCIAL SERVICES",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520336",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520337",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ABN AMRO BANK, N.V.",
+    "alpha_2": "NL",
+    "alpha_3": "NLD",
+    "country": "Netherlands"
+  },
+  {
+    "bin": "520338",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANK OF SCOTlanD PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520339",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "NEW WORLD",
+    "issuer": "SVYAZNOY BANK (JSC)",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520340",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "LLOYDS TSB BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520341",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CREDIT URAL BANK",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520342",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "GOLD",
+    "issuer": "BANCO SANTANDER TOTTA, S.A.",
+    "alpha_2": "PT",
+    "alpha_3": "PRT",
+    "country": "Portugal"
+  },
+  {
+    "bin": "520343",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "POWSZECHNA KASA OSZCZEDNOSCI BANK POLSKI SA (PKO BANK POLSKI",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "520344",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "EURO KARTENSYSTEME GMBH",
+    "alpha_2": "DE",
+    "alpha_3": "DEU",
+    "country": "Germany"
+  },
+  {
+    "bin": "520345",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "CARTASI S.P.A.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "520346",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO SANTANDER, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "520347",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "UNIONE DI BANCHE ITALIANE S.C.P.A",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "520348",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COMMERCIAL BANK MASTER-BANK",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520349",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "OJSC COMMERCIAL BANK",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520350",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520351",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "VOLKSBANK ROMANIA, S.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520352",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "UNITED OVERSEAS BANK PHILIPPINES",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520353",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ITAU UNIBANCO, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "520354",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "VISA COLOMBIA",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520355",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COMMERCIAL BANK ASSISTANCE FOR PUBLIC INITIATIVES SOBINBANK",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520356",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520357",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520358",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520359",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO IBI S.A. BANCO MULTIPLO",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "520360",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "STANDARD",
+    "issuer": "BANCO IBI S.A. BANCO MULTIPLO",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "520361",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "PIRAEUS BANK EGYPT",
+    "alpha_2": "PA",
+    "alpha_3": "PAN",
+    "country": "Panama"
+  },
+  {
+    "bin": "520362",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO IBI S.A. BANCO MULTIPLO",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "520363",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "520364",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "TELLER, A.S.",
+    "alpha_2": "NO",
+    "alpha_3": "NOR",
+    "country": "Norway"
+  },
+  {
+    "bin": "520365",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "BANK OF THE PHILIPPINE Islands",
+    "alpha_2": "PH",
+    "alpha_3": "PHL",
+    "country": "Philippines"
+  },
+  {
+    "bin": "520366",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "GE MONEY INDONESIA",
+    "alpha_2": "ID",
+    "alpha_3": "IDN",
+    "country": "Indonesia"
+  },
+  {
+    "bin": "520367",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "AT",
+    "alpha_3": "AUT",
+    "country": "Austria"
+  },
+  {
+    "bin": "520368",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "TELLER, A.S.",
+    "alpha_2": "DK",
+    "alpha_3": "DNK",
+    "country": "Denmark"
+  },
+  {
+    "bin": "520369",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "FIA CARD SERVICES, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520370",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "GE MONEY INDONESIA",
+    "alpha_2": "ID",
+    "alpha_3": "IDN",
+    "country": "Indonesia"
+  },
+  {
+    "bin": "520371",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PT. BANK PERMATA",
+    "alpha_2": "ID",
+    "alpha_3": "IDN",
+    "country": "Indonesia"
+  },
+  {
+    "bin": "520372",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BENEFIT BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520373",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "CITIBANK MOSCOW",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520374",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "GOLD",
+    "issuer": "SCOTIABANK PERU S.A.A.",
+    "alpha_2": "PE",
+    "alpha_3": "PER",
+    "country": "Peru"
+  },
+  {
+    "bin": "520375",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "STANDARD CHARTERED BANK",
+    "alpha_2": "JO",
+    "alpha_3": "JOR",
+    "country": "Jordan"
+  },
+  {
+    "bin": "520376",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ABU DHABI COMMERCIAL BANK",
+    "alpha_2": "AE",
+    "alpha_3": "ARE",
+    "country": "United Arab Emirates"
+  },
+  {
+    "bin": "520377",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "STANDARD",
+    "issuer": "CITIBANK MOSCOW",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520378",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COMMERCIAL INTERNATIONAL BANK (EGYPT) S.A.E.",
+    "alpha_2": "EG",
+    "alpha_3": "EGY",
+    "country": "Egypt"
+  },
+  {
+    "bin": "520379",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ARAB FINANCIAL SERVICES COMPANY B.S.C. (C)",
+    "alpha_2": "OM",
+    "alpha_3": "OMN",
+    "country": "Oman"
+  },
+  {
+    "bin": "520380",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "FIFTH THIRD BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520381",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "EXANTE BANK, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520382",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "CHINA GUANGFA BANK CO., LTD.",
+    "alpha_2": "CN",
+    "alpha_3": "CHN",
+    "country": "China"
+  },
+  {
+    "bin": "520383",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PT. BANK PERMATA",
+    "alpha_2": "ID",
+    "alpha_3": "IDN",
+    "country": "Indonesia"
+  },
+  {
+    "bin": "520384",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520385",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "NETWORK INTERNATIONAL LLC",
+    "alpha_2": "AE",
+    "alpha_3": "ARE",
+    "country": "United Arab Emirates"
+  },
+  {
+    "bin": "520386",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "CITIBANK",
+    "alpha_2": "IN",
+    "alpha_3": "IND",
+    "country": "India"
+  },
+  {
+    "bin": "520387",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520388",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "ARAB AFRICAN INTERNATIONAL BANK",
+    "alpha_2": "EG",
+    "alpha_3": "EGY",
+    "country": "Egypt"
+  },
+  {
+    "bin": "520389",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "MONEY CARD ASSOCIATION PR LEAGUE, INC.",
+    "alpha_2": "PR",
+    "alpha_3": "PRI",
+    "country": "Puerto Rico"
+  },
+  {
+    "bin": "520390",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "GARANTI BANK, S.A.",
+    "alpha_2": "RO",
+    "alpha_3": "ROU",
+    "country": "Romania"
+  },
+  {
+    "bin": "520391",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520392",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "SCOTIABANK EL SALVADOR, S.A.",
+    "alpha_2": "SV",
+    "alpha_3": "SLV",
+    "country": "El Salvador"
+  },
+  {
+    "bin": "520393",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "STANDARD",
+    "issuer": "SCOTIABANK EL SALVADOR, S.A.",
+    "alpha_2": "SV",
+    "alpha_3": "SLV",
+    "country": "El Salvador"
+  },
+  {
+    "bin": "520394",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "FIRST DATA CONO SUR, S.R.L.",
+    "alpha_2": "UY",
+    "alpha_3": "URY",
+    "country": "Uruguay"
+  },
+  {
+    "bin": "520395",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "VIETNAM PROSPERITY JSCB",
+    "alpha_2": "VN",
+    "alpha_3": "VNM",
+    "country": "Vietnam"
+  },
+  {
+    "bin": "520396",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANK ISLAM MALAYSIA BERHAD",
+    "alpha_2": "MY",
+    "alpha_3": "MYS",
+    "country": "Malaysia"
+  },
+  {
+    "bin": "520397",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "GOLD",
+    "issuer": "TIB - THE INDEPENDENT BANKERSBANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520398",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "BANK AUDI- AUDI SARADAR GROUP",
+    "alpha_2": "LB",
+    "alpha_3": "LBN",
+    "country": "Lebanon"
+  },
+  {
+    "bin": "520399",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "VIETNAM PROSPERITY JSCB",
+    "alpha_2": "VN",
+    "alpha_3": "VNM",
+    "country": "Vietnam"
+  },
+  {
+    "bin": "520400",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO CITICARD, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "520401",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO CITICARD, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "520402",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ITAU UNIBANCO, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "520403",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "BANCO ITAU, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "520404",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "BANCO ITAU, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "520405",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "BANCO ITAU, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "520406",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520407",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520408",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520409",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520410",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520411",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520412",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520413",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520414",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "QA",
+    "alpha_3": "QAT",
+    "country": "Qatar"
+  },
+  {
+    "bin": "520415",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520416",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "BANCO NACIONAL DE MEXICO, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "520417",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520418",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JSC BANK CENTERCREDIT",
+    "alpha_2": "KZ",
+    "alpha_3": "KAZ",
+    "country": "Kazakhstan"
+  },
+  {
+    "bin": "520419",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "DOHA BANK, LTD.",
+    "alpha_2": "QA",
+    "alpha_3": "QAT",
+    "country": "Qatar"
+  },
+  {
+    "bin": "520420",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "SOCIETE GENERALE DE BANQUE AU LIBAN S.A.L.",
+    "alpha_2": "LB",
+    "alpha_3": "LBN",
+    "country": "Lebanon"
+  },
+  {
+    "bin": "520421",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "HYUNDAICARD CO., LTD.",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "520422",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "HYUNDAICARD CO., LTD.",
+    "alpha_2": "KR",
+    "alpha_3": "KOR",
+    "country": "SOUTH KOREA"
+  },
+  {
+    "bin": "520423",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520424",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520425",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520426",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520427",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520428",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520429",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520430",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "ARAB NATIONAL BANK",
+    "alpha_2": "SA",
+    "alpha_3": "SAU",
+    "country": "Saudi Arabia"
+  },
+  {
+    "bin": "520431",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "ARAB NATIONAL BANK",
+    "alpha_2": "SA",
+    "alpha_3": "SAU",
+    "country": "Saudi Arabia"
+  },
+  {
+    "bin": "520432",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "STANDARD",
+    "issuer": "CITIBANK MOSCOW",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520433",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "GOLD",
+    "issuer": "BANQUE LIBANO-FRANCAISE S.A.L.",
+    "alpha_2": "LB",
+    "alpha_3": "LBN",
+    "country": "Lebanon"
+  },
+  {
+    "bin": "520434",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520435",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520436",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520437",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520438",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520439",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520440",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520441",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520442",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520443",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520444",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520445",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520446",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520447",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520448",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520449",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520450",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520451",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520452",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520453",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520454",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520455",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520456",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520457",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520458",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520459",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520460",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520461",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520462",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520463",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520464",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520465",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520466",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520467",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "HEARTlanD BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520468",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520469",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520470",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "J.P. MORGAN EUROPE, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520471",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "J.P. MORGAN EUROPE, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520472",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "J.P. MORGAN EUROPE, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520473",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520474",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520475",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520476",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520477",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520478",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520479",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520480",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520481",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520482",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520483",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520484",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520485",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520486",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520487",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520488",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520489",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520490",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520491",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520492",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520493",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520494",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520495",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520496",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520497",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520498",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520499",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "SCOTIABANK INVERLAT, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "520500",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WORLD FINANCIAlanETWORK BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520501",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520502",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "SCOTIABANK INVERLAT, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "520503",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520504",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "PROVIDENT BANK AND TRUST OF BELIZE, LTD.",
+    "alpha_2": "BZ",
+    "alpha_3": "BLZ",
+    "country": "Belize"
+  },
+  {
+    "bin": "520505",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520506",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520507",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "WELLS FARGO FINANCIAL CORPORATION CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "520508",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "WELLS FARGO FINANCIAL CORPORATION CANADA",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "520509",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520510",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520511",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "E. SUN COMMERCIAL BANK CO., LTD.",
+    "alpha_2": "TW",
+    "alpha_3": "TWN",
+    "country": "Taiwan"
+  },
+  {
+    "bin": "520512",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "FIRST COMMONWEALTH BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520513",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "ICBA BANCARD, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520514",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "FIDELITY INFORMATION SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520515",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "STANDARD",
+    "issuer": "JACK HENRY AND ASSOCIATES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520516",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "SAVINGS INSTITUTE BANK AND TRUST COMPANY",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520517",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "FISERV SOLUTIONS, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520518",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "FIFTH THIRD BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520519",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "FISERV SOLUTIONS, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520520",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "FIFTH THIRD BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520521",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520522",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "FISERV SOLUTIONS, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520523",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "STAR PROCESSING, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520524",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "FIFTH THIRD BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520525",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "FIFTH THIRD PROCESSING SOLUTIONS, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520526",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "FIDELITY INFORMATION SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520527",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "PULSE EFT ASSOCIATION",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520528",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "PSCU FINANCIAL SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520529",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "FIDELITY INFORMATION SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520530",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "FIFTH THIRD BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520531",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "ONEWEST BANK, F.S.B.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520532",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "FIDELITY INFORMATION SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520533",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "FISERV SOLUTIONS, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520534",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "JACK HENRY AND ASSOCIATES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520535",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "FIFTH THIRD BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520536",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "STAR PROCESSING, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520537",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "U.S. BANK NATIONAL ASSOCIATION, ND",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520538",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "STAR PROCESSING, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520539",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "STAR PROCESSING, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520540",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "STAR PROCESSING, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520541",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "FIDELITY INFORMATION SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520542",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "U.S. BANK NATIONAL ASSOCIATION, ND",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520543",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "BUSINESS",
+    "issuer": "HERRING BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520544",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "JACK HENRY AND ASSOCIATES",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520545",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "COMPUTER SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520546",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "FIFTH THIRD BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520547",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "FIDELITY INFORMATION SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520548",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520549",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "FIFTH THIRD PROCESSING SOLUTIONS, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520550",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "FISERV SOLUTIONS, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520551",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "STAR PROCESSING, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520552",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "PREPAID",
+    "issuer": "FIDELITY INFORMATION SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520553",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520554",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "FIFTH THIRD BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520555",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "FIFTH THIRD BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520556",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "JACK HENRY AND ASSOCIATES",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520557",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "FIFTH THIRD BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520558",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "STAR PROCESSING, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520559",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "FIFTH THIRD BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520560",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "FISERV SOLUTIONS, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520561",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "STAR PROCESSING, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520562",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520563",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "FIFTH THIRD BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520564",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "CU COOPERATIVE SYSTEMS",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520565",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "SUNTRUST BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520566",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "FIDELITY INFORMATION SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520567",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "STAR PROCESSING, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520568",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "FIDELITY INFORMATION SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520569",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "FIDELITY INFORMATION SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520570",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "U.S. BANK NATIONAL ASSOCIATION, ND",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520571",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "STAR PROCESSING, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520572",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "JACK HENRY AND ASSOCIATES",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520573",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "SHAZAM, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520574",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "JACK HENRY AND ASSOCIATES",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520575",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "FISERV SOLUTIONS, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520576",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "U.S. BANK NATIONAL ASSOCIATION, ND",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520577",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "CU COOPERATIVE SYSTEMS",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520578",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "FIFTH THIRD BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520579",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "FIDELITY INFORMATION SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520580",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "PSCU FINANCIAL SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520581",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "CORP BANCA",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520582",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "FIFTH THIRD BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520583",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "U.S. BANK NATIONAL ASSOCIATION, ND",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520584",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "CU COOPERATIVE SYSTEMS",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520585",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "FIFTH THIRD BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520586",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "BANK OF HAWAII",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520587",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "BANK OF HAWAII",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520588",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "BANK OF HAWAII",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520589",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "FIFTH THIRD BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520590",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "FIFTH THIRD BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520591",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "BANK OF HAWAII",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520592",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "FIDELITY INFORMATION SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520593",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "JPMORGAN CHASE BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520594",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "SHAZAM, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520595",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "LIBERTY BANK OF ARKANSAS",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520596",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "STAR PROCESSING, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520597",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "COMPUTER SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520598",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "SHAZAM, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520599",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "COMPUTER SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520600",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "COMPUTER SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520601",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "JACK HENRY AND ASSOCIATES",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520602",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "HSBC BANK NEVADA, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520603",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANQUE FEDERATIVE DU CREDIT MUTUEL (BFCM)",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "520604",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "BANCO NACIONAL DE MEXICO, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "520605",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "ICUL SERVICE CORPORATION",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520606",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "BANCO NACIONAL DE MEXICO, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "520607",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "HSBC BANK USA, N.A. ASSOCIATION",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520608",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "TARJETAS BANAMEX, SA DE CV, SOFOM E.R.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "520609",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "BANCO NACIONAL DE MEXICO, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "520610",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "BANCO NACIONAL DE MEXICO, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "520611",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "GOLD",
+    "issuer": "HSBC BANK NEVADA, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520612",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "STANDARD",
+    "issuer": "HSBC BANK NEVADA, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520613",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "BANCO NACIONAL DE MEXICO, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "520614",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "SANTANDER CONSUMER BANK AG",
+    "alpha_2": "DE",
+    "alpha_3": "DEU",
+    "country": "Germany"
+  },
+  {
+    "bin": "520615",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "SANTANDER CONSUMER BANK AG",
+    "alpha_2": "DE",
+    "alpha_3": "DEU",
+    "country": "Germany"
+  },
+  {
+    "bin": "520616",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "EUROCARD AB",
+    "alpha_2": "LV",
+    "alpha_3": "LVA",
+    "country": "Latvia"
+  },
+  {
+    "bin": "520617",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "BORGUN H.F.",
+    "alpha_2": "IS",
+    "alpha_3": "ISL",
+    "country": "Iceland"
+  },
+  {
+    "bin": "520618",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "BORGUN H.F.",
+    "alpha_2": "IS",
+    "alpha_3": "ISL",
+    "country": "Iceland"
+  },
+  {
+    "bin": "520619",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "PLATINUM",
+    "issuer": "BORGUN H.F.",
+    "alpha_2": "IS",
+    "alpha_3": "ISL",
+    "country": "Iceland"
+  },
+  {
+    "bin": "520620",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "BANCO NACIONAL DE MEXICO, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "520621",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ITAU UNIBANCO, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "520622",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "BANCO NACIONAL DE MEXICO, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "520623",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "EURO KARTENSYSTEME GMBH",
+    "alpha_2": "DE",
+    "alpha_3": "DEU",
+    "country": "Germany"
+  },
+  {
+    "bin": "520624",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "BANK POLSKA KASA OPIEKI S.A. (BANK PEKAO SA)",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "520625",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "STANDARD",
+    "issuer": "BANK POLSKA KASA OPIEKI S.A. (BANK PEKAO SA)",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "520626",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "BANK POLSKA KASA OPIEKI S.A. (BANK PEKAO SA)",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "520627",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "HELlanIC BANK PUBLIC CO., LTD.",
+    "alpha_2": "CY",
+    "alpha_3": "CYP",
+    "country": "Cyprus"
+  },
+  {
+    "bin": "520628",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "SOCIETE GENERALE BANKA SRBIJA AD BEOGRAD",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "520629",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "BANCO ESPANOL DE CREDITO (BANESTO)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "520630",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "BANCO NACIONAL DE MEXICO, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "520631",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "EUROPAY FRANCE SAS",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "520632",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "POSTAL SAVINGS BANK JSC",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "520633",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "STANDARD",
+    "issuer": "JSB UKRGASBANK",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "520634",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JSC BANK OF KHANTY-MANSIYSK",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520635",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "EUROPAY FRANCE SAS",
+    "alpha_2": "FR",
+    "alpha_3": "FRA",
+    "country": "France"
+  },
+  {
+    "bin": "520636",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "CAIXA GERAL DE DEPOSITOS, S.A.",
+    "alpha_2": "PT",
+    "alpha_3": "PRT",
+    "country": "Portugal"
+  },
+  {
+    "bin": "520637",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "RAIFFEISENBANK, A.S.",
+    "alpha_2": "CZ",
+    "alpha_3": "CZE",
+    "country": "CZECHIA"
+  },
+  {
+    "bin": "520638",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "GOLD",
+    "issuer": "BANCO DE COSTA RICA",
+    "alpha_2": "CR",
+    "alpha_3": "CRI",
+    "country": "Costa Rica"
+  },
+  {
+    "bin": "520639",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "STANDARD",
+    "issuer": "ING BANK, N.V.",
+    "alpha_2": "NL",
+    "alpha_3": "NLD",
+    "country": "Netherlands"
+  },
+  {
+    "bin": "520640",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "GOLD",
+    "issuer": "NATIONAL WESTMINSTER BANK PLC",
+    "alpha_2": "IE",
+    "alpha_3": "IRL",
+    "country": "Ireland"
+  },
+  {
+    "bin": "520641",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "ROYAL BANK OF SCOTlanD PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520642",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "BANCO NACIONAL DE MEXICO, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "520643",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "INTERNATIONAL CARD SERVICES BV",
+    "alpha_2": "NL",
+    "alpha_3": "NLD",
+    "country": "Netherlands"
+  },
+  {
+    "bin": "520644",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "GOSPODARCZY BANK WIELKOPOLSKI S.A. (GBW S.A.)",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "520645",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "RAIFFEISEN BANK POLSKA, S.A.",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "520646",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "ERSTE BANK A.D. PODGORICA",
+    "alpha_2": "ME",
+    "alpha_3": "MNE",
+    "country": "Montenegro"
+  },
+  {
+    "bin": "520647",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "BANCA ROMANESCA, S.A.",
+    "alpha_2": "RO",
+    "alpha_3": "ROU",
+    "country": "Romania"
+  },
+  {
+    "bin": "520648",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "BANK INICJATYW SPOLECZNO-EKONOMICZNYCH, S.A.",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "520649",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "GOLD",
+    "issuer": "BANCO DE COSTA RICA",
+    "alpha_2": "CR",
+    "alpha_3": "CRI",
+    "country": "Costa Rica"
+  },
+  {
+    "bin": "520650",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "OJSC BANK URALSIB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520651",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "CESKOSLOVENSKA OBCHODNA BANKA, A.S.",
+    "alpha_2": "SK",
+    "alpha_3": "SVK",
+    "country": "Slovakia"
+  },
+  {
+    "bin": "520652",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PUBLIC JSC JSB UKRGASBANK",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "520653",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "TURKIYE IS BANKASI, A.S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "520654",
+    "brand": "MASTERCARD",
+    "type": "",
+    "category": "",
+    "issuer": "POWSZECHNA KASA OSZCZEDNOSCI BANK POLSKI SA (PKO BANK POLSKI",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "520655",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "RAIFFEISENBANK, A.S.",
+    "alpha_2": "CZ",
+    "alpha_3": "CZE",
+    "country": "CZECHIA"
+  },
+  {
+    "bin": "520656",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "YAPI KREDI BANK AZERBAIJAN CJSC",
+    "alpha_2": "AZ",
+    "alpha_3": "AZE",
+    "country": "Azerbaijan"
+  },
+  {
+    "bin": "520657",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "PUBLIC JSC RAIFFEISEN BANK AVAL",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "520658",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "BElanESHECONOMBANK",
+    "alpha_2": "BY",
+    "alpha_3": "BLR",
+    "country": "Belarus"
+  },
+  {
+    "bin": "520659",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "SYGMA BANQUE SOCIETE ANONYME ODDZIAL W POLSCE",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "520660",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO NACIONAL DE MEXICO, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "520661",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "CREDICORP BANK, S.A.",
+    "alpha_2": "PA",
+    "alpha_3": "PAN",
+    "country": "Panama"
+  },
+  {
+    "bin": "520662",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "GIFT",
+    "issuer": "PJSC CREDIT AGRICOLE BANK",
+    "alpha_2": "UA",
+    "alpha_3": "UKR",
+    "country": "Ukraine"
+  },
+  {
+    "bin": "520663",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BARCLAYS BANK PLC",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "520664",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CREATION FINANCIAL SERVICES",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520665",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BARCLAYS BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520666",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COMMERCIAL BANK MASTER-BANK",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520667",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO NACIONAL DE MEXICO, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "520668",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "CENTRAL-EUROPEAN INTERNATIONAL BANK (CIB BANK) RT.",
+    "alpha_2": "HU",
+    "alpha_3": "HUN",
+    "country": "Hungary"
+  },
+  {
+    "bin": "520669",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "FINDOMESTIC BANCA S.P.A.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "520670",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COMMERCIAL BANK ASSISTANCE FOR PUBLIC INITIATIVES SOBINBANK",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520671",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ING BANK RT.",
+    "alpha_2": "HU",
+    "alpha_3": "HUN",
+    "country": "Hungary"
+  },
+  {
+    "bin": "520672",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANK BPH SPOLKA AKCYJNA",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "520673",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ROYAL BANK OF SCOTlanD",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520674",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ALLIANCE AND LEICESTER PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520675",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "SANTANDER CARDS UK, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520676",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520677",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "CREDIT AGRICOLE SRBIJA AD NOVI SAD",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "520678",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "UNICREDIT S.P.A.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "520679",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PIRAEUS BANK BULGARIA",
+    "alpha_2": "BG",
+    "alpha_3": "BGR",
+    "country": "Bulgaria"
+  },
+  {
+    "bin": "520680",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "NORDEA BANK NORGE ASA",
+    "alpha_2": "NO",
+    "alpha_3": "NOR",
+    "country": "Norway"
+  },
+  {
+    "bin": "520681",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "NORDEA BANK NORGE ASA",
+    "alpha_2": "NO",
+    "alpha_3": "NOR",
+    "country": "Norway"
+  },
+  {
+    "bin": "520682",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "NORDEA BANK NORGE ASA",
+    "alpha_2": "NO",
+    "alpha_3": "NOR",
+    "country": "Norway"
+  },
+  {
+    "bin": "520683",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "NORDEA BANK NORGE ASA",
+    "alpha_2": "NO",
+    "alpha_3": "NOR",
+    "country": "Norway"
+  },
+  {
+    "bin": "520684",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "BANK DNB NORD POLSKA, S.A.",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "520685",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COMMERCIAL BANK MASTER-BANK",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520686",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PRIVREDNA BANKA ZAGREB D.D.",
+    "alpha_2": "HR",
+    "alpha_3": "HRV",
+    "country": "Croatia"
+  },
+  {
+    "bin": "520687",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "ERSTE AND STEIERMARKISCHE BANK D.D.",
+    "alpha_2": "HR",
+    "alpha_3": "HRV",
+    "country": "Croatia"
+  },
+  {
+    "bin": "520688",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "PROCREDIT BANK SH.A.",
+    "alpha_2": "AL",
+    "alpha_3": "ALB",
+    "country": "Albania"
+  },
+  {
+    "bin": "520689",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PROTON BANK, S.A.",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "520690",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "ZHELDORBANK JSB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520691",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "BAYERISCHE lanDESBANK",
+    "alpha_2": "DE",
+    "alpha_3": "DEU",
+    "country": "Germany"
+  },
+  {
+    "bin": "520692",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "MASTERCAJAS, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "520693",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "MASTERCAJAS, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "520694",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "PLATINUM",
+    "issuer": "BANCO NACIONAL DE MEXICO, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "520695",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "MASTERCAJAS, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "520696",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "MASTERCAJAS, S.A.",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "520697",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "EUROPAY BELGIUM S.C.R.L.",
+    "alpha_2": "BE",
+    "alpha_3": "BEL",
+    "country": "Belgium"
+  },
+  {
+    "bin": "520698",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "BANCO NACIONAL DE MEXICO, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "520699",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO NACIONAL DE MEXICO, S.A.",
+    "alpha_2": "MX",
+    "alpha_3": "MEX",
+    "country": "Mexico"
+  },
+  {
+    "bin": "520700",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "NEW ENGlanD BANKCARD ASSOCIATION, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520701",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "RAIFFEISEN BANK SH.A.",
+    "alpha_2": "AL",
+    "alpha_3": "ALB",
+    "country": "Albania"
+  },
+  {
+    "bin": "520702",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520703",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CHINA MERCHANTS BANK",
+    "alpha_2": "CN",
+    "alpha_3": "CHN",
+    "country": "China"
+  },
+  {
+    "bin": "520704",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520705",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520706",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520707",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520708",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520709",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520710",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520711",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520712",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520713",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "INTERNATIONAL CARD SERVICES BV",
+    "alpha_2": "NL",
+    "alpha_3": "NLD",
+    "country": "Netherlands"
+  },
+  {
+    "bin": "520714",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ABN AMRO BANK, N.V.",
+    "alpha_2": "NL",
+    "alpha_3": "NLD",
+    "country": "Netherlands"
+  },
+  {
+    "bin": "520715",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520716",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COMMERCE BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520717",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520718",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANK ZACHODNI WBK, S.A.",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "520719",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "NEW ENGlanD BANKCARD ASSOCIATION, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520720",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ABN AMRO BANK, N.V.",
+    "alpha_2": "HK",
+    "alpha_3": "HKG",
+    "country": "Hong Kong"
+  },
+  {
+    "bin": "520721",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "STANDARD CHARTERED BANK",
+    "alpha_2": "SG",
+    "alpha_3": "SGP",
+    "country": "Singapore"
+  },
+  {
+    "bin": "520722",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520723",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ABN AMRO BANK, N.V.",
+    "alpha_2": "SG",
+    "alpha_3": "SGP",
+    "country": "Singapore"
+  },
+  {
+    "bin": "520724",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520725",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "STANDARD CHARTERED BANK",
+    "alpha_2": "HK",
+    "alpha_3": "HKG",
+    "country": "Hong Kong"
+  },
+  {
+    "bin": "520726",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "J.P. MORGAN EUROPE, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520727",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "J.P. MORGAN EUROPE, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520728",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520729",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CAJA DE AHORROS Y PENSIONES DE BARCElanA(LA CAIXA)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "520730",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CAJA DE AHORROS Y PENSIONES DE BARCElanA(LA CAIXA)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "520731",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CAJA DE AHORROS Y PENSIONES DE BARCElanA(LA CAIXA)",
+    "alpha_2": "ES",
+    "alpha_3": "ESP",
+    "country": "Spain"
+  },
+  {
+    "bin": "520732",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520733",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520734",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520735",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520736",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520737",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520738",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520739",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "HARRIS, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520740",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520741",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520742",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520743",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520744",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520745",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "RBTT BANK, LTD.",
+    "alpha_2": "TT",
+    "alpha_3": "TTO",
+    "country": "Trinidad and Tobago"
+  },
+  {
+    "bin": "520746",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "RBTT BANK, LTD.",
+    "alpha_2": "TT",
+    "alpha_3": "TTO",
+    "country": "Trinidad and Tobago"
+  },
+  {
+    "bin": "520747",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "RBTT BANK, LTD.",
+    "alpha_2": "TT",
+    "alpha_3": "TTO",
+    "country": "Trinidad and Tobago"
+  },
+  {
+    "bin": "520748",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CREDITCARD SERVICES COMPANY S.A.L.",
+    "alpha_2": "LB",
+    "alpha_3": "LBN",
+    "country": "Lebanon"
+  },
+  {
+    "bin": "520749",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "LLOYDS TSB BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520750",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "LLOYDS TSB BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520751",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "LLOYDS TSB BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520752",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "J.P. MORGAN EUROPE, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520753",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "J.P. MORGAN EUROPE, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520754",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "J.P. MORGAN EUROPE, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520755",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "J.P. MORGAN EUROPE, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520756",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "J.P. MORGAN EUROPE, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520757",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "J.P. MORGAN EUROPE, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520758",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "J.P. MORGAN EUROPE, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520759",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "J.P. MORGAN EUROPE, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520760",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "J.P. MORGAN EUROPE, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520761",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "J.P. MORGAN EUROPE, LTD.",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520762",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "GE MONEY",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "520763",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "HSBC BANK EGYPT",
+    "alpha_2": "EG",
+    "alpha_3": "EGY",
+    "country": "Egypt"
+  },
+  {
+    "bin": "520764",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "HSBC BANK MIDDLE EAST",
+    "alpha_2": "EG",
+    "alpha_3": "EGY",
+    "country": "Egypt"
+  },
+  {
+    "bin": "520765",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "HSBC BANK MIDDLE EAST",
+    "alpha_2": "EG",
+    "alpha_3": "EGY",
+    "country": "Egypt"
+  },
+  {
+    "bin": "520766",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "HSBC BANK MIDDLE EAST",
+    "alpha_2": "EG",
+    "alpha_3": "EGY",
+    "country": "Egypt"
+  },
+  {
+    "bin": "520767",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "HSBC BANK MIDDLE EAST",
+    "alpha_2": "EG",
+    "alpha_3": "EGY",
+    "country": "Egypt"
+  },
+  {
+    "bin": "520768",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANK OF AMERICA, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520769",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520770",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520771",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BLOM BANK S.A.L.",
+    "alpha_2": "EG",
+    "alpha_3": "EGY",
+    "country": "Egypt"
+  },
+  {
+    "bin": "520772",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520773",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520774",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "NEW ENGlanD BANKCARD ASSOCIATION, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520775",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "WELLS FARGO BANK, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520776",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COMMONWEALTH BANK OF AUSTRALIA",
+    "alpha_2": "AU",
+    "alpha_3": "AUS",
+    "country": "Australia"
+  },
+  {
+    "bin": "520777",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO DEL PICHINCHA, C.A.",
+    "alpha_2": "EC",
+    "alpha_3": "ECU",
+    "country": "Ecuador"
+  },
+  {
+    "bin": "520778",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520779",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "INTER-EUROPA BANK RT.",
+    "alpha_2": "HU",
+    "alpha_3": "HUN",
+    "country": "Hungary"
+  },
+  {
+    "bin": "520780",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "NEW ENGlanD BANKCARD ASSOCIATION, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520781",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CU ELECTRONIC TRANSACTION SERVICES, INC.",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "520782",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520783",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "NEW ENGlanD BANKCARD ASSOCIATION, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520784",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "NEW ENGlanD BANKCARD ASSOCIATION, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520785",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520786",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "NEW ENGlanD BANKCARD ASSOCIATION, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520787",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COLUMBUS BANK AND TRUST COMPANY",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520788",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "NEW ENGlanD BANKCARD ASSOCIATION, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520789",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COMMONWEALTH BANK OF AUSTRALIA",
+    "alpha_2": "AU",
+    "alpha_3": "AUS",
+    "country": "Australia"
+  },
+  {
+    "bin": "520790",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COMMONWEALTH BANK OF AUSTRALIA",
+    "alpha_2": "AU",
+    "alpha_3": "AUS",
+    "country": "Australia"
+  },
+  {
+    "bin": "520791",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COMMONWEALTH BANK OF AUSTRALIA",
+    "alpha_2": "AU",
+    "alpha_3": "AUS",
+    "country": "Australia"
+  },
+  {
+    "bin": "520792",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COMMONWEALTH BANK OF AUSTRALIA",
+    "alpha_2": "AU",
+    "alpha_3": "AUS",
+    "country": "Australia"
+  },
+  {
+    "bin": "520793",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COMMONWEALTH BANK OF AUSTRALIA",
+    "alpha_2": "AU",
+    "alpha_3": "AUS",
+    "country": "Australia"
+  },
+  {
+    "bin": "520794",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COMMONWEALTH BANK OF AUSTRALIA",
+    "alpha_2": "AU",
+    "alpha_3": "AUS",
+    "country": "Australia"
+  },
+  {
+    "bin": "520795",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COMMONWEALTH BANK OF AUSTRALIA",
+    "alpha_2": "AU",
+    "alpha_3": "AUS",
+    "country": "Australia"
+  },
+  {
+    "bin": "520796",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COMMONWEALTH BANK OF AUSTRALIA",
+    "alpha_2": "AU",
+    "alpha_3": "AUS",
+    "country": "Australia"
+  },
+  {
+    "bin": "520797",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COMMONWEALTH BANK OF AUSTRALIA",
+    "alpha_2": "AU",
+    "alpha_3": "AUS",
+    "country": "Australia"
+  },
+  {
+    "bin": "520798",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COMMONWEALTH BANK OF AUSTRALIA",
+    "alpha_2": "AU",
+    "alpha_3": "AUS",
+    "country": "Australia"
+  },
+  {
+    "bin": "520799",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COMMONWEALTH BANK OF AUSTRALIA",
+    "alpha_2": "AU",
+    "alpha_3": "AUS",
+    "country": "Australia"
+  },
+  {
+    "bin": "520800",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ NICOS CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520801",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520802",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520803",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520804",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520805",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520806",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "CORPORATE",
+    "issuer": "MITSUBISHI UFJ NICOS CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520807",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "MITSUBISHI UFJ NICOS CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520808",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ NICOS CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520809",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520810",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520811",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "OTHER",
+    "issuer": "PULSE NETWORK LLC",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520812",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520813",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "OTHER",
+    "issuer": "JACK HENRY AND ASSOCIATES",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520814",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "OTHER",
+    "issuer": "FIFTH THIRD BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520815",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "OTHER",
+    "issuer": "U.S. BANK NATIONAL ASSOCIATION, ND",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520816",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "JACK HENRY AND ASSOCIATES",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520817",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520818",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "OTHER",
+    "issuer": "FIDELITY INFORMATION SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520819",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "OTHER",
+    "issuer": "U.S. BANK NATIONAL ASSOCIATION, ND",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520820",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "OTHER",
+    "issuer": "U.S. BANK NATIONAL ASSOCIATION, ND",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520821",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "OTHER",
+    "issuer": "STAR PROCESSING, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520822",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "OTHER",
+    "issuer": "COMPUTER SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520823",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "OTHER",
+    "issuer": "FIDELITY INFORMATION SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520824",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "STANDARD",
+    "issuer": "HERITAGE TRUST F.C.U.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520825",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "OTHER",
+    "issuer": "FISERV SOLUTIONS, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520826",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520827",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "OTHER",
+    "issuer": "STAR PROCESSING, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520828",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "PREPAID",
+    "issuer": "SECURITY BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520829",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "OTHER",
+    "issuer": "COMPUTER SERVICES, INC.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520830",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520831",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ NICOS CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520832",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520833",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520834",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520835",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520836",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520837",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520838",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520839",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520840",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520841",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520842",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520843",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520844",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520845",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520846",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520847",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520848",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520849",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520850",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520851",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520852",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520853",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520854",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520855",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520856",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "UCS CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520857",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520858",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ NICOS CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520859",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520860",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520861",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520862",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520863",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520864",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520865",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520866",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520867",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520868",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520869",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520870",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520871",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520872",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520873",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520874",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520875",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520876",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520877",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520878",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "UCS CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520879",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ NICOS CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520880",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520881",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520882",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "GOLD",
+    "issuer": "UCS CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520883",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ NICOS CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520884",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520885",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520886",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520887",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520888",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520889",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520890",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520891",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520892",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520893",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520894",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520895",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "520896",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520897",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CANARA BANK",
+    "alpha_2": "IN",
+    "alpha_3": "IND",
+    "country": "India"
+  },
+  {
+    "bin": "520898",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANCO PANAMERICANO, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "520899",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520900",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "B@NCA 24-7 S.P.A.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "520901",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "BANCA INTESA AD BEOGRAD",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "520902",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "PREPAID",
+    "issuer": "UNIONE DI BANCHE ITALIANE S.C.P.A",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "520903",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ALLIANCE AND LEICESTER INTERNATIONAL",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520904",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "HSBC BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520905",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COMMERCIAL BANK RENAISSANCE CAPITAL (LIMITED LIABILITY",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520906",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "HYPO ALPE-ADRIA-BANK D.D.",
+    "alpha_2": "BA",
+    "alpha_3": "BIH",
+    "country": "Bosnia and Herzegovina"
+  },
+  {
+    "bin": "520907",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "ONEY S.P.A.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "520908",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "OTHER",
+    "issuer": "FIFTH THIRD BANK",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520909",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "DENIZBANK, A.S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "520910",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "SYGMA BANQUE SOCIETE ANONYME ODDZIAL W POLSCE",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "520911",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "LUOTTOKUNTA",
+    "alpha_2": "FI",
+    "alpha_3": "FIN",
+    "country": "Finland"
+  },
+  {
+    "bin": "520912",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "BANKA SPARKASSE D.D.",
+    "alpha_2": "SI",
+    "alpha_3": "SVN",
+    "country": "Slovenia"
+  },
+  {
+    "bin": "520913",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "EURO KARTENSYSTEME GMBH",
+    "alpha_2": "DE",
+    "alpha_3": "DEU",
+    "country": "Germany"
+  },
+  {
+    "bin": "520914",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANK CARD COMPANY, S.A.",
+    "alpha_2": "BE",
+    "alpha_3": "BEL",
+    "country": "Belgium"
+  },
+  {
+    "bin": "520915",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "B@NCA 24-7 S.P.A.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "520916",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "B@NCA 24-7 S.P.A.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "520917",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "NLB MONTENEGROBANKA AD PODGORICA",
+    "alpha_2": "ME",
+    "alpha_3": "MNE",
+    "country": "Montenegro"
+  },
+  {
+    "bin": "520918",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "BUSINESS",
+    "issuer": "MAGYAR TAKAREKSZOVEKEZETI BANK RT. (BANK OF HUNGARIAN SAVING",
+    "alpha_2": "HU",
+    "alpha_3": "HUN",
+    "country": "Hungary"
+  },
+  {
+    "bin": "520919",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "BANCA INTESA AD BEOGRAD",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "520920",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "SEVERNY MORSKOY PUT OJSC",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520921",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "PROCREDIT BANK AD SKOPJE",
+    "alpha_2": "MK",
+    "alpha_3": "MKD",
+    "country": "MACEDONIA"
+  },
+  {
+    "bin": "520922",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "TURKIYE GARANTI BANKASI A. S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "520923",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PROCREDIT BANK D.D. SARAJEVO",
+    "alpha_2": "BA",
+    "alpha_3": "BIH",
+    "country": "Bosnia and Herzegovina"
+  },
+  {
+    "bin": "520924",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "ZUNO BANK AG",
+    "alpha_2": "SK",
+    "alpha_3": "SVK",
+    "country": "Slovakia"
+  },
+  {
+    "bin": "520925",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "NORDEA BANK POLSKA, S.A.",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "520926",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "BANK LEUMI ROMANIA, S.A.",
+    "alpha_2": "RO",
+    "alpha_3": "ROU",
+    "country": "Romania"
+  },
+  {
+    "bin": "520927",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "UNICREDIT TIRIAC BANK, S.A.",
+    "alpha_2": "RO",
+    "alpha_3": "ROU",
+    "country": "Romania"
+  },
+  {
+    "bin": "520928",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "VNESHECONOMBANK - THE BANK FOR FOREIGN ECONOMIC AFFAIRS OF",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520929",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PRIVREDNA BANKA ZAGREB D.D.",
+    "alpha_2": "HR",
+    "alpha_3": "HRV",
+    "country": "Croatia"
+  },
+  {
+    "bin": "520930",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "PROCREDIT BANK A.D.",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "520931",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "NLB BANKA A.D. BEOGRAD",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "520932",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "AKBANK T.A.S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "520933",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "HSBC BANK PLC",
+    "alpha_2": "GB",
+    "alpha_3": "GBR",
+    "country": "United Kingdom"
+  },
+  {
+    "bin": "520934",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "NLB TUZlanSKA BANKA DD. TUZLA",
+    "alpha_2": "BA",
+    "alpha_3": "BIH",
+    "country": "Bosnia and Herzegovina"
+  },
+  {
+    "bin": "520935",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JSCB AK BARS",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520936",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "BANK BPH SPOLKA AKCYJNA",
+    "alpha_2": "PL",
+    "alpha_3": "POL",
+    "country": "Poland"
+  },
+  {
+    "bin": "520937",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "VERBAND DER SPARDA BANKEN E.V.",
+    "alpha_2": "DE",
+    "alpha_3": "DEU",
+    "country": "Germany"
+  },
+  {
+    "bin": "520938",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JSCB - BANK OF BAKU",
+    "alpha_2": "AZ",
+    "alpha_3": "AZE",
+    "country": "Azerbaijan"
+  },
+  {
+    "bin": "520939",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "CB MOLDOVA-AGROINDBANK, S.A.",
+    "alpha_2": "MD",
+    "alpha_3": "MDA",
+    "country": "MOLDOVA"
+  },
+  {
+    "bin": "520940",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "TURKIYE GARANTI BANKASI A. S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "520941",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "EURO KARTENSYSTEME GMBH",
+    "alpha_2": "DE",
+    "alpha_3": "DEU",
+    "country": "Germany"
+  },
+  {
+    "bin": "520942",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "NEW WORLD",
+    "issuer": "BANCA DI SASSARI S.P.A.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "520943",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JSCB ROSBANK",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520944",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "SOCIETE GENERALE - SPLITSKA BANKA D.D.",
+    "alpha_2": "HR",
+    "alpha_3": "HRV",
+    "country": "Croatia"
+  },
+  {
+    "bin": "520945",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "SOCIETE GENERALE - SPLITSKA BANKA D.D.",
+    "alpha_2": "HR",
+    "alpha_3": "HRV",
+    "country": "Croatia"
+  },
+  {
+    "bin": "520946",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "NOVA BANKA A.D.",
+    "alpha_2": "BA",
+    "alpha_3": "BIH",
+    "country": "Bosnia and Herzegovina"
+  },
+  {
+    "bin": "520947",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "PREPAID",
+    "issuer": "BANCA POPOLARE DELL'ALTO ADIGE",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "520948",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ITAU UNIBANCO, S.A.",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "520949",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "PIRAEUS BANK, S.A.",
+    "alpha_2": "GR",
+    "alpha_3": "GRC",
+    "country": "Greece"
+  },
+  {
+    "bin": "520950",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "FIRST INVESTMENT BANK, LTD.",
+    "alpha_2": "BG",
+    "alpha_3": "BGR",
+    "country": "Bulgaria"
+  },
+  {
+    "bin": "520951",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "FIA CARD SERVICES, N.A.",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520952",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ENTERCARD SVERIGE AB",
+    "alpha_2": "SE",
+    "alpha_3": "SWE",
+    "country": "Sweden"
+  },
+  {
+    "bin": "520953",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "COOPERATIEVE CENTRALE RAIFFEISEN-BOEREN-LEENBANK BA",
+    "alpha_2": "NL",
+    "alpha_3": "NLD",
+    "country": "Netherlands"
+  },
+  {
+    "bin": "520954",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JSB GAZPROMBANK (CJSC)",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520955",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "KB FINANSOVIY STANDART",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520956",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "SETEFI S.P.A.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "520957",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "CITIBANK MOSCOW",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520958",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "FINDOMESTIC BANCA S.P.A.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "520959",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "FINDOMESTIC BANCA S.P.A.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "520960",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "FINDOMESTIC BANCA S.P.A.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "520961",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520962",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "ENTERCARD NORGE, A.S.",
+    "alpha_2": "NO",
+    "alpha_3": "NOR",
+    "country": "Norway"
+  },
+  {
+    "bin": "520963",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "TELLER, A.S.",
+    "alpha_2": "DK",
+    "alpha_3": "DNK",
+    "country": "Denmark"
+  },
+  {
+    "bin": "520964",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PBS INTERNATIONAL A/S",
+    "alpha_2": "DK",
+    "alpha_3": "DNK",
+    "country": "Denmark"
+  },
+  {
+    "bin": "520965",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PBS INTERNATIONAL A/S",
+    "alpha_2": "DK",
+    "alpha_3": "DNK",
+    "country": "Denmark"
+  },
+  {
+    "bin": "520966",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PBS INTERNATIONAL A/S",
+    "alpha_2": "DK",
+    "alpha_3": "DNK",
+    "country": "Denmark"
+  },
+  {
+    "bin": "520967",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PBS INTERNATIONAL A/S",
+    "alpha_2": "DK",
+    "alpha_3": "DNK",
+    "country": "Denmark"
+  },
+  {
+    "bin": "520968",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PBS INTERNATIONAL A/S",
+    "alpha_2": "DK",
+    "alpha_3": "DNK",
+    "country": "Denmark"
+  },
+  {
+    "bin": "520969",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PBS INTERNATIONAL A/S",
+    "alpha_2": "DK",
+    "alpha_3": "DNK",
+    "country": "Denmark"
+  },
+  {
+    "bin": "520970",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PBS INTERNATIONAL A/S",
+    "alpha_2": "DK",
+    "alpha_3": "DNK",
+    "country": "Denmark"
+  },
+  {
+    "bin": "520971",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PBS INTERNATIONAL A/S",
+    "alpha_2": "DK",
+    "alpha_3": "DNK",
+    "country": "Denmark"
+  },
+  {
+    "bin": "520972",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PBS INTERNATIONAL A/S",
+    "alpha_2": "DK",
+    "alpha_3": "DNK",
+    "country": "Denmark"
+  },
+  {
+    "bin": "520973",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PBS INTERNATIONAL A/S",
+    "alpha_2": "DK",
+    "alpha_3": "DNK",
+    "country": "Denmark"
+  },
+  {
+    "bin": "520974",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PBS INTERNATIONAL A/S",
+    "alpha_2": "DK",
+    "alpha_3": "DNK",
+    "country": "Denmark"
+  },
+  {
+    "bin": "520975",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PBS INTERNATIONAL A/S",
+    "alpha_2": "DK",
+    "alpha_3": "DNK",
+    "country": "Denmark"
+  },
+  {
+    "bin": "520976",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "PBS INTERNATIONAL A/S",
+    "alpha_2": "DK",
+    "alpha_3": "DNK",
+    "country": "Denmark"
+  },
+  {
+    "bin": "520977",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "WIRECARD BANK AG",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "520978",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "JSC SEB BANKA",
+    "alpha_2": "LV",
+    "alpha_3": "LVA",
+    "country": "Latvia"
+  },
+  {
+    "bin": "520979",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520980",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "",
+    "alpha_2": "US",
+    "alpha_3": "USA",
+    "country": "United States"
+  },
+  {
+    "bin": "520981",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "",
+    "issuer": "UNIBANCO - UNIAO DE BANCOS BRASILEIROS, S.A.",
+    "alpha_2": "PA",
+    "alpha_3": "PAN",
+    "country": "Panama"
+  },
+  {
+    "bin": "520982",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "VNESHECONOMBANK - THE BANK FOR FOREIGN ECONOMIC AFFAIRS OF",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520983",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "GOLD",
+    "issuer": "NLB BANKA A.D. BEOGRAD",
+    "alpha_2": "RS",
+    "alpha_3": "SRB",
+    "country": "Serbia"
+  },
+  {
+    "bin": "520984",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "GOLD",
+    "issuer": "INTERNATIONAL CARD SERVICES BV",
+    "alpha_2": "BE",
+    "alpha_3": "BEL",
+    "country": "Belgium"
+  },
+  {
+    "bin": "520985",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "GOLD",
+    "issuer": "JSCB AK BARS",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520986",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "GOLD",
+    "issuer": "VERBAND DER SPARDA BANKEN E.V.",
+    "alpha_2": "DE",
+    "alpha_3": "DEU",
+    "country": "Germany"
+  },
+  {
+    "bin": "520987",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "GOLD",
+    "issuer": "JSCB - BANK OF BAKU",
+    "alpha_2": "AZ",
+    "alpha_3": "AZE",
+    "country": "Azerbaijan"
+  },
+  {
+    "bin": "520988",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "NEW WORLD",
+    "issuer": "TURKIYE GARANTI BANKASI A. S.",
+    "alpha_2": "TR",
+    "alpha_3": "TUR",
+    "country": "Turkey"
+  },
+  {
+    "bin": "520989",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "NEW WORLD",
+    "issuer": "BANCA DI SASSARI S.P.A.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "520990",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "GOLD",
+    "issuer": "WESTPAC BANKING CORPORATION",
+    "alpha_2": "CA",
+    "alpha_3": "CAN",
+    "country": "Canada"
+  },
+  {
+    "bin": "520991",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "VOLVOFINANS BANK AB (PUBL)",
+    "alpha_2": "SE",
+    "alpha_3": "SWE",
+    "country": "Sweden"
+  },
+  {
+    "bin": "520992",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "GOLD",
+    "issuer": "FIRST INVESTMENT BANK, LTD.",
+    "alpha_2": "BG",
+    "alpha_3": "BGR",
+    "country": "Bulgaria"
+  },
+  {
+    "bin": "520993",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "CITIBANK MOSCOW",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520994",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "CREDIT",
+    "issuer": "FAR EASTERN INTERNATIONAL BANK",
+    "alpha_2": "TW",
+    "alpha_3": "TWN",
+    "country": "Taiwan"
+  },
+  {
+    "bin": "520995",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "BANCO IBI S.A. BANCO MULTIPLO",
+    "alpha_2": "BR",
+    "alpha_3": "BRA",
+    "country": "Brazil"
+  },
+  {
+    "bin": "520996",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "OJSC BANK URALSIB",
+    "alpha_2": "RU",
+    "alpha_3": "RUS",
+    "country": "RUSSIA"
+  },
+  {
+    "bin": "520997",
+    "brand": "MASTERCARD",
+    "type": "DEBIT",
+    "category": "PREPAID",
+    "issuer": "STANDARD BANK OF SOUTH AFRICA, LTD.",
+    "alpha_2": "ZA",
+    "alpha_3": "ZAF",
+    "country": "South Africa"
+  },
+  {
+    "bin": "520998",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "GOLD",
+    "issuer": "CARTASI S.P.A.",
+    "alpha_2": "IT",
+    "alpha_3": "ITA",
+    "country": "Italy"
+  },
+  {
+    "bin": "520999",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "STANDARD",
+    "issuer": "ALPHA BANK ROMANIA, S.A.",
+    "alpha_2": "RO",
+    "alpha_3": "ROU",
+    "country": "Romania"
+  },
+  {
+    "bin": "521000",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "RAKUTEN CARD CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "521001",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "KOKUNAI SHINPAN CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "521002",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "KOKUNAI SHINPAN CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "521003",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "KOKUNAI SHINPAN CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "521004",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "KOKUNAI SHINPAN CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "521005",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "KOKUNAI SHINPAN CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "521006",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "KOKUNAI SHINPAN CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "521007",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "KOKUNAI SHINPAN CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "521008",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "KOKUNAI SHINPAN CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "521009",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "KOKUNAI SHINPAN CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "521010",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "KOKUNAI SHINPAN CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "521011",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "KOKUNAI SHINPAN CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "521012",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "KOKUNAI SHINPAN CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  },
+  {
+    "bin": "521013",
+    "brand": "MASTERCARD",
+    "type": "CREDIT",
+    "category": "",
+    "issuer": "KOKUNAI SHINPAN CO., LTD.",
+    "alpha_2": "JP",
+    "alpha_3": "JPN",
+    "country": "Japan"
+  }
+]
