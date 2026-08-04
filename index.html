@@ -420,7 +420,7 @@
         
         try {
             // 直接请求根目录下的对应切片文件
-            let r = await fetch(`./${prefix}.json`);
+            let r = await fetch(`./chunk_${prefix}.json`);
             if(!r.ok) throw new Error("未找到");
             let data = await r.json();
             let matched = data.filter(item => item.bin.startsWith(q));
