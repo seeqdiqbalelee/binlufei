@@ -1,453 +1,538 @@
-/*
-SMS Manager Worker Clean UI Version (Aesthetic & Centered Enhanced)
-Cloudflare KV Namespace: SMS_MANAGER_KV
-Binding: SMS_KV
-*/
-
-const commonHead = `
-  <meta charset='utf-8'>
-  <meta name='viewport' content='width=device-width,initial-scale=1'>
-  <style>
-    :root {
-      --primary: #2563eb;
-      --primary-hover: #1d4ed8;
-      --danger: #dc2626;
-      --danger-hover: #b91c1c;
-      --secondary: #475569;
-      --secondary-hover: #334155;
-      --bg-color: #f1f5f9;
-      --card-bg: #ffffff;
-      --text-main: #0f172a;
-      --text-muted: #64748b;
-      --border-color: #cbd5e1;
-    }
-    body { 
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
-      background: var(--bg-color); 
-      color: var(--text-main); 
-      margin: 0; 
-      padding: 40px 20px; 
-      line-height: 1.6;
-    }
-    .container { 
-      max-width: 900px; 
-      margin: 0 auto; 
-    }
-    
-    /* 顶部导航与标签居中包装 */
-    .nav-wrapper {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 24px;
-    }
-    .header-nav { 
-      display: flex; 
-      justify-content: center; 
-      align-items: center; 
-      background: #ffffff;
-      padding: 12px 24px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
-      border: 1px solid var(--border-color);
-      gap: 20px;
-    }
-    .header-nav a { 
-      color: var(--text-muted); 
-      text-decoration: none; 
-      font-weight: 600; 
-      font-size: 16px;
-      transition: all 0.2s;
-      padding: 8px 16px;
-      border-radius: 8px;
-    }
-    .header-nav a:hover { 
-      color: var(--primary); 
-      background: #eff6ff;
-    }
-
-    .card { 
-      background: var(--card-bg); 
-      border-radius: 16px; 
-      padding: 32px; 
-      margin: 20px 0; 
-      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.05), 0 8px 10px -6px rgba(15, 23, 42, 0.03); 
-      border: 1px solid var(--border-color);
-    }
-    h2 { font-size: 24px; font-weight: 700; color: var(--text-main); margin-top: 0; margin-bottom: 8px; }
-    h3 { font-size: 18px; font-weight: 600; color: var(--text-main); margin-top: 0; }
-    
-    button { 
-      padding: 10px 20px; 
-      border-radius: 8px; 
-      border: 0; 
-      background: var(--primary); 
-      color: #fff; 
-      cursor: pointer; 
-      font-weight: 600; 
-      font-size: 15px;
-      transition: all 0.2s ease;
-      box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
-    }
-    button:hover { background: var(--primary-hover); transform: translateY(-1px); }
-    button.danger { background: var(--danger); box-shadow: 0 2px 4px rgba(220, 38, 38, 0.2); }
-    button.danger:hover { background: var(--danger-hover); }
-    button.secondary { background: var(--secondary); box-shadow: 0 2px 4px rgba(71, 85, 105, 0.2); }
-    button.secondary:hover { background: var(--secondary-hover); }
-    
-    input { 
-      padding: 12px 16px; 
-      margin: 10px 0; 
-      width: 100%; 
-      box-sizing: border-box; 
-      border: 1px solid var(--border-color); 
-      border-radius: 8px; 
-      font-size: 16px;
-      color: var(--text-main);
-      background: #fff;
-      transition: border-color 0.2s, box-shadow 0.2s;
-    }
-    input:focus {
-      outline: none;
-      border-color: var(--primary);
-      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
-    }
-
-    .flex-between { 
-      display: flex; 
-      justify-content: space-between; 
-      align-items: center; 
-    }
-    .code-box { 
-      font-size: 22px; 
-      font-weight: 700; 
-      letter-spacing: 0.5px;
-      color: #b91c1c; 
-      background: #fef2f2; 
-      padding: 18px 22px; 
-      border-radius: 12px; 
-      margin: 16px 0; 
-      border: 1px dashed #fca5a5; 
-      word-break: break-all; 
-    }
-    .btn-group { display: flex; gap: 12px; }
-    .meta-info { color: var(--text-muted); font-size: 16px; line-height: 1.8; }
-    .meta-info b { color: var(--text-main); }
-  </style>
-`;
-
-function home() {
-  return `<!doctype html>
-  <html>
-  <head>
-    <title>SMS接码中心</title>
-    ${commonHead}
-  </head>
-  <body>
-    <div class="container">
-      <div class="nav-wrapper">
-        <div class="header-nav">
-          <a href="/">📱 接码中心</a>
-          <a href="/admin">⚙ 后台管理</a>
-        </div>
-      </div>
-      
-      <div class="flex-between card" style="margin-top:0;">
-        <h2>📱 SMS 实时接码中心</h2>
-        <div class="btn-group">
-          <button class="secondary" id="refreshBtn">🔄 刷新并同步</button>
-          <button class="danger" id="clearBtn">🗑️ 清空历史</button>
-        </div>
-      </div>
-      <div id='list' style="font-size: 16px; color: var(--text-muted); text-align: center; padding: 40px 0;">加载中...</div>
-    </div>
-
-    <script>
-      async function load() {
-        let btn = document.getElementById('refreshBtn');
-        btn.innerText = '🔄 正在同步...';
-        try {
-          await fetch('/api/pull');
-          let r = await fetch('/api/messages');
-          let d = await r.json();
-          let box = document.getElementById('list');
-          if (!d || d.length === 0) {
-            box.innerHTML = '<div class="card" style="text-align: center; color: var(--text-muted); font-size: 16px;">暂无收到的验证码记录。请确保后台已添加接口，并点击“刷新并同步”或去发送验证码。</div>';
-            btn.innerText = '🔄 刷新并同步';
-            return;
-          }
-          box.innerHTML = '';
-          d.reverse().forEach(function(x) {
-            let c = document.createElement('div');
-            c.className = 'card';
-            c.innerHTML = '<div class="meta-info">' +
-                         '<b>接口名称:</b> ' + (x.api || '未命名') + '<br>' +
-                         '<b>手机号:</b> ' + (x.phone || '无') + '<br>' +
-                         '<b>时间:</b> ' + new Date(x.time).toLocaleString() +
-                         '</div>' +
-                         '<div class="code-box">' + (x.code || x.message) + '</div>';
-            let b = document.createElement('button');
-            b.innerText = '📋 复制验证码';
-            b.style.fontSize = '15px';
-            b.style.padding = '10px 20px';
-            b.onclick = function() {
-              navigator.clipboard.writeText(x.code || x.message || '');
-              b.innerText = '✅ 已复制!';
-              setTimeout(function() { b.innerText = '📋 复制验证码'; }, 2000);
-            };
-            c.appendChild(b);
-            box.appendChild(c);
-          });
-        } catch (e) {
-          console.error(e);
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多功能实用工具与 BIN 码多维查询中心</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f1f5f9;
+            color: #0f172a;
         }
-        btn.innerText = '🔄 刷新并同步';
-      }
-      
-      document.getElementById('refreshBtn').onclick = load;
-      
-      document.getElementById('clearBtn').onclick = async function() {
-        if (!confirm('确定要清空所有的接码历史记录吗？')) return;
-        try {
-          let r = await fetch('/api/messages', { method: 'DELETE' });
-          let res = await r.json();
-          if (res.ok) {
-            alert('历史记录已清空！');
-            load();
-          }
-        } catch(e) {
-          alert('清空失败');
+        .header {
+            padding: 24px 20px 20px;
+            text-align: center;
+            background: #0f172a;
+            color: white;
+            border-bottom: 3px solid #2563eb;
         }
-      };
-
-      load();
-      setInterval(load, 10000);
-    </script>
-  </body>
-  </html>`;
-}
-
-function admin() {
-  return `<!doctype html>
-  <html>
-  <head>
-    <title>API后台管理</title>
-    ${commonHead}
-  </head>
-  <body>
-    <div class="container">
-      <div class="nav-wrapper">
-        <div class="header-nav">
-          <a href="/">📱 接码中心</a>
-          <a href="/admin">⚙ 后台管理</a>
-        </div>
-      </div>
-
-      <div class="card" style="margin-top:0;">
-        <div class="flex-between">
-          <div>
-            <h2>⚙ 接口管理后台</h2>
-            <p style="color: var(--text-muted); font-size: 15px; margin: 6px 0 0 0;">点击后会立即向所有已配置的接码平台请求最新数据。</p>
-          </div>
-          <button class="secondary" id="pullBtn">📥 立即拉取新短信</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <h3>添加/配置 接码 API</h3>
-        <input id='name' placeholder='API名称 (例如: SMS8接码)'>
-        <input id='phone' placeholder='手机号 (例如: +17088517798)'>
-        <input id='url' placeholder='接口地址 (例如: https://api.sms8.net/api/record)'>
-        <input id='token' placeholder='Token 密钥'>
-        <div style="margin-top: 15px;">
-          <button id='saveBtn'>保存并添加</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <h3>已配置的 API 列表</h3>
-        <div id='apiList' style="color: var(--text-muted); font-size: 16px;">加载中...</div>
-      </div>
-    </div>
-
-    <script>
-      async function loadAPIs() {
-        try {
-          let r = await fetch('/api/apis');
-          let d = await r.json();
-          let listDiv = document.getElementById('apiList');
-          if (!d || d.length === 0) {
-            listDiv.innerHTML = '暂无配置的接口';
-            return;
-          }
-          listDiv.innerHTML = d.map(function(x, index) {
-            return '<div style="border-bottom: 1px solid var(--border-color); padding: 16px 0; display: flex; justify-content: space-between; align-items: center;">' +
-                   '<div style="font-size: 15px;"><b style="color: var(--text-main); font-size: 17px;">' + x.name + '</b> <span style="color: var(--text-muted);">(' + (x.phone || '无手机号') + ')</span><br>' +
-                   '<small style="color: var(--primary); font-family: monospace; font-size: 14px;">' + x.url + '</small></div>' +
-                   '<button class="danger" style="padding: 8px 16px; font-size: 14px;" onclick="deleteAPI(' + index + ')">删除</button></div>';
-          }).join('');
-        } catch(e) {
-          console.error(e);
+        .header h1 { margin: 0 0 6px; font-size: 24px; font-weight: 600; }
+        .header p { margin: 0; font-size: 13px; color: #94a3b8; }
+        
+        .container {
+            width: min(1320px, calc(100% - 24px));
+            margin: 18px auto 40px;
         }
-      }
-
-      document.getElementById('saveBtn').onclick = async function() {
-        let name = document.getElementById('name').value;
-        let phone = document.getElementById('phone').value;
-        let url = document.getElementById('url').value;
-        let token = document.getElementById('token').value;
-
-        if (!url || !token) {
-          alert('接口地址和 Token 不能为空！');
-          return;
+        
+        /* 顶部导航卡 */
+        .tabs {
+            display: flex;
+            gap: 6px;
+            margin-bottom: 14px;
+        }
+        .tab {
+            padding: 10px 20px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            background: #ffffff;
+            color: #475569;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all .15s ease;
+        }
+        .tab:hover { background: #f8fafc; color: #1e293b; }
+        .tab.active {
+            background: #2563eb;
+            border-color: #2563eb;
+            color: white;
+            box-shadow: 0 2px 6px rgba(37,99,235,.2);
         }
 
-        await fetch('/api/apis', {
-          method: 'POST',
-          headers: { 'content-type': 'application/json' },
-          body: JSON.stringify({ name, phone, url, token })
+        .panel {
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(15,23,42,.03);
+        }
+        .page { display: none; }
+        .page.active { display: block; }
+
+        h2 { margin: 0 0 4px; font-size: 18px; font-weight: 600; color: #1e293b; }
+        .description {
+            margin: 0 0 16px;
+            color: #64748b;
+            font-size: 13px;
+        }
+
+        /* 基础公共控件 */
+        input, select, textarea { font-family: inherit; font-size: 13px; }
+        input[type="text"], input[type="number"], select, textarea {
+            height: 34px;
+            border: 1px solid #cbd5e1;
+            border-radius: 4px;
+            padding: 0 10px;
+            background: #fff;
+            width: 100%;
+            color: #334155;
+            outline: none;
+        }
+        input:focus, select:focus, textarea:focus {
+            border-color: #2563eb;
+            box-shadow: 0 0 0 2px rgba(37,99,235,.15);
+        }
+
+        button {
+            height: 34px;
+            border: 1px solid #cbd5e1;
+            border-radius: 4px;
+            padding: 0 16px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            background: #f8fafc;
+            color: #334155;
+            transition: .15s;
+        }
+        button:hover { background: #f1f5f9; border-color: #94a3b8; }
+        button.primary { background: #2563eb; border-color: #2563eb; color: white; }
+        button.primary:hover { background: #1d4ed8; }
+        button.success { background: #16a34a; border-color: #16a34a; color: white; }
+        button.danger { background: #dc2626; border-color: #dc2626; color: white; }
+
+        /* BIN 查询页面专属：复刻经典极简多维面板 */
+        .bin-filter-grid {
+            display: grid;
+            grid-template-columns: 200px 1fr 1fr 220px;
+            gap: 12px;
+            background: #f8fafc;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            padding: 14px;
+            align-items: start;
+        }
+        @media(max-width: 1024px) { .bin-filter-grid { grid-template-columns: 1fr 1fr; } }
+        
+        .filter-column {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .filter-column label {
+            font-size: 11px;
+            font-weight: 700;
+            color: #475569;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+        
+        /* 紧凑的多选列表框 */
+        .checkbox-scroll-box {
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            border-radius: 4px;
+            height: 135px;
+            overflow-y: auto;
+            padding: 6px 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .checkbox-scroll-box label {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+            font-weight: normal;
+            color: #334155;
+            cursor: pointer;
+            text-transform: none;
+            letter-spacing: normal;
+        }
+        .checkbox-scroll-box input[type="checkbox"] {
+            margin: 0;
+            width: 14px;
+            height: 14px;
+            cursor: pointer;
+        }
+
+        .bin-actions {
+            display: flex;
+            gap: 8px;
+            margin-top: 12px;
+            justify-content: flex-end;
+        }
+
+        /* 经典极简表格样式 */
+        .bin-count-header {
+            font-size: 14px;
+            font-weight: 600;
+            color: #2563eb;
+            margin: 16px 0 10px;
+        }
+        .classic-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            font-size: 13px;
+        }
+        .classic-table th {
+            background: #f1f5f9;
+            color: #334155;
+            font-weight: 700;
+            text-align: left;
+            padding: 9px 12px;
+            border-bottom: 2px solid #cbd5e1;
+            border-top: 1px solid #cbd5e1;
+        }
+        .classic-table td {
+            padding: 8px 12px;
+            border-bottom: 1px solid #e2e8f0;
+            color: #334155;
+        }
+        .classic-table tr:hover { background: #f8fafc; }
+
+        /* 其他页面简易样式 */
+        .list { margin-top: 14px; display: grid; gap: 8px; }
+        .item-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-family: Consolas, monospace;
+            font-size: 13px;
+        }
+        .status { margin-top: 10px; color: #16a34a; font-size: 13px; font-weight: 600; min-height: 20px; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>多功能实用工具</h1>
+        <p>随机邮箱、美国地址、自动求和与 BIN 码多维智能查询中心</p>
+    </header>
+
+    <main class="container">
+        <nav class="tabs">
+            <button class="tab active" data-page="gmailPage">谷歌邮箱</button>
+            <button class="tab" data-page="addressPage">美国地址电话</button>
+            <button class="tab" data-page="sumPage">自动求和</button>
+            <button class="tab" data-page="binPage">🔍 BIN 码查询</button>
+        </nav>
+
+        <section class="panel">
+            <div id="gmailPage" class="page active">
+                <h2>随机 Gmail 邮箱生成器</h2>
+                <p class="description">每次打开自动生成，可自定义数量并单独或批量复制。</p>
+                <div style="display:flex; gap:8px; max-width:400px;">
+                    <input id="gmailCount" type="number" min="1" max="500" value="10">
+                    <button id="gmailGenerate" class="primary">生成</button>
+                    <button id="gmailCopyAll" class="success">复制全部</button>
+                </div>
+                <div id="gmailList" class="list"></div>
+                <div id="gmailStatus" class="status"></div>
+            </div>
+
+            <div id="addressPage" class="page">
+                <h2>美国虚拟地址生成器</h2>
+                <p class="description">可指定州或者随机生成详细的虚构地址与电话。</p>
+                <div style="display:flex; gap:8px; max-width:600px;">
+                    <input id="addressCount" type="number" min="1" max="100" value="10" style="width:100px;">
+                    <select id="stateSelect">
+                        <option value="ALL">全部州 (Random)</option>
+                        <option value="CA">California (CA)</option>
+                        <option value="NY">New York (NY)</option>
+                        <option value="TX">Texas (TX)</option>
+                        <option value="FL">Florida (FL)</option>
+                    </select>
+                    <button id="addressGenerate" class="primary">生成</button>
+                    <button id="addressCopyAll" class="success">复制全部</button>
+                </div>
+                <div id="addressList" class="list"></div>
+                <div id="addressStatus" class="status"></div>
+            </div>
+
+            <div id="sumPage" class="page">
+                <h2>自动求和计算器</h2>
+                <p class="description">在文本框中直接粘贴多行数字或带公式的内容进行实时求和。</p>
+                <div style="display:grid; grid-template-columns: 1fr 300px; gap:20px;">
+                    <div>
+                        <textarea id="inputData" style="height:150px; width:100%; padding:10px; resize:vertical;" placeholder="输入数字..."></textarea>
+                        <div style="margin-top:8px; display:flex; gap:8px;">
+                            <button id="addResult" class="primary">加入历史</button>
+                            <button id="clearInput">清空</button>
+                        </div>
+                        <div id="currentResult" style="margin-top:10px; font-weight:bold; font-size:15px; color:#2563eb;">当前合计：0</div>
+                    </div>
+                    <div style="background:#f8fafc; border:1px solid #cbd5e1; border-radius:4px; padding:12px;">
+                        <div style="font-weight:bold; margin-bottom:8px; font-size:13px;">历史记录</div>
+                        <ul id="historyList" style="margin:0 0 10px; padding-left:18px; max-height:110px; overflow:auto; font-size:13px;"></ul>
+                        <div style="display:flex; gap:6px;">
+                            <button id="calculateGrandTotal" class="success" style="flex:1;">计算总计</button>
+                            <button id="clearHistory" class="danger">清空</button>
+                        </div>
+                        <div id="grandTotal" style="margin-top:8px; font-weight:bold; color:#dc2626; font-size:14px;">总计：0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="binPage" class="page">
+                <h2>全球 BIN 码多维智能查询</h2>
+                <p class="description">多条件联合精准检索底层切片 JSON 数据。</p>
+                
+                <div class="bin-filter-grid">
+                    <div class="filter-column">
+                        <label>BINS / 号段</label>
+                        <input id="binQueryInput" type="text" placeholder="如 4071">
+                        <label style="margin-top:6px;">Country / 国家</label>
+                        <input id="binCountryInput" type="text" placeholder="如 US">
+                    </div>
+
+                    <div class="filter-column">
+                        <label>VENDOR / 卡组织</label>
+                        <div class="checkbox-scroll-box" id="vendorCheckboxes">
+                            <label><input type="checkbox" value="VISA"> Visa</label>
+                            <label><input type="checkbox" value="MC"> Mastercard</label>
+                            <label><input type="checkbox" value="AMEX"> Amex</label>
+                            <label><input type="checkbox" value="MAESTRO"> Maestro</label>
+                            <label><input type="checkbox" value="DISCOVER"> Discover</label>
+                            <label><input type="checkbox" value="JCB"> JCB</label>
+                            <label><input type="checkbox" value="UNIONPAY"> UnionPay</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-column">
+                        <label>LEVEL / 卡片等级</label>
+                        <div class="checkbox-scroll-box" id="levelCheckboxes">
+                            <label><input type="checkbox" value="CLASSIC"> Classic/Standard</label>
+                            <label><input type="checkbox" value="GOLD"> Gold/Prem</label>
+                            <label><input type="checkbox" value="PLATINUM"> Platinum</label>
+                            <label><input type="checkbox" value="SIGNATURE"> Signature</label>
+                            <label><input type="checkbox" value="BUSINESS"> Business</label>
+                            <label><input type="checkbox" value="CORPORATE"> Corporate</label>
+                            <label><input type="checkbox" value="PREPAID"> Prepaid</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-column">
+                        <label>BANK & TYPE</label>
+                        <input id="binBankInput" type="text" placeholder="发卡银行关键词">
+                        <div style="margin-top:4px;">
+                            <label style="font-size:11px; color:#475569; margin-bottom:2px; display:block;">TYPE</label>
+                            <div class="checkbox-scroll-box" style="height:62px;" id="typeCheckboxes">
+                                <label><input type="checkbox" value="CREDIT"> Credit</label>
+                                <label><input type="checkbox" value="DEBIT"> Debit</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bin-actions">
+                    <button id="binResetBtn">Reset</button>
+                    <button id="binSearchBtn" class="primary">Find</button>
+                </div>
+
+                <div id="binResultArea" style="margin-top:10px;">
+                    <div style="color: #64748b; font-size: 13px; text-align:center; padding:20px;">请设置筛选条件后点击 Find 开始检索...</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<script>
+    // 选项卡切换
+    const tabs = document.querySelectorAll(".tab");
+    const pages = document.querySelectorAll(".page");
+    tabs.forEach(tab => {
+        tab.addEventListener("click", () => {
+            tabs.forEach(t => t.classList.remove("active"));
+            pages.forEach(p => p.classList.remove("active"));
+            tab.classList.add("active");
+            document.getElementById(tab.dataset.page).classList.add("active");
         });
+    });
 
-        document.getElementById('name').value = '';
-        document.getElementById('phone').value = '';
-        document.getElementById('url').value = '';
-        document.getElementById('token').value = '';
-        loadAPIs();
-        alert('保存成功！');
-      };
+    function showStatus(id, msg) {
+        const el = document.getElementById(id);
+        if(!el) return;
+        el.textContent = msg;
+        clearTimeout(el.timer);
+        el.timer = setTimeout(() => el.textContent = "", 1500);
+    }
 
-      async function deleteAPI(index) {
-        if (!confirm('确定要删除这个接口吗？')) return;
-        await fetch('/api/apis?index=' + index, { method: 'DELETE' });
-        loadAPIs();
-      }
+    async function copyText(text, statusId) {
+        try { await navigator.clipboard.writeText(text); } catch(e) {}
+        if(statusId) showStatus(statusId, "已复制");
+    }
 
-      document.getElementById('pullBtn').onclick = async function() {
-        let btn = document.getElementById('pullBtn');
-        btn.innerText = '📥 正在拉取...';
+    // 1. 谷歌邮箱
+    const letters = "abcdefghijklmnopqrstuvwxyz0123456789";
+    let gmailData = [];
+    document.getElementById("gmailGenerate").onclick = () => {
+        let count = Math.min(Math.max(Number(document.getElementById("gmailCount").value), 1), 200);
+        const set = new Set();
+        while(set.size < count) {
+            let s = "";
+            for(let i=0; i<9; i++) s += letters[Math.floor(Math.random()*letters.length)];
+            set.add(s + "@gmail.com");
+        }
+        gmailData = [...set];
+        document.getElementById("gmailList").innerHTML = gmailData.map(e => `
+            <div class="item-row"><span>${e}</span><button onclick="copyText('${e}', 'gmailStatus')">复制</button></div>
+        `).join('');
+    };
+    document.getElementById("gmailCopyAll").onclick = () => copyText(gmailData.join('\n'), "gmailStatus");
+    document.getElementById("gmailGenerate").click();
+
+    // 2. 美国地址
+    const fNames = ["James", "John", "Robert", "Mary", "Jennifer"];
+    const lNames = ["Smith", "Johnson", "Williams", "Brown"];
+    let addressData = [];
+    document.getElementById("addressGenerate").onclick = () => {
+        let count = Math.min(Math.max(Number(document.getElementById("addressCount").value), 1), 100);
+        let list = document.getElementById("addressList");
+        list.innerHTML = "";
+        addressData = [];
+        for(let i=0; i<count; i++) {
+            let name = `${fNames[Math.floor(Math.random()*fNames.length)]} ${lNames[Math.floor(Math.random()*lNames.length)]}`;
+            let addr = `123 Main St, Los Angeles, CA 90001`;
+            let phone = `+1 (555) ${Math.floor(100+Math.random()*899)}-${Math.floor(1000+Math.random()*8999)}`;
+            addressData.push(`${name} | ${addr} | ${phone}`);
+            list.innerHTML += `<div class="item-row"><span><b>${name}</b> - ${addr} (${phone})</span><button onclick="copyText('${name}, ${addr}, ${phone}', 'addressStatus')">复制</button></div>`;
+        }
+    };
+    document.getElementById("addressCopyAll").onclick = () => copyText(addressData.join('\n'), "addressStatus");
+    document.getElementById("addressGenerate").click();
+
+    // 3. 自动求和
+    let history = [];
+    function getNums(str) {
+        let m = str.match(/[-+]?(?:\d+\.?\d*|\.\d+)/g);
+        return m ? m.map(Number).filter(Number.isFinite) : [];
+    }
+    document.getElementById("inputData").oninput = function() {
+        let sum = getNums(this.value).reduce((a,b)=>a+b, 0);
+        document.getElementById("currentResult").textContent = "当前合计：" + Number(sum.toFixed(10));
+    };
+    document.getElementById("addResult").onclick = () => {
+        let txt = document.getElementById("inputData").value.trim();
+        if(!txt) return;
+        let sum = Number(getNums(txt).reduce((a,b)=>a+b,0).toFixed(10));
+        history.push(sum);
+        document.getElementById("historyList").innerHTML = history.map((v,i)=>`<li>记录 ${i+1}: ${v}</li>`).join('');
+    };
+    document.getElementById("clearInput").onclick = () => { document.getElementById("inputData").value=""; document.getElementById("currentResult").textContent="当前合计：0"; };
+    document.getElementById("calculateGrandTotal").onclick = () => {
+        let g = Number(history.reduce((a,b)=>a+b,0).toFixed(10));
+        document.getElementById("grandTotal").textContent = "总计：" + g;
+    };
+    document.getElementById("clearHistory").onclick = () => { history=[]; document.getElementById("historyList").innerHTML=""; document.getElementById("grandTotal").textContent="总计：0"; };
+
+    // 4. 多维 BIN 查询引擎
+    async function searchBin() {
+        let qBin = document.getElementById('binQueryInput').value.trim().toLowerCase();
+        let qCountry = document.getElementById('binCountryInput').value.trim().toLowerCase();
+        let qBank = document.getElementById('binBankInput').value.trim().toLowerCase();
+
+        let vVendors = Array.from(document.querySelectorAll('#vendorCheckboxes input:checked')).map(e=>e.value.toLowerCase());
+        let vLevels = Array.from(document.querySelectorAll('#levelCheckboxes input:checked')).map(e=>e.value.toLowerCase());
+        let vTypes = Array.from(document.querySelectorAll('#typeCheckboxes input:checked')).map(e=>e.value.toLowerCase());
+
+        let resArea = document.getElementById('binResultArea');
+        resArea.innerHTML = `<div style="color:#64748b; font-size:13px; text-align:center; padding:15px;">正在切片库中检索...</div>`;
+
+        let files = [];
+        for(let i=1; i<=300; i++) {
+            files.push(`./chunk_${i}.json`);
+            files.push(`./folder_1/chunk_${i}.json`);
+            files.push(`./folder_2/chunk_${i}.json`);
+        }
+
         try {
-          let r = await fetch('/api/pull');
-          let res = await r.json();
-          alert('拉取成功！请返回接码中心查看最新状态。');
+            let matched = [];
+            await Promise.all(files.map(async url => {
+                try {
+                    let r = await fetch(url);
+                    if(r.ok) {
+                        let data = await r.json();
+                        let hits = data.filter(item => {
+                            let bin = String(item.bin || item.number || '').toLowerCase();
+                            let country = String(item.country || item.alpha_2 || '').toLowerCase();
+                            let vendor = String(item.brand || item.vendor || '').toLowerCase();
+                            let level = String(item.category || item.level || '').toLowerCase();
+                            let type = String(item.type || '').toLowerCase();
+                            let bank = String(item.issuer || item.bank || '').toLowerCase();
+
+                            if(qBin && !bin.includes(qBin)) return false;
+                            if(qCountry && !country.includes(qCountry)) return false;
+                            if(qBank && !bank.includes(qBank)) return false;
+                            if(vVendors.length > 0 && !vVendors.some(v => vendor.includes(v))) return false;
+                            if(vLevels.length > 0 && !vLevels.some(l => level.includes(l))) return false;
+                            if(vTypes.length > 0 && !vTypes.some(t => type.includes(t))) return false;
+                            return true;
+                        });
+                        matched.push(...hits);
+                    }
+                }catch(e){}
+            }));
+
+            if(matched.length === 0) {
+                resArea.innerHTML = `<div style="color:#dc2626; font-size:13px; text-align:center; padding:15px;">未找到匹配记录。</div>`;
+                return;
+            }
+
+            let html = `<div class="bin-count-header">Total found ${matched.length} bins</div>`;
+            html += `
+                <table class="classic-table">
+                    <thead>
+                        <tr>
+                            <th>BIN</th>
+                            <th>Country</th>
+                            <th>Vendor</th>
+                            <th>Type</th>
+                            <th>Level</th>
+                            <th>Bank</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+            matched.slice(0, 150).forEach(item => {
+                html += `
+                    <tr>
+                        <td style="font-family:Consolas,monospace; font-weight:bold; color:#2563eb;">${item.bin || item.number || '-'}</td>
+                        <td>${item.country || item.alpha_2 || 'US'}</td>
+                        <td><b>${item.brand || item.vendor || '-'}</b></td>
+                        <td>${item.type || '-'}</td>
+                        <td>${item.category || item.level || '-'}</td>
+                        <td>${item.issuer || item.bank || '-'}</td>
+                    </tr>
+                `;
+            });
+            html += `</tbody></table>`;
+            if(matched.length > 150) html += `<div style="text-align:center; color:#64748b; font-size:12px; margin-top:8px;">仅显示前 150 条结果</div>`;
+            resArea.innerHTML = html;
+
         } catch(e) {
-          alert('拉取请求失败');
+            resArea.innerHTML = `<div style="color:#dc2626; font-size:13px; text-align:center; padding:15px;">加载出错。</div>`;
         }
-        btn.innerText = '📥 立即拉取新短信';
-      };
+    }
 
-      loadAPIs();
-    </script>
-  </body>
-  </html>`;
-}
-
-async function readKV(env, key, def) {
-  if (!env.SMS_KV) { return def; }
-  return await env.SMS_KV.get(key, { type: "json" }) || def;
-}
-
-async function saveKV(env, key, val) {
-  if (env.SMS_KV) {
-    await env.SMS_KV.put(key, JSON.stringify(val));
-  }
-}
-
-async function pullSMS(env) {
-  let apis = await readKV(env, "config:apis", []);
-  let messages = await readKV(env, "data:messages", []);
-  let hashes = await readKV(env, "data:hash", []);
-
-  for (let api of apis) {
-    if (!api.url || !api.token) { continue; }
-    try {
-      let separator = api.url.includes('?') ? '&' : '?';
-      let targetUrl = api.url + separator + "token=" + api.token;
-      
-      let res = await fetch(targetUrl);
-      let json = await res.json();
-      
-      let codeVal = "";
-      if (json.data && json.data.code) {
-        codeVal = json.data.code;
-      } else if (json.code && typeof json.code === 'string' && json.code !== "") {
-        codeVal = json.code;
-      }
-
-      let rawText = JSON.stringify(json);
-      let hash = btoa(unescape(encodeURIComponent(codeVal ? codeVal : rawText))).slice(0, 80);
-
-      if (codeVal && !hashes.includes(hash)) {
-        hashes.push(hash);
-        messages.push({
-          api: api.name || "SMS8",
-          phone: api.phone || "",
-          code: codeVal,
-          message: json.msg || "收到验证码",
-          time: new Date().toISOString()
+    document.getElementById('binSearchBtn').onclick = searchBin;
+    document.getElementById('binResetBtn').onclick = () => {
+        document.querySelectorAll('.bin-filter-grid input').forEach(el => {
+            if(el.type === 'checkbox') el.checked = false;
+            else el.value = '';
         });
-      }
-    } catch (e) {
-      console.error("Fetch API error:", e);
-    }
-  }
-
-  await saveKV(env, "data:messages", messages.slice(-500));
-  await saveKV(env, "data:hash", hashes.slice(-500));
-}
-
-export default {
-  async fetch(request, env) {
-    let u = new URL(request.url);
-
-    if (u.pathname === "/") {
-      return new Response(home(), { headers: { "content-type": "text/html;charset=UTF-8" } });
-    }
-
-    if (u.pathname === "/admin") {
-      return new Response(admin(), { headers: { "content-type": "text/html;charset=UTF-8" } });
-    }
-
-    if (u.pathname === "/api/messages") {
-      if (request.method === "GET") {
-        return Response.json(await readKV(env, "data:messages", []));
-      }
-      if (request.method === "DELETE") {
-        await saveKV(env, "data:messages", []);
-        await saveKV(env, "data:hash", []);
-        return Response.json({ ok: true });
-      }
-    }
-
-    if (u.pathname === "/api/apis") {
-      if (request.method === "GET") {
-        return Response.json(await readKV(env, "config:apis", []));
-      }
-      if (request.method === "POST") {
-        let list = await readKV(env, "config:apis", []);
-        let body = await request.json();
-        list.push(body);
-        await saveKV(env, "config:apis", list);
-        return Response.json({ ok: true });
-      }
-      if (request.method === "DELETE") {
-        let index = parseInt(u.searchParams.get("index"));
-        let list = await readKV(env, "config:apis", []);
-        if (!isNaN(index) && index >= 0 && index < list.length) {
-          list.splice(index, 1);
-          await saveKV(env, "config:apis", list);
-        }
-        return Response.json({ ok: true });
-      }
-    }
-
-    if (u.pathname === "/api/pull") {
-      await pullSMS(env);
-      return Response.json({ ok: true });
-    }
-
-    return new Response("SMS Manager Worker Not Found", { status: 404 });
-  },
-
-  async scheduled(event, env, ctx) {
-    ctx.waitUntil(pullSMS(env));
-  }
-};
+        document.getElementById('binResultArea').innerHTML = `<div style="color: #64748b; font-size: 13px; text-align:center; padding:20px;">请设置筛选条件后点击 Find 开始检索...</div>`;
+    };
+    document.getElementById('binQueryInput').onkeydown = e => { if(e.key==='Enter') searchBin(); };
+</script>
+</body>
+</html>
